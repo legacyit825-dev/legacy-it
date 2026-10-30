@@ -1,12 +1,12 @@
 import MyRoute from "./MyRoute"
-
-
+import ScrollToTop from "./components/ScrollToTop"
 
 function App() {
 
   return (
     <>
-      <MyRoute/>
+      <ScrollToTop />
+      <MyRoute />
     </>
   )
 }

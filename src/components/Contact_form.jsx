@@ -157,7 +157,7 @@ const Contact_form = () => {
                 <ContactItem
                   icon={<LocationIcon size={30} />}
                   title={t("contact.address")}
-                  value="Kumaltar, Lalitpur"
+                  value="Khumaltar-15, Lalitpur, Kantinagar Tole Marg"
                 />
               </div>
 
