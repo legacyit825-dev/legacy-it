@@ -11,6 +11,7 @@ import contact from "../assets/contact.jpg";
 import { useTranslation } from "react-i18next";
 import { useState } from "react";
 import emailjs from "@emailjs/browser";
+import useScrollAnimation from "../hooks/useScrollAnimation";
 
 const Contact_form = () => {
   const [name, setName] = useState("");
@@ -48,6 +49,9 @@ const Contact_form = () => {
   };
 
   const { t } = useTranslation();
+  const heroAnim = useScrollAnimation();
+  const formAnim = useScrollAnimation();
+  const infoAnim = useScrollAnimation();
   return (
     <>
       <div
@@ -58,7 +62,10 @@ const Contact_form = () => {
         <div className="absolute inset-0 bg-black/60"></div>
 
         {/* Optional content */}
-        <div className="relative z-10 flex h-full items-center justify-center text-white">
+        <div
+          ref={heroAnim.ref}
+          className={`relative z-10 flex h-full items-center justify-center text-white anim-hidden anim-fade-up ${heroAnim.inView ? "anim-visible" : ""}`}
+        >
           <h1 className="text-3xl font-bold">{t("contact.title")}</h1>
         </div>
       </div>
@@ -67,7 +74,10 @@ const Contact_form = () => {
         <div className="mx-auto max-w-6xl px-4">
           <div className="grid gap-10 md:grid-cols-2">
             {/* LEFT — FORM */}
-            <div className="rounded-xl bg-white p-8 shadow-sm">
+            <div
+              ref={formAnim.ref}
+              className={`rounded-xl bg-white p-8 shadow-sm anim-hidden anim-fade-left ${formAnim.inView ? "anim-visible" : ""}`}
+            >
               {success && (
                 <div className="rounded-md bg-green-100 px-4 py-2 text-sm text-green-700">
                   ✅ Email sent successfully!
@@ -124,7 +134,10 @@ const Contact_form = () => {
             </div>
 
             {/* RIGHT — INFO */}
-            <div className="space-y-6">
+            <div
+              ref={infoAnim.ref}
+              className={`space-y-6 anim-hidden anim-fade-right anim-delay-200 ${infoAnim.inView ? "anim-visible" : ""}`}
+            >
               <div>
                 <p className="text-sm font-semibold uppercase text-sky-400">
                   {t("contact.title")}
@@ -174,18 +187,18 @@ const Contact_form = () => {
                   >
                     <SocialIcon icon={<FacebookIcon size={30} />} />
                   </a>
-                  <a href="https://x.com/legacy91847" 
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  <a href="https://x.com/legacy91847"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
-                  <SocialIcon icon={<XIcon size={23} />} />
+                    <SocialIcon icon={<XIcon size={23} />} />
                   </a>
                   {/* <SocialIcon icon={<LinkedInIcon size={30} />} /> */}
                   <a href="https://www.instagram.com/legacyit825/"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
-                  <SocialIcon icon={<InstagramIcon size={30} />} />
+                    <SocialIcon icon={<InstagramIcon size={30} />} />
                   </a>
                 </div>
               </div>

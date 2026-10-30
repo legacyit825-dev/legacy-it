@@ -9,4 +9,59 @@
   }
 }
 
+/* =============================================
+   SCROLL ANIMATION UTILITIES
+   Base hidden states + animated-in states
+   ============================================= */
 
+/* --- Shared base --- */
+.anim-hidden {
+  opacity: 0;
+  will-change: opacity, transform;
+  transition: opacity 0.7s cubic-bezier(0.22, 0.61, 0.36, 1),
+              transform 0.7s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+/* --- Fade up (default) --- */
+.anim-fade-up {
+  transform: translateY(48px);
+}
+.anim-fade-up.anim-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* --- Fade left (slide from left) --- */
+.anim-fade-left {
+  transform: translateX(-60px);
+}
+.anim-fade-left.anim-visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* --- Fade right (slide from right) --- */
+.anim-fade-right {
+  transform: translateX(60px);
+}
+.anim-fade-right.anim-visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* --- Pure fade --- */
+.anim-fade {
+  transform: scale(0.95);
+}
+.anim-fade.anim-visible {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* --- Stagger delays --- */
+.anim-delay-100 { transition-delay: 100ms; }
+.anim-delay-200 { transition-delay: 200ms; }
+.anim-delay-300 { transition-delay: 300ms; }
+.anim-delay-400 { transition-delay: 400ms; }
+.anim-delay-500 { transition-delay: 500ms; }
+.anim-delay-600 { transition-delay: 600ms; }

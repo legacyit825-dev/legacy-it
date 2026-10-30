@@ -1,4 +1,12 @@
+import useScrollAnimation from "../hooks/useScrollAnimation";
+
 const ServiceSection = ({ title, content, image, reverse = false }) => {
+  const textAnim = useScrollAnimation();
+  const imgAnim = useScrollAnimation();
+
+  const textDir = reverse ? "anim-fade-right" : "anim-fade-left";
+  const imgDir = reverse ? "anim-fade-left" : "anim-fade-right";
+
   return (
     <section className="my-20">
       <div
@@ -11,15 +19,22 @@ const ServiceSection = ({ title, content, image, reverse = false }) => {
           ${reverse ? "md:flex-row-reverse" : ""}
         `}
       >
-        <div className="w-full md:w-1/2 flex flex-col justify-center">
+        {/* Text */}
+        <div
+          ref={textAnim.ref}
+          className={`w-full md:w-1/2 flex flex-col justify-center anim-hidden ${textDir} ${textAnim.inView ? "anim-visible" : ""}`}
+        >
           <h1 className="text-2xl md:text-3xl font-semibold text-left md:text-center mb-4">
             {title}
           </h1>
           <p className="text-justify md:text-center text-gray-600">{content}</p>
         </div>
 
-        {/* Image Wrapper */}
-        <div className="w-full md:w-[400px] md:h-[400px] overflow-hidden rounded-lg">
+        {/* Image */}
+        <div
+          ref={imgAnim.ref}
+          className={`w-full md:w-[400px] md:h-[400px] overflow-hidden rounded-lg anim-hidden ${imgDir} anim-delay-200 ${imgAnim.inView ? "anim-visible" : ""}`}
+        >
           <img
             src={image}
             alt={title}
