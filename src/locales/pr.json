@@ -9,34 +9,42 @@
     "webDevelopment": "Desenvolvimento Web",
     "graphicDesign": "Design Gráfico",
     "digitalMarketing": "Marketing Digital",
-  "softwareDevelopment": "Desenvolvimento de Software",
-
     "background": "Por que a Legacy IT"
   },
   "contents": {
     "webDevelopment": "Melhore sua presença online com a ajuda da nossa equipe criativa de design e desenvolvimento web. Além de criar sites atraentes, focamos em aprimorar a experiência do usuário. Faremos sua marca se destacar da concorrência e se tornar mais competitiva. Impulsione seu negócio com um site que reflita sua marca e atraia seu público. Descubra a diferença do design web focado na geração de leads. Transforme visitantes em clientes! Entre em contato conosco para uma consulta gratuita.",
     "graphicDesign": "Fortaleça a identidade da sua marca com o apoio da nossa equipe criativa de design gráfico. Além de designs visualmente atraentes, focamos em comunicação clara e forte consistência da marca. De logotipos e materiais de marketing a gráficos para redes sociais e materiais promocionais, criamos designs que chamam a atenção e deixam uma impressão duradoura. Destaque-se em um mercado competitivo com visuais que realmente representem sua marca. Reforce sua mensagem, conecte-se com seu público e eleve seu negócio por meio de um design gráfico impactante. Entre em contato conosco hoje para uma consulta gratuita.",
-    "digitalMarketing": "Expanda seu negócio e alcance o público certo com nossas estratégias de marketing digital orientadas a resultados. Vamos além da visibilidade, focando em engajamento significativo, reconhecimento da marca e crescimento mensurável. Do marketing em redes sociais e otimização para mecanismos de busca à publicidade paga e criação de conteúdo, ajudamos sua marca a se conectar com os clientes em todas as etapas da jornada. Aumente o tráfego, gere leads qualificados e transforme prospects em clientes fiéis com soluções de marketing digital adaptadas aos seus objetivos. Entre em contato conosco hoje para uma consulta gratuita.",
-    "softwareDevelopment": "Transforme suas ideias em soluções de software poderosas e escaláveis com nossos serviços especializados em desenvolvimento de software. Somos especializados na criação de aplicações confiáveis e de alto desempenho, adaptadas às necessidades do seu negócio, com foco em usabilidade, segurança e escalabilidade a longo prazo. Desde a análise de requisitos e o design do sistema até o desenvolvimento, testes e implantação, gerenciamos todo o ciclo de vida do desenvolvimento de software com precisão. Otimize operações, melhore a eficiência e impulsione a inovação com soluções de software personalizadas desenvolvidas para apoiar seu crescimento. Entre em contato conosco hoje para uma consulta gratuita.",
-    "background": "A Legacy IT se destaca como uma parceira de tecnologia confiável, dedicada a fornecer soluções digitais inovadoras, confiáveis e escaláveis, adaptadas às necessidades de cada cliente."
+    "digitalMarketing": "Expanda seu negócio e alcance o público certo com nossas estratégias de marketing digital orientadas a resultados. Vamos além da visibilidade, focando em engajamento significativo, reconhecimento da marca e crescimento mensurável. Do marketing em redes sociais e otimização para mecanismos de busca à publicidade paga e criação de conteúdo, ajudamos sua marca a se conectar com os clientes em todas as etapas da jornada. Aumente o tráfego, gere leads qualificados e transforme prospects em clientes fiéis com soluções de marketing digital adaptadas aos seus objetivos. Entre em contato conosco hoje para uma consulta gratuita."
   },
   "footer": {
-    "company": "Empresa",
-    "servicesTitle": "Serviços",
-
-    "home": "Início",
-    "about": "Sobre",
-    "services": "Serviços",
-    "contact": "Contato",
-
-    "webDevelopment": "Desenvolvimento Web",
-    "graphicDesign": "Design Gráfico",
-    "digitalMarketing": "Marketing Digital",
-
-    "newsletter": "Assine nossa newsletter",
-    "newscontent": "As últimas notícias, artigos e recursos, enviados para sua caixa de entrada semanalmente.",
-
-    "button": "Inscrever-se"
+    "companyTitle": "EMPRESA",
+    "servicesTitle": "NOSSOS SERVIÇOS",
+    "contactTitle": "FALE CONOSCO",
+    "brandDescription": "Criamos experiências digitais e soluções tecnológicas inovadoras que impulsionam empresas a crescer, conectar e vencer no universo digital.",
+    "tagline": "Construindo seu futuro digital.",
+    "companyLinks": {
+      "home": "Início",
+      "about": "Sobre Nós",
+      "services": "Serviços",
+      "contact": "Contato",
+      "privacyPolicy": "Política de Privacidade",
+      "termsConditions": "Termos e Condições"
+    },
+    "serviceLinks": {
+      "webDevelopment": "Design e Desenvolvimento Web",
+      "mobileDevelopment": "Desenvolvimento de Aplicativos Móveis",
+      "graphicDesign": "Graphic Designing",
+      "videoEditing": "Edição de Vídeo",
+      "digitalMarketing": "Digital Marketing & SEO"
+    },
+    "contactLabels": {
+      "email": "E-mail",
+      "phone": "Telefone / WhatsApp",
+      "location": "Localização"
+    },
+    "copyright": "© 2026 Legacy IT. Todos os direitos reservados.",
+    "privacyPolicy": "Política de Privacidade",
+    "termsConditions": "Termos e Condições"
   },
   "contact": {
     "title": "Entre em contato",
@@ -55,45 +63,41 @@
     "button": "Enviar mensagem"
   },
   "about": {
-  "title": "Sobre nós",
-  "whtitle": "Quem somos",
-  "whatitle": "O que fazemos",
-  "ourtitle": "Nossa abordagem",
-  "ourvision": "Nossa visão",
-  "ourmission": "Nossa missão",
-  "who": "A Legacy IT é uma empresa de soluções digitais com visão de futuro, comprometida em ajudar negócios a crescer por meio de tecnologia inovadora, design criativo e marketing digital estratégico. Trabalhamos em parceria com marcas de todos os tamanhos para criar experiências digitais significativas que geram resultados reais.",
-  "what": "Na Legacy IT, somos especializados em desenvolvimento web, design gráfico e marketing digital, oferecendo soluções que não são apenas visualmente atraentes, mas também orientadas ao desempenho. Nossos sites são projetados para melhorar a experiência do usuário e converter visitantes em clientes. Nosso trabalho de design fortalece a identidade da marca, enquanto nossas estratégias de marketing focam em engajamento, visibilidade e crescimento mensurável.",
-  "our": "Acreditamos que grandes soluções digitais começam com a compreensão de nossos clientes. Cada projeto inicia com pesquisa, colaboração e comunicação clara. Ao combinar criatividade com conhecimento técnico e estratégias orientadas por dados, criamos soluções escaláveis adaptadas aos objetivos exclusivos de cada cliente.",
-  "mission": "Nossa missão é capacitar empresas por meio da entrega de soluções digitais confiáveis, inovadoras e escaláveis, ajudando marcas a se destacar em mercados competitivos e a construir conexões duradouras com seus públicos.",
-  "vision": "Tornar-se um parceiro tecnológico global confiável, reconhecido por criatividade, qualidade e impacto mensurável."
-},
-"service": {
-  "title": "Nossos Serviços",
-  "desc": "Serviços que Oferecemos",
-  "webDevelopment": "Desenvolvimento Web",
-  "graphicDesign": "Design Gráfico",
-  "digitalMarketing": "Marketing Digital",
-  "softwareDevelopment": "Desenvolvimento de Software",
-  "webDesc": "Projetamos e desenvolvemos sites responsivos que combinam design limpo com funcionalidades poderosas, ajudando empresas a crescer e se conectar com seu público online.",
-  "graphicDesc": "Nossos serviços de design gráfico transformam ideias em visuais envolventes que fortalecem a identidade da marca e deixam uma impressão duradoura.",
-  "digitalDesc": "Nossos serviços de marketing digital ajudam marcas a alcançar o público certo, construir uma forte presença online e alcançar um crescimento sustentável.",
-  "softwareDesc": "Nossos serviços de desenvolvimento de software ajudam as empresas a criar aplicações confiáveis e escaláveis que melhoram a eficiência, aprimoram a experiência do usuário e apoiam o crescimento a longo prazo.",
-  "button": "Saiba mais"
-},
+    "title": "Sobre nós",
+    "whtitle": "Quem somos",
+    "whatitle": "O que fazemos",
+    "ourtitle": "Nossa abordagem",
+    "ourvision": "Nossa visão",
+    "ourmission": "Nossa missão",
+    "who": "A Legacy IT é uma empresa de soluções digitais com visão de futuro, comprometida em ajudar negócios a crescer por meio de tecnologia inovadora, design criativo e marketing digital estratégico. Trabalhamos em parceria com marcas de todos os tamanhos para criar experiências digitais significativas que geram resultados reais.",
+    "what": "Na Legacy IT, somos especializados em desenvolvimento web, design gráfico e marketing digital, oferecendo soluções que não são apenas visualmente atraentes, mas também orientadas ao desempenho. Nossos sites são projetados para melhorar a experiência do usuário e converter visitantes em clientes. Nosso trabalho de design fortalece a identidade da marca, enquanto nossas estratégias de marketing focam em engajamento, visibilidade e crescimento mensurável.",
+    "our": "Acreditamos que grandes soluções digitais começam com a compreensão de nossos clientes. Cada projeto inicia com pesquisa, colaboração e comunicação clara. Ao combinar criatividade com conhecimento técnico e estratégias orientadas por dados, criamos soluções escaláveis adaptadas aos objetivos exclusivos de cada cliente.",
+    "mission": "Nossa missão é capacitar empresas por meio da entrega de soluções digitais confiáveis, inovadoras e escaláveis, ajudando marcas a se destacar em mercados competitivos e a construir conexões duradouras com seus públicos.",
+    "vision": "Tornar-se um parceiro tecnológico global confiável, reconhecido por criatividade, qualidade e impacto mensurável."
+  },
+  "service": {
+    "title": "Nossos Serviços",
+    "desc": "Serviços que Oferecemos",
+    "webDevelopment": "Desenvolvimento Web",
+    "graphicDesign": "Design Gráfico",
+    "digitalMarketing": "Marketing Digital",
+    "softwareDevelopment": "Desenvolvimento de Software",
+    "webDesc": "Projetamos e desenvolvemos sites responsivos que combinam design limpo com funcionalidades poderosas, ajudando empresas a crescer e se conectar com seu público online.",
+    "graphicDesc": "Nossos serviços de design gráfico transformam ideias em visuais envolventes que fortalecem a identidade da marca e deixam uma impressão duradoura.",
+    "digitalDesc": "Nossos serviços de marketing digital ajudam marcas a alcançar o público certo, construir uma forte presença online e alcançar um crescimento sustentável.",
+    "softwareDesc": "Nossos serviços de desenvolvimento de software ajudam as empresas a criar aplicações confiáveis e escaláveis que melhoram a eficiência, aprimoram a experiência do usuário e apoiam o crescimento a longo prazo.",
+    "button": "Saiba mais"
+  },
   "aboutCard": {
     "heading": "Por que nos escolher?",
     "headDesc": "Impulsione o seu negócio conosco",
-
     "title1": "Equipes Especializadas",
     "desc1": "Nossa equipe é composta por profissionais altamente qualificados, com profundo conhecimento do setor e experiência prática, trabalhando de forma colaborativa para oferecer soluções inovadoras e confiáveis.",
-
     "title2": "Satisfação do Cliente",
     "desc2": "Priorizamos as necessidades dos nossos clientes ao oferecer serviços de alta qualidade, manter uma comunicação transparente e garantir suporte ágil para construir confiança e satisfação a longo prazo.",
-
     "title3": "Crescimento Empresarial",
     "desc3": "Ajudamos empresas a crescer e alcançar o sucesso por meio de soluções digitais estratégicas que melhoram a eficiência, aumentam a visibilidade e impulsionam um crescimento sustentável."
   },
-
   "web": {
     "title": "Serviços de Desenvolvimento Web",
     "we": "O Que Oferecemos",
@@ -105,7 +109,6 @@
     "title3": "Soluções de E-commerce",
     "desc3": "Lojas online escaláveis com pagamentos seguros e uma experiência de usuário fluida."
   },
-
   "graphic": {
     "title": "Serviços de Design Gráfico",
     "we": "O Que Oferecemos",
@@ -117,7 +120,6 @@
     "title3": "Design de Marketing e Impressão",
     "desc3": "Designs criativos para banners, brochuras, redes sociais e materiais promocionais."
   },
-
   "digital": {
     "title": "Serviços de Marketing Digital",
     "we": "O Que Oferecemos",
@@ -129,7 +131,6 @@
     "title3": "Publicidade Paga e Análise de Dados",
     "desc3": "Campanhas publicitárias focadas em resultados com monitoramento contínuo e otimização de desempenho."
   },
-
   "software": {
     "title": "Serviços de Desenvolvimento de Software",
     "we": "O Que Oferecemos",
@@ -140,8 +141,1555 @@
     "desc2": "Sistemas robustos que suportam operações em larga escala, integrações e gestão de dados.",
     "title3": "Manutenção e Suporte",
     "desc3": "Suporte contínuo, atualizações e otimização para garantir a confiabilidade do software a longo prazo."
+  },
+  "hero": {
+    "eyebrow": "CONSTRUINDO SEU FUTURO DIGITAL",
+    "headline1": "Sua chance de existir",
+    "headline2": "no mundo digital.",
+    "support": "Transformamos ideias em experiências digitais. De sites impressionantes a soluções de software poderosas, ajudamos empresas a construir sua presença, expandir seu alcance e prosperar na era digital.",
+    "primaryCta": "Vamos construir juntos",
+    "secondaryCta": "Explorar nossos serviços",
+    "badge1": "Arquitetura sob medida",
+    "badge2": "Soluções escaláveis",
+    "badge3": "Crecimiento digital"
+  },
+  "whatWeDo": {
+    "eyebrow": "NOSSA EXPERTISE",
+    "heading": "Tudo o que você precisa para construir sua presença digital.",
+    "description": "Do seu primeiro site a soluções digitais completas, unimos tecnologia, criatividade e estratégia para impulsionar o seu negócio.",
+    "whatWeOffer": "O QUE OFERECEMOS",
+    "learnMore": "Saiba mais",
+    "ctaHeading": "Tem uma ideia? Vamos realizá-la.",
+    "ctaDescription": "Conte-nos o que você deseja construir. Ajudaremos você a encontrar a solução digital ideal.",
+    "ctaButton": "Discuta seu projeto",
+    "services": {
+      "web-development": {
+        "title": "Design e Desenvolvimento Web",
+        "description": "Criamos sites modernos, responsivos e de alto desempenho que ajudam empresas a estabelecer presença digital, conectar clientes e crescer online.",
+        "offerings": [
+          "Sites Corporativos e Institucionais",
+          "Lojas Virtuais e E-commerce",
+          "Desenvolvimento Web Personalizado",
+          "Design Responsivo e Mobile-First",
+          "Landing Pages de Alta Conversão",
+          "Redesenho e Modernização de Sites",
+          "Manutenção e Suporte Contínuo"
+        ]
+      },
+      "mobile-app-development": {
+        "title": "Desenvolvimento de Aplicativos Móveis",
+        "description": "Desenvolvemos aplicativos modernos que conectam empresas aos seus clientes através de experiências digitais intuitivas e engajadoras.",
+        "offerings": [
+          "Desenvolvimento de Aplicativos Android",
+          "Desenvolvimento de Aplicativos iOS",
+          "Aplicativos Multiplataforma",
+          "Design UI/UX Mobile",
+          "Integração de APIs e Nuvem",
+          "Manutenção e Atualização de Apps"
+        ]
+      },
+      "graphic-designing": {
+        "title": "Design Gráfico",
+        "description": "Transformamos ideias em designs visuais marcantes que comunicam a identidade da sua marca, atraem atenção e deixam uma impressão duradoura.",
+        "offerings": [
+          "Design de Logotipos",
+          "Identidade Visual Completa",
+          "Artes para Redes Sociais",
+          "Cartões de Visita e Papelaria",
+          "Folders e Folhetos",
+          "Pôsteres e Banners",
+          "Materiais Promocionais de Marketing",
+          "Peças Criativas para Anúncios Digitais"
+        ]
+      },
+      "video-editing": {
+        "title": "Edição de Vídeo",
+        "description": "Criamos vídeos dinâmicos e editados profissionalmente que contam sua história, transmitem sua mensagem e conectam sua marca ao público.",
+        "offerings": [
+          "Vídeos Promocionais e Institucionais",
+          "Reels e Shorts para Redes Sociais",
+          "Edição de Vídeos para YouTube",
+          "Vídeos de Apresentação Empresarial",
+          "Vídeos Promocionais de Produtos",
+          "Motion Graphics e Animação de Texto",
+          "Transições e Efeitos Visuais",
+          "Correção e Tratamento de Cor",
+          "Tratamento e Sincronização de Áudio"
+        ]
+      },
+      "digital-marketing": {
+        "title": "Marketing Digital e SEO",
+        "description": "Ajudamos empresas a fortalecer sua presença online, alcançar o público certo e construir conexões reais por meio de marketing digital e SEO.",
+        "offerings": [
+          "Otimização para Motores de Busca (SEO)",
+          "SEO On-Page e Conteúdo",
+          "SEO Técnico e Performance",
+          "Gestão de Redes Sociais",
+          "Marketing em Mídias Sociais",
+          "Estratégia de Conteúdo",
+          "Publicidade Digital e Campanhas",
+          "Otimização de Visibilidade Web"
+        ]
+      }
+    }
+  },
+  "whyLegacy": {
+    "eyebrow": "POR QUE A LEGACY IT",
+    "heading": "Tecnologia que move o seu negócio para a frente.",
+    "description": "Acreditamos que a tecnologia deve fazer mais do que resolver problemas. Ela deve criar oportunidades, simplificar operações e impulsionar o crescimento do seu negócio no mundo digital.",
+    "cta": "Vamos trabalhar juntos",
+    "reasons": {
+      "tailored-solutions": {
+        "title": "Soluções Sob Medida",
+        "description": "Entendemos que cada empresa é única. Criamos soluções digitais personalizadas que atendem exatamente aos seus objetivos."
+      },
+      "modern-technology": {
+        "title": "Tecnologia Moderna",
+        "description": "Utilizamos tecnologias modernas e boas práticas de desenvolvimento para entregar soluções confiáveis, escaláveis e prontas para o futuro."
+      },
+      "user-centered-approach": {
+        "title": "Foco no Usuário",
+        "description": "Priorizamos usabilidade, desempenho e design para entregar experiências digitais fluidas e prazerosas de usar."
+      },
+      "long-term-partnership": {
+        "title": "Parceria de Longo Prazo",
+        "description": "Nossa relação não termina na entrega. Acreditamos na melhoria contínua, no suporte técnico e na colaboração duradoura."
+      }
+    }
+  },
+  "aboutPage": {
+    "hero": {
+      "label": "CONHEÇA A LEGACY IT",
+      "titleStart": "Criamos Experiências Digitais ",
+      "titleHighlight": "Que Movem Seu Negócio Para a Frente.",
+      "description": "A Legacy IT é uma empresa de soluções digitais que une tecnologia, criatividade e inovação para ajudar empresas a estabelecer e expandir sua presença digital.",
+      "scroll": "Role para explorar"
+    },
+    "whoWeAre": {
+      "label": "QUEM SOMOS",
+      "heading": "Transformando Ideias em Possibilidades Digitais.",
+      "p1": "Na Legacy IT, acreditamos que toda empresa merece a oportunidade de prosperar no mundo digital.",
+      "p2": "Reunimos tecnologia moderna, design estratégico e soluções digitais práticas para ajudar negócios a construir sua presença online, otimizar processos e conectar-se com seus públicos.",
+      "p3": "Nosso foco é direto: compreender suas necessidades, criar soluções com propósito e ajudar você a avançar com segurança.",
+      "cta": "Explorar Nossos Serviços"
+    },
+    "missionVision": {
+      "missionLabel": "NOSSA MISSÃO",
+      "missionTitle": "Missão",
+      "missionText": "Capacitar empresas por meio de soluções digitais inovadoras, design intencional e tecnologia confiável que gere valor real.",
+      "visionLabel": "NOSSA VISÃO",
+      "visionTitle": "Visão",
+      "visionText": "Ser uma parceira de tecnologia digital de referência e confiança, ajudando empresas a abraçar a inovação e fortalecer sua presença no mundo digital."
+    },
+    "values": {
+      "heading": "O Que Nos Move Para a Frente.",
+      "subheading": "Nossos princípios guiam como pensamos, criamos, colaboramos e entregamos.",
+      "items": {
+        "innovation": {
+          "title": "Inovação",
+          "description": "Exploramos continuamente novas formas de usar a tecnologia para solucionar desafios reais."
+        },
+        "quality": {
+          "title": "Qualidade",
+          "description": "Acreditamos na criação de soluções digitais sólidas, funcionais e meticulosamente desenvolvidas."
+        },
+        "collaboration": {
+          "title": "Colaboração",
+          "description": "Trabalhamos em parceria estreita com nossos clientes para entender seus objetivos e transformar ideias em resultados."
+        },
+        "growth": {
+          "title": "Crescimento",
+          "description": "Acreditamos no aprendizado contínuo, no aprimoramento constante e na geração de oportunidades por meio da tecnologia."
+        }
+      }
+    },
+    "cta": {
+      "heading": "Vamos Construir Algo com Propósito.",
+      "description": "Tem uma ideia, um desafio ou um novo projeto em mente? Vamos conversar sobre como a tecnologia pode torná-lo realidade.",
+      "primaryBtn": "Iniciar uma Conversa",
+      "secondaryLink": "Explorar Nossos Serviços"
+    }
+  },
+  "servicesPage": {
+    "hero": {
+      "eyebrow": "O QUE FAZEMOS",
+      "titleStart": "Soluções Digitais",
+      "titleHighlight": "Construídas Para a Sua Visão.",
+      "description": "Do design criativo a soluções robustas de software, ajudamos empresas a estabelecer sua presença digital, otimizar operações e desbloquear novas oportunidades por meio da tecnologia.",
+      "primaryCta": "Discuta Seu Projeto",
+      "secondaryCta": "Explore Nossos Serviços"
+    },
+    "services": {
+      "eyebrow": "NOSSA ESPECIALIDADE",
+      "heading": "Tudo o Que Você Precisa Para Crescer no Mundo Digital.",
+      "description": "Combinamos tecnologia, criatividade e estratégia para entregar soluções digitais que fazem a diferença.",
+      "whatIncluded": "PRINCIPAIS ENTREGAS",
+      "learnMore": "Saiba Mais",
+      "items": {
+        "web-development": {
+          "title": "Design e Desenvolvimento Web",
+          "description": "Criamos sites modernos, responsivos e de alto desempenho que ajudam empresas a estabelecer presença digital, conectar clientes e crescer online.",
+          "offerings": [
+            "Sites Corporativos e Institucionais",
+            "Lojas Virtuais e E-commerce",
+            "Desenvolvimento Web Personalizado",
+            "Design Responsivo e Mobile-First",
+            "Landing Pages de Alta Conversão",
+            "Redesenho e Modernização de Sites",
+            "Manutenção e Suporte Contínuo"
+          ]
+        },
+        "mobile-app-development": {
+          "title": "Desenvolvimento de Aplicativos Móveis",
+          "description": "Desenvolvemos aplicativos modernos que conectam empresas aos seus clientes através de experiências digitais intuitivas e engajadoras.",
+          "offerings": [
+            "Desenvolvimento de Aplicativos Android",
+            "Desenvolvimento de Aplicativos iOS",
+            "Aplicativos Multiplataforma",
+            "Design UI/UX Mobile",
+            "Integração de APIs e Nuvem",
+            "Manutenção e Atualização de Apps"
+          ]
+        },
+        "graphic-designing": {
+          "title": "Design Gráfico",
+          "description": "Transformamos ideias em designs visuais marcantes que comunicam a identidade da sua marca, atraem atenção e deixam uma impressão duradoura.",
+          "offerings": [
+            "Design de Logotipos",
+            "Identidade Visual Completa",
+            "Artes para Redes Sociais",
+            "Cartões de Visita e Papelaria",
+            "Folders e Folhetos",
+            "Pôsteres e Banners",
+            "Materiais Promocionais de Marketing",
+            "Peças Criativas para Anúncios Digitais"
+          ]
+        },
+        "video-editing": {
+          "title": "Edição de Vídeo",
+          "description": "Criamos vídeos dinâmicos e editados profissionalmente que contam sua história, transmitem sua mensagem e conectam sua marca ao público.",
+          "offerings": [
+            "Vídeos Promocionais e Institucionais",
+            "Reels e Shorts para Redes Sociais",
+            "Edição de Vídeos para YouTube",
+            "Vídeos de Apresentação Empresarial",
+            "Vídeos Promocionais de Produtos",
+            "Motion Graphics e Animação de Texto",
+            "Transições e Efeitos Visuais",
+            "Correção e Tratamento de Cor",
+            "Tratamento e Sincronização de Áudio"
+          ]
+        },
+        "digital-marketing": {
+          "title": "Marketing Digital e SEO",
+          "description": "Ajudamos empresas a fortalecer sua presença online, alcançar o público certo e construir conexões reais por meio de marketing digital e SEO.",
+          "offerings": [
+            "Otimização para Motores de Busca (SEO)",
+            "SEO On-Page e Conteúdo",
+            "SEO Técnico e Performance",
+            "Gestão de Redes Sociais",
+            "Marketing em Mídias Sociais",
+            "Estratégia de Conteúdo",
+            "Publicidade Digital e Campanhas",
+            "Otimização de Visibilidade Web"
+          ]
+        }
+      }
+    },
+    "why": {
+      "heading": "Mais Que Tecnologia. Um Parceiro no Seu Crescimento.",
+      "items": {
+        "built-around-you": {
+          "title": "Soluções Moldadas Para Você",
+          "description": "Compreendemos seus objetivos e criamos soluções personalizadas que atendem às suas necessidades reais."
+        },
+        "modern-reliable": {
+          "title": "Tecnologia Moderna e Confiável",
+          "description": "Utilizamos padrões contemporâneos de engenharia para assegurar manutenibilidade e escalabilidade."
+        },
+        "design-makes-sense": {
+          "title": "Design com Sentido",
+          "description": "Priorizamos usabilidade prática, acessibilidade e refinamento visual em cada detalhe."
+        },
+        "support-beyond": {
+          "title": "Suporte Além da Entrega",
+          "description": "Construímos parcerias de longo prazo com foco na evolução e melhoria contínua dos seus produtos."
+        }
+      }
+    },
+    "process": {
+      "heading": "Da Ideia à Implementação.",
+      "subheading": "Um método claro e estruturado que mantém seu projeto organizado e no rumo certo.",
+      "steps": {
+        "discover": {
+          "title": "Descoberta",
+          "description": "Mapeamos profundamente seu negócio, metas estratégicas e requisitos fundamentais."
+        },
+        "plan-design": {
+          "title": "Planejamento e Design",
+          "description": "Estruturamos a melhor abordagem técnica e visual antes de qualquer linha de código."
+        },
+        "develop": {
+          "title": "Desenvolvimento",
+          "description": "Nossa equipe materializa o projeto com engenharia de ponta, testes e iterações."
+        },
+        "deliver-support": {
+          "title": "Entrega e Suporte",
+          "description": "Colocamos a solução no ar com acompanhamento contínuo e aprimoramentos técnicos."
+        }
+      }
+    },
+    "cta": {
+      "heading": "Tem um Projeto em Mente?",
+      "description": "Seja começando do zero ou modernizando uma aplicação existente, a Legacy IT está pronta para colaborar.",
+      "primaryCta": "Vamos Conversar Sobre Seu Projeto",
+      "secondaryCta": "Fale Conosco"
+    }
+  },
+  "contactPage": {
+    "hero": {
+      "eyebrow": "ENTRE EM CONTATO",
+      "titleStart": "Vamos Iniciar uma ",
+      "titleHighlight": "Conversa.",
+      "description": "Tem uma ideia, um projeto ou uma dúvida? Adoraríamos ouvir você. Vamos descobrir como a Legacy IT pode dar vida à sua visão digital."
+    },
+    "form": {
+      "heading": "Conte-nos Sobre Seu Projeto.",
+      "description": "Compartilhe suas ideias conosco e nossa equipe responderá o mais rápido possível.",
+      "nameLabel": "Nome Completo",
+      "namePlaceholder": "ex.: João Silva",
+      "emailLabel": "Endereço de E-mail",
+      "emailPlaceholder": "ex.: joao@exemplo.com",
+      "phoneLabel": "Telefone (opcional)",
+      "phonePlaceholder": "ex.: +977 9800000000",
+      "subjectLabel": "Assunto / Tipo de Projeto",
+      "subjects": {
+        "webDev": "Design e Desenvolvimento Web",
+        "softwareDev": "Desenvolvimento de Software Personalizado",
+        "uiUx": "Design UI/UX",
+        "mobile": "Desenvolvimento de Aplicativos Móveis",
+        "graphic": "Design Gráfico",
+        "marketing": "Marketing Digital e SEO",
+        "video": "Edição de Vídeo",
+        "general": "Consulta Geral / Parcerias"
+      },
+      "messageLabel": "Sua Mensagem",
+      "messagePlaceholder": "Conte-nos sobre seu projeto, prazos e metas...",
+      "submitBtn": "Enviar Mensagem",
+      "sendingBtn": "Enviando Mensagem...",
+      "successTitle": "Mensagem Enviada com Sucesso!",
+      "successDesc": "Obrigado pelo contato. A equipe da Legacy IT responderá o quanto antes.",
+      "errorTitle": "Falha no Envio da Mensagem",
+      "errorDesc": "Houve um problema ao enviar sua mensagem. Tente novamente ou escreva para legacyit825@gmail.com.",
+      "validationRequired": "Este campo é obrigatório",
+      "validationEmail": "Insira um e-mail válido"
+    },
+    "info": {
+      "eyebrow": "DETALHES DE CONTATO",
+      "heading": "Estamos Aqui Para Ajudar.",
+      "description": "Seja para um novo site, software sob medida ou apenas trocar ideias sobre um projeto, entre em contato.",
+      "whatsappTitle": "WhatsApp e Telefone",
+      "whatsappSub": "Atendimento ágil via mensagem ou ligação",
+      "emailTitle": "E-mail Oficial",
+      "emailSub": "Envie-nos detalhes do seu projeto",
+      "addressTitle": "Endereço do Escritório",
+      "addressSub": "Lalitpur, Nepal",
+      "openMaps": "Abrir no Google Maps",
+      "mapBadge": "MAPA DE LOCALIZAÇÃO"
+    },
+    "social": {
+      "heading": "Conecte-se Conosco.",
+      "description": "Siga a Legacy IT e acompanhe nossas últimas novidades e lançamentos."
+    },
+    "cta": {
+      "heading": "Seu Próximo Projeto Digital Começa Aqui.",
+      "description": "Vamos transformar suas ideias em experiências digitais significativas.",
+      "button": "Explorar Nossos Serviços"
+    }
+  },
+  "serviceDetails": {
+    "common": {
+      "discussProject": "Discuta Seu Projeto",
+      "exploreDeliverables": "Explorar Entregáveis",
+      "serviceOverview": "VISÃO GERAL DO SERVIÇO",
+      "requestQuote": "Solicitar Orçamento Personalizado",
+      "whatWeOffer": "O QUE OFERECEMOS",
+      "whatWeOfferSubtitle": "Cada entregável é elaborado com precisão estratégica, execução limpa e garantia de qualidade de ponta a ponta.",
+      "whyChooseSubtitle": "Combinamos experiência especializada, tecnologias modernas e dedicação a resultados reais para os negócios.",
+      "ourWorkingProcess": "NOSSO PROCESSO DE TRABALHO",
+      "processHeading": "Do Conceito à Execução Bem-Sucedida.",
+      "processSubtitle": "Uma metodologia clara e transparente em quatro etapas que garante qualidade e tranquilidade.",
+      "stepPrefix": "PASSO",
+      "faqsBadge": "PERGUNTAS FREQUENTES",
+      "faqsHeading": "Tudo o que Precisa de Saber.",
+      "faqsSubtitle": "Respostas às dúvidas frequentes sobre o nosso fluxo de trabalho, entregáveis e contratação.",
+      "readyHeading": "Pronto para Iniciar Seu Projeto?",
+      "readyDescription": "Vamos transformar as suas ideias em experiências digitais significativas. Entre em contacto hoje para uma consultoria.",
+      "talkProject": "Vamos Falar Sobre o Seu Projeto",
+      "exploreOther": "Explorar Outros Serviços"
+    },
+    "webDevelopment": {
+      "seoTitle": "Design e Desenvolvimento de Websites",
+      "seoDescription": "Criamos websites modernos, responsivos e de alto desempenho que ajudam as empresas a estabelecer a sua presença digital, conectar-se com clientes e crescer online.",
+      "eyebrow": "ENGENHARIA E PRESENÇA DIGITAL",
+      "headlineStart": "Websites Que Geram Confiança",
+      "headlineHighlight": "e Impulsionam o Crescimento.",
+      "description": "Criamos websites modernos, responsivos e de alto desempenho que ajudam as empresas a estabelecer a sua presença digital, conectar-se com clientes e crescer online.",
+      "highlights": [
+        {
+          "value": "<0.8s",
+          "label": "Velocidade Média de Carregamento"
+        },
+        {
+          "value": "100%",
+          "label": "Layouts Responsivos"
+        },
+        {
+          "value": "99+",
+          "label": "Pontuações Lighthouse"
+        },
+        {
+          "value": "24/7",
+          "label": "Confiabilidade da Arquitetura"
+        }
+      ],
+      "overviewHeading": "Websites Criados Para um Impacto Real nos Negócios, Não Apenas Estética.",
+      "overviewParagraphs": [
+        "O seu website é a montra digital, o motor principal de marketing e a referência central de credibilidade da sua marca. No mercado competitivo de hoje, os visitantes formam uma opinião em milissegundos. Um website lento, desatualizado ou confuso perde clientes potenciais e receitas diretamente.",
+        "Na Legacy IT, desenvolvemos soluções web que combinam tecnologia de ponta com design intuitivo centrado nas pessoas. De websites corporativos ultrarrápidos a lojas online completas, construímos plataformas limpas, escaláveis e de fácil manutenção que geram resultados concretos.",
+        "Cada linha de código é otimizada para Core Web Vitals, indexação em pesquisas orgânicas e usabilidade móvel sem atrito em qualquer dispositivo e navegador."
+      ],
+      "deliverablesHeading": "O Que Oferecemos em Design e Desenvolvimento Web",
+      "deliverables": [
+        {
+          "title": "Websites Corporativos e Empresariais",
+          "description": "Websites profissionais perfeitamente alinhados à sua marca, criados para consolidar autoridade, comunicar a sua missão e captar contactos qualificados.",
+          "features": [
+            "Integração Completa da Identidade Corporativa",
+            "Funis Claros de Captação de Contactos",
+            "Portais de Equipa e Apresentação de Serviços",
+            "Arquitetura Multipáginas de Alto Desempenho"
+          ]
+        },
+        {
+          "title": "Websites de Comércio Eletrónico (E-commerce)",
+          "description": "Lojas online de alta conversão com processo de compra fluido, gateways de pagamento seguros e gestão de stock escalável.",
+          "features": [
+            "Gateways Seguros Stripe / PayPal / Multibanco",
+            "Catálogo de Produtos com Filtros Dinâmicos",
+            "Checkout Rápido num Único Clique",
+            "Área de Cliente e Acompanhamento de Encomendas"
+          ]
+        },
+        {
+          "title": "Desenvolvimento Web Personalizado",
+          "description": "Aplicações web sob medida desenvolvidas de raiz para fluxos de trabalho exclusivos, calculadoras interativas ou portais de clientes.",
+          "features": [
+            "Frameworks Modernos React / Next.js",
+            "Integrações de APIs REST e Webhooks",
+            "Bases de Dados Dinâmicas e Robustas",
+            "Componentes Interativos Sob Medida"
+          ]
+        },
+        {
+          "title": "Design Web Responsivo",
+          "description": "Layouts fluidos desenvolvidos com foco mobile-first para assegurar uma experiência de utilização impecável em smartphones, tablets e computadores.",
+          "features": [
+            "Navegação Otimizada para Toque",
+            "Tipografia e Recursos Multimédia Adaptáveis",
+            "Compatibilidade Total entre Navegadores",
+            "Elementos Gráficos Otimizados para Ecrãs Retina"
+          ]
+        },
+        {
+          "title": "Desenvolvimento de Landing Pages",
+          "description": "Páginas de conversão cirúrgicas concebidas para campanhas de publicidade PPC, lançamentos de novos produtos e geração imediata de leads.",
+          "features": [
+            "Hierarquia Visual com Foco em Conversão",
+            "Preparação Técnica para Testes A/B",
+            "Carregamento Instantâneo",
+            "Configuração de Analítica e Rastreio de Metas"
+          ]
+        },
+        {
+          "title": "Redesign e Modernização de Websites",
+          "description": "Transforme a sua presença online antiga ou lenta num ativo moderno, elegante e de alta performance sem comprometer o posicionamento SEO atual.",
+          "features": [
+            "Modernização Visual e Estrutural Completa",
+            "Migração SEO com Mapeamento de Redirecionamentos 301",
+            "Experiência do Utilizador e Arquitetura Otimizadas",
+            "Refatoração e Limpeza Completa de Código"
+          ]
+        },
+        {
+          "title": "Manutenção e Suporte Contínuo",
+          "description": "Apoio técnico fiável, atualizações de segurança contínuas, cópias de segurança na nuvem e monitorização de desempenho permanente.",
+          "features": [
+            "Atualizações Regulares de Núcleo e Módulos",
+            "Cópias de Segurança Diárias Automatizadas",
+            "Monitorização Contínua de Disponibilidade (Uptime)",
+            "Atualizações de Conteúdo sob Procura"
+          ]
+        }
+      ],
+      "whyHeading": "Por Que Criar o Seu Website com a Legacy IT?",
+      "whyReasons": [
+        {
+          "number": "01",
+          "title": "Foco Absoluto em Velocidade e Performance",
+          "description": "Criamos websites ultraleves que carregam em menos de um segundo, impulsionando diretamente taxas de conversão e posicionamento."
+        },
+        {
+          "number": "02",
+          "title": "Usabilidade Mobile-First",
+          "description": "Mais de 65% do tráfego web tem origem em smartphones. Desenhamos e testamos em dispositivos reais antes de passar para o desktop."
+        },
+        {
+          "number": "03",
+          "title": "Arquitetura Moderna e Limpa",
+          "description": "Sem temas pesados ou construtores frágeis. Empregamos normas modernas de topo como React, Next.js e Tailwind CSS."
+        },
+        {
+          "number": "04",
+          "title": "Parceria Para Além do Lançamento",
+          "description": "Não desaparecemos após a entrega. Disponibilizamos suporte técnico contínuo, consultoria de alojamento e melhorias regulares."
+        }
+      ],
+      "processSteps": [
+        {
+          "number": "01",
+          "name": "Descoberta",
+          "description": "Analisamos os objetivos da sua empresa, público-alvo, identidade de marca e requisitos técnicos para definir uma estratégia sólida."
+        },
+        {
+          "number": "02",
+          "name": "Planeamento e Design",
+          "description": "Desenhamos protótipos interativos, estruturamos a hierarquia visual moderna e planeamos trajetos de navegação intuitivos."
+        },
+        {
+          "number": "03",
+          "name": "Execução",
+          "description": "Desenvolvemos código limpo e semântico, integramos funcionalidades sob medida, ativamos analítica e realizamos testes detalhados."
+        },
+        {
+          "number": "04",
+          "name": "Entrega e Publicação",
+          "description": "Publicamos em infraestrutura CDN ultrarrápida, validamos certificados SSL, submetemos sitemaps ao Google e entregamos gestão total."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Quanto tempo demora normalmente o desenvolvimento de um website?",
+          "answer": "Os prazos dependem da complexidade. Uma landing page dedicada pode estar concluída em 5 a 7 dias úteis, enquanto websites institucionais completos ou lojas online levam normalmente entre 2 e 5 semanas, desde a descoberta até à publicação final."
+        },
+        {
+          "question": "O meu website será responsivo e otimizado para o Google?",
+          "answer": "Sim, a 100%. Cada website que criamos adapta-se com precisão a qualquer tamanho de ecrã e inclui bases estruturais de SEO, meta tags, pré-visualizações OpenGraph, sitemaps XML e otimização para Core Web Vitals."
+        },
+        {
+          "question": "Consigo atualizar textos e imagens de forma autónoma após o lançamento?",
+          "answer": "Certamente. Configuramos painéis de gestão simples e intuitivos para que a sua equipa consiga editar textos, imagens, artigos de blogue ou artigos de loja sem necessidade de programar."
+        },
+        {
+          "question": "Quais são as tecnologias utilizadas no desenvolvimento?",
+          "answer": "Damos prioridade a ferramentas modernas como React, Next.js, Node.js, Tailwind CSS e alojamento seguro na nuvem (Vercel, AWS), assegurando proteção máxima, extrema rapidez e facilidade de escala."
+        },
+        {
+          "question": "Oferecem suporte e planos de manutenção após a entrega?",
+          "answer": "Sim. Temos planos flexíveis de suporte contínuo com atualizações de segurança, cópias de segurança na nuvem, análises de velocidade e apoio técnico prioritário."
+        }
+      ],
+      "ctaHeading": "Pronto para Criar um Website que Impulsione o Seu Negócio?",
+      "ctaDescription": "Quer esteja a começar a sua primeira presença digital ou a renovar uma plataforma existente, a Legacy IT está pronta para colaborar consigo."
+    },
+    "mobileDevelopment": {
+      "seoTitle": "Desenvolvimento de Aplicações Móveis",
+      "seoDescription": "Desenvolvemos aplicações móveis modernas que ajudam as empresas a conectar-se com clientes através de experiências digitais intuitivas, confiáveis e envolventes.",
+      "eyebrow": "ENGENHARIA MOBILE E ECOSSISTEMAS",
+      "headlineStart": "Experiências Móveis Poderosas,",
+      "headlineHighlight": "Criadas Para os Seus Utilizadores.",
+      "description": "Desenvolvemos aplicações móveis modernas que ajudam as empresas a conectar-se com clientes através de experiências digitais intuitivas, confiáveis e envolventes.",
+      "highlights": [
+        {
+          "value": "iOS + Android",
+          "label": "Ecossistemas Duplos"
+        },
+        {
+          "value": "60 FPS",
+          "label": "Fluidez Nativa"
+        },
+        {
+          "value": "Offline-First",
+          "label": "Cache de Dados Local"
+        },
+        {
+          "value": "100%",
+          "label": "Histórico de Aprovação nas Lojas"
+        }
+      ],
+      "overviewHeading": "Aplicações Móveis que Mantêm a Sua Marca no Bolso de Cada Cliente.",
+      "overviewParagraphs": [
+        "Os consumidores atuais procuram experiências imediatas e pensadas para o toque em qualquer lugar. Uma aplicação dedicada proporciona uma ligação direta inigualável, notificações instantâneas e acesso a recursos de hardware que os sites comuns não conseguem oferecer.",
+        "Na Legacy IT, desenvolvemos aplicações móveis nativas e multiplataforma caracterizadas por grande fluidez, elegância visual e arquitetura de topo. Do lançamento de um MVP à escala corporativa, asseguramos todo o ciclo de vida do produto até à entrada em loja.",
+        "Implementamos autenticação protegida na nuvem, conexões API de baixa latência, navegação gestual natural e suporte offline para que a aplicação funcione sempre, mesmo com oscilações de rede."
+      ],
+      "deliverablesHeading": "O Que Oferecemos em Desenvolvimento de Aplicações Móveis",
+      "deliverables": [
+        {
+          "title": "Desenvolvimento de Aplicações Android",
+          "description": "Aplicações Android de alta performance desenvolvidas para operar com perfeição numa enorme diversidade de dispositivos, resoluções e versões de SO.",
+          "features": [
+            "Padrões Modernos em Kotlin e Android SDK",
+            "Arquitetura de Interface Material 3",
+            "Conformidade Total com a Google Play Store",
+            "Adaptação Dinâmica a Diversos Ecrãs"
+          ]
+        },
+        {
+          "title": "Desenvolvimento de Aplicações iOS",
+          "description": "Aplicações iOS de padrão premium alinhadas rigorosamente às diretrizes Human Interface Guidelines da Apple para iPhone e iPad.",
+          "features": [
+            "Arquitetura Moderna com Swift e SwiftUI",
+            "Suporte a Apple Pay e Autenticação Biométrica",
+            "Conformidade Rigorosa para Aprovação na App Store",
+            "Interação Gestual Típica do Ecossistema iOS"
+          ]
+        },
+        {
+          "title": "Aplicações Multiplataforma (Cross-Platform)",
+          "description": "Lançamento em iOS e Android em simultâneo a partir de uma base de código unificada com React Native, reduzindo tempo e investimento para metade.",
+          "features": [
+            "Eficiência com Código-Fonte Partilhado",
+            "Renderização Nativa a 60 FPS Sem Quebras",
+            "Lançamento Simultâneo de Novas Funcionalidades",
+            "Manutenção e Evolução Simplificadas"
+          ]
+        },
+        {
+          "title": "Design UI/UX para Dispositivos Móveis",
+          "description": "Design pensado para as pessoas, estruturado na zona natural de alcance do polegar, microinterações táteis e registo sem barreiras.",
+          "features": [
+            "Navegação Adaptada ao Alcance do Polegar",
+            "Protótipos Interativos no Figma",
+            "Acessibilidade de Acordo com as Normas WCAG",
+            "Suporte Completo a Modo Escuro e Claro"
+          ]
+        },
+        {
+          "title": "Integração de APIs e Sistemas",
+          "description": "Ligação perfeita aos seus servidores, gateways de pagamento, plataformas de autenticação e bases de dados empresariais.",
+          "features": [
+            "Integração de Endpoints REST e GraphQL",
+            "WebSockets e Notificações Push em Tempo Real",
+            "Protocolo Seguro OAuth 2.0 e Renovação de Tokens",
+            "Comunicação Otimizada de Baixo Consumo de Dados"
+          ]
+        },
+        {
+          "title": "Manutenção e Evolução de Aplicações",
+          "description": "Monitorização contínua, compatibilidade com novos lançamentos de iOS e Android, análise de falhas e evolução de funcionalidades.",
+          "features": [
+            "Atualizações Anuais de Compatibilidade de SO",
+            "Relatórios de Erros e Falhas em Tempo Real",
+            "Instalação de Patches de Segurança e APIs",
+            "Otimização Constante de Performance"
+          ]
+        }
+      ],
+      "whyHeading": "Por Que Desenvolver a Sua Aplicação Móvel com a Legacy IT?",
+      "whyReasons": [
+        {
+          "number": "01",
+          "title": "Fluidez e Resposta Instantânea",
+          "description": "Focamo-nos numa experiência sólida a 60 frames por segundo, reação ao toque sem atraso e consumo comedido de memória."
+        },
+        {
+          "number": "02",
+          "title": "Eficiência com Soluções Multiplataforma",
+          "description": "O nosso domínio técnico multiplataforma permite disponibilizar a app em iOS e Android em simultâneo sem duplicar o orçamento."
+        },
+        {
+          "number": "03",
+          "title": "Fiabilidade Offline-First",
+          "description": "A sua aplicação não deve falhar dentro de um elevador. Desenvolvemos armazenamento local inteligente para garantir uso sem interrupções."
+        },
+        {
+          "number": "04",
+          "title": "Gestão Completa nas Lojas de Aplicações",
+          "description": "Conduzimos todo o processo de submissão na App Store e Google Play até à aprovação e lançamento oficial."
+        }
+      ],
+      "processSteps": [
+        {
+          "number": "01",
+          "name": "Descoberta",
+          "description": "Mapeamos os perfis de utilizador, prioridades de funcionalidades, plataformas alvo e arquitetura de dados."
+        },
+        {
+          "number": "02",
+          "name": "Planeamento e Design",
+          "description": "Criamos protótipos interativos, desenhamos o ecossistema visual e validamos ecrãs antes de iniciar a programação."
+        },
+        {
+          "number": "03",
+          "name": "Desenvolvimento",
+          "description": "Programamos código nativo ou híbrido limpo, efetuamos a ligação com o backend e executamos baterias de testes."
+        },
+        {
+          "number": "04",
+          "name": "Lançamento",
+          "description": "Organizamos testes beta no TestFlight e Google Play Console, preparando a publicação oficial nas lojas."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Compensa mais criar uma app nativa ou multiplataforma?",
+          "answer": "Para a generalidade dos projetos empresariais, tecnologias modernas como o React Native garantem 95%+ da performance nativa com uma poupança de cerca de 40% a 50% em custos e tempo de desenvolvimento. Para aplicações focadas em 3D complexo ou funções profundas de hardware, Swift ou Kotlin nativo continuam a ser recomendados."
+        },
+        {
+          "question": "Cuidam de todo o processo de submissão na App Store e Google Play?",
+          "answer": "Sim, de ponta a ponta. Configuramos as contas de distribuição, compilamos os ficheiros de produção assinados, criamos o material para a loja e orientamos a revisão com a Apple e o Google."
+        },
+        {
+          "question": "A aplicação consegue trabalhar sem ligação à internet?",
+          "answer": "Sim. Adotamos o conceito offline-first, guardando informação vital em bases de dados locais (SQLite ou Realm) e registando pedidos para sincronização assim que o sinal regressar."
+        },
+        {
+          "question": "Qual é o tempo médio previsto para desenvolver uma aplicação móvel?",
+          "answer": "Uma aplicação MVP funcional costuma levar de 4 a 8 semanas desde o planeamento até à fase de testes beta. Projetos mais elaborados com integrações extensas podem demorar entre 8 e 14 semanas."
+        },
+        {
+          "question": "O que acontece quando surgem novas versões do iOS ou Android?",
+          "answer": "Disponibilizamos planos de suporte permanente para certificar que a sua aplicação acompanha as atualizações de sistema, novos ecrãs e regras de privacidade."
+        }
+      ],
+      "ctaHeading": "Pronto para Dar Vida à Sua Aplicação Móvel?",
+      "ctaDescription": "Vamos desenvolver uma aplicação intuitiva, sólida e rápida que os seus clientes vão adorar utilizar todos os dias."
+    },
+    "graphicDesigning": {
+      "seoTitle": "Design Gráfico Profissional",
+      "seoDescription": "Transformamos ideias em peças de design marcantes que comunicam a identidade da sua marca, atraem atenções e causam uma impressão duradoura.",
+      "eyebrow": "IDENTIDADE DE MARCA E DESIGN VISUAL",
+      "headlineStart": "Designs Criativos Que Fazem",
+      "headlineHighlight": "a Sua Marca Destacar-se.",
+      "description": "Transformamos ideias em peças de design marcantes que comunicam a identidade da sua marca, atraem atenções e causam uma impressão duradoura.",
+      "highlights": [
+        {
+          "value": "300 DPI",
+          "label": "Precisão de Impressão"
+        },
+        {
+          "value": "100%",
+          "label": "Escalabilidade Vetorial"
+        },
+        {
+          "value": "Total",
+          "label": "Direitos Comerciais"
+        },
+        {
+          "value": "Prontos",
+          "label": "Ficheiros em CMYK e RGB"
+        }
+      ],
+      "overviewHeading": "Design Visual que Constrói uma Autoridade de Marca Inesquecível.",
+      "overviewParagraphs": [
+        "O design gráfico é a primeira ponte emocional entre a sua empresa e os clientes. Antes de alguém ler uma linha da sua mensagem comercial, o logótipo, a tipografia e a harmonia das cores já sinalizaram a seriedade, modernidade e excelência do seu negócio.",
+        "Na Legacy IT, desenvolvemos identidades visuais consistentes que cortam o ruído de mercado. Não concebemos imagens avulsas; estruturamos universos de marca integrados que funcionam desde cartões de visita e estacionário até campanhas digitais e redes sociais.",
+        "Cada peça é fornecida em resolução vetorial máxima, com ficheiros editáveis organizados, códigos de cor rigorosos e direitos de exploração comercial completos."
+      ],
+      "deliverablesHeading": "O Que Oferecemos em Design Gráfico",
+      "deliverables": [
+        {
+          "title": "Design de Logótipos",
+          "description": "Logótipos e símbolos memoráveis e versáteis que traduzem a essência da sua empresa e mantêm total nitidez em qualquer suporte.",
+          "features": [
+            "Versões Primárias, Secundárias e Ícones de Aplicação",
+            "Aplicações em Monocromático e Fundos Escuros",
+            "Ficheiros Vetoriais Originais Completos (AI, EPS)",
+            "Diretrizes de Margem de Segurança e Dimensões Mínimas"
+          ]
+        },
+        {
+          "title": "Design de Identidade de Marca",
+          "description": "Sistema visual integral com paleta cromática, hierarquias de tipografia, iconografia própria e manual de normas gráficas.",
+          "features": [
+            "Manual Completo de Normas de Identidade Gráfica",
+            "Especificações de Cores em HEX, RGB e CMYK",
+            "Seleção de Fontes Tipográficas Primárias e de Apoio",
+            "Guia de Tom de Voz e Estilo Fotográfico"
+          ]
+        },
+        {
+          "title": "Gráficos para Redes Sociais",
+          "description": "Modelos e criativos de elevado impacto para Instagram, LinkedIn, Facebook e X, assegurando uma estética coesa em cada publicação.",
+          "features": [
+            "Modelos Editáveis para Publicações e Carrosséis",
+            "Capas para Reels, Destaques e Stories",
+            "Banners e Cabeçalhos para Perfis Empresariais",
+            "Conjunto de Ícones Personalizados para a Marca"
+          ]
+        },
+        {
+          "title": "Cartões de Visita e Papelaria Institucional",
+          "description": "Estacionário corporativo tátil pronto para impressão que causa uma excelente impressão em reuniões de negócios e eventos.",
+          "features": [
+            "Design Moderno de Cartões de Visita",
+            "Papel de Carta e Timbrados Oficiais",
+            "Pastas de Apresentação e Envelopes",
+            "Assinaturas de Email Profissionais"
+          ]
+        },
+        {
+          "title": "Brochuras, Folhetos e Catálogos",
+          "description": "Folhetos impressos e digitais estruturados com clareza para valorizar os seus produtos e serviços.",
+          "features": [
+            "Formatos Dípticos e Trípticos",
+            "Catálogos Institucionais de Produtos",
+            "Brochuras Digitais em PDF Interativo",
+            "Preparação de Ficheiros de Impressão com Sangrias"
+          ]
+        },
+        {
+          "title": "Cartazes, Roll-Ups e Lonas Publicitárias",
+          "description": "Peças de grande formato para stands, feiras, exposições e fachadas com excelente visibilidade e leitura à distância.",
+          "features": [
+            "Ficheiros Vetoriais de Alta Definição",
+            "Composições Gráficas para Stands e Feiras",
+            "Expositores Roll-Up Retráteis",
+            "Telas e Painéis Exteriores"
+          ]
+        },
+        {
+          "title": "Materiais Promocionais e de Marketing",
+          "description": "Folhetos comerciais, autocolantes, brindes e peças promocionais que aumentam a notoriedade e o valor percebido da marca.",
+          "features": [
+            "Material de Distribuição para Eventos",
+            "Folhas Informativas e One-Pagers de Produto",
+            "Personalização de Brindes e Merchandising",
+            "Design de Embalagens e Rótulos"
+          ]
+        },
+        {
+          "title": "Criativos para Publicidade Digital",
+          "description": "Banners promocionais otimizados para cliques na Google Display Network e campanhas nas plataformas da Meta.",
+          "features": [
+            "Dimensões Padrão de Anúncios IAB",
+            "Mensagens de Alto Contraste Visual",
+            "Variações Criativas para Testes A/B",
+            "Total Conformidade com as Políticas de Anúncios"
+          ]
+        }
+      ],
+      "whyHeading": "Por Que Escolher a Legacy IT para Design Gráfico?",
+      "whyReasons": [
+        {
+          "number": "01",
+          "title": "Diferenciação Estratégica de Marca",
+          "description": "Não usamos recursos genéricos. Cada linha é desenhada de forma personalizada para colocar a sua empresa à frente da concorrência."
+        },
+        {
+          "number": "02",
+          "title": "Rigor Vetorial Total",
+          "description": "Trabalhamos em vetor para que os seus elementos visuais mantenham precisão quer num ícone quer num cartaz de grandes dimensões."
+        },
+        {
+          "number": "03",
+          "title": "Harmonia entre Impressão e Ecrã",
+          "description": "Asseguramos correspondência fiel de cor e leitura tanto em dispositivos RGB como em gráficas com especificações CMYK."
+        },
+        {
+          "number": "04",
+          "title": "100% de Propriedade Comercial",
+          "description": "Com a entrega final do projeto, os ficheiros editáveis mestres e todos os direitos de autor passam a ser inteiramente seus."
+        }
+      ],
+      "processSteps": [
+        {
+          "number": "01",
+          "name": "Descoberta",
+          "description": "Exploramos a identidade pretendida, valores fundamentais, perfil dos clientes e referências visuais de topo no setor."
+        },
+        {
+          "number": "02",
+          "name": "Ideação e Esboço",
+          "description": "Desenhamos esboços, exploramos conceitos visuais e apresentamos propostas de símbolos e composições estruturadas."
+        },
+        {
+          "number": "03",
+          "name": "Vetorização e Refinamento",
+          "description": "Construímos os traçados vetoriais, definimos paletas de cor, criamos mockups realistas e aperfeiçoamos com o seu feedback."
+        },
+        {
+          "number": "04",
+          "name": "Entrega Final",
+          "description": "Organizamos os ficheiros mestres vetoriais, formatos digitais de uso comum, manuais e ficheiros preparados para tipografia."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Quais são os ficheiros fonte entregues no final do projeto?",
+          "answer": "Recebe os ficheiros de trabalho editáveis (.AI, .EPS, .PDF) juntamente com formatos digitais prontos a utilizar (.SVG, .PNG, .JPG). Nos trabalhos para gráfica incluímos perfis CMYK, marcas de corte e sangrias corretas."
+        },
+        {
+          "question": "Quantas fases de revisão estão previstas nos trabalhos de design?",
+          "answer": "Incluímos rondas organizadas de revisão para afinar cores, tipos de letra e equilíbrios gráficos até que o resultado final corresponda totalmente às suas expetativas."
+        },
+        {
+          "question": "A minha empresa fica com a titularidade de todos os direitos?",
+          "answer": "Sim, a 100%. Com a conclusão do projeto e respetiva liquidação, todos os direitos de autor e de exploração comercial são transferidos para a sua empresa."
+        },
+        {
+          "question": "Desenvolvem peças tanto para o meio digital como para impressão em papel?",
+          "answer": "Sim. Dominamos os requisitos técnicos de pixels RGB para ecrãs e as exigências de resolução e cor CMYK para produção em gráficas profissionais."
+        },
+        {
+          "question": "Qual o prazo normal para o desenvolvimento de uma identidade visual?",
+          "answer": "As primeiras propostas de logótipo são entregues normalmente em 3 a 5 dias úteis. Um manual de identidade completo com estacionário e materiais digitais fica concluído entre 1 e 2 semanas."
+        }
+      ],
+      "ctaHeading": "Pronto para Destacar a Sua Marca com um Design Notável?",
+      "ctaDescription": "Vamos transformar os seus objetivos em identidades visuais marcantes que inspiram confiança e conquistam clientes."
+    },
+    "videoEditing": {
+      "seoTitle": "Edição Profissional de Vídeo",
+      "seoDescription": "Criamos vídeos envolventes e editados profissionalmente que contam a sua história, comunicam a sua mensagem e ligam a sua marca ao público.",
+      "eyebrow": "PÓS-PRODUÇÃO E MOTION DESIGN",
+      "headlineStart": "Transforme as Suas Ideias em",
+      "headlineHighlight": "Vídeos Que Valem a Pena Ver.",
+      "description": "Criamos vídeos envolventes e editados profissionalmente que contam a sua história, comunicam a sua mensagem e ligam a sua marca ao público.",
+      "highlights": [
+        {
+          "value": "4K UHD",
+          "label": "Resolução Master"
+        },
+        {
+          "value": "3 Seg",
+          "label": "Engenharia de Retenção"
+        },
+        {
+          "value": "Rec.709",
+          "label": "Gradação de Cor"
+        },
+        {
+          "value": "24-48h",
+          "label": "Entrega de Reels e Shorts"
+        }
+      ],
+      "overviewHeading": "Vídeos Projetados para Reter a Atenção e Maximizar o Tempo de Visualização.",
+      "overviewParagraphs": [
+        "O vídeo é indiscutivelmente o formato com maior capacidade de conversão no marketing moderno. Contudo, perante uma atenção que se dispersa em segundos, gravações sem edição perdem público instantaneamente. Para sobressair, os seus vídeos têm de captar a atenção desde o primeiro instante e manter um ritmo envolvente.",
+        "Na Legacy IT, transformamos filmagens em bruto, capturas de ecrã e guiões em conteúdos de vídeo cinematográficos. Quer necessite de Reels e TikToks virais, vídeos consistentes para o YouTube ou apresentações corporativas de excelência, asseguramos todas as fases de pós-produção.",
+        "Da correção de cor rigorosa e títulos animados ao design de som cuidado e formatos adaptados a cada rede social, garantimos que os seus vídeos brilham em qualquer ecrã."
+      ],
+      "deliverablesHeading": "O Que Oferecemos em Edição de Vídeo",
+      "deliverables": [
+        {
+          "title": "Vídeos Promocionais e Corporativos",
+          "description": "Produções comerciais de elevado impacto que destacam o propósito da sua empresa, constroem credibilidade e valorizam a sua oferta.",
+          "features": [
+            "Edição Rigorosa de Entrevistas Institucionais",
+            "Seleção e Enquadramento de Planos B-Roll",
+            "Conformidade com o Manual de Identidade da Marca",
+            "Exportação de Ficheiros Master 4K de Alta Definição"
+          ]
+        },
+        {
+          "title": "Reels e Shorts para Redes Sociais",
+          "description": "Vídeos verticais de ritmo dinâmico (9:16) formatados para Instagram Reels, YouTube Shorts e TikTok com legendas visuais expressivas.",
+          "features": [
+            "Ganchos Iniciais Fortes nos Primeiros 3 Segundos",
+            "Legendas Animadas e Estilizadas",
+            "Sincronismo Rítmico com Faixas em Destaque",
+            "Capacidade de Produção Rápida em Lotes"
+          ]
+        },
+        {
+          "title": "Edição de Conteúdos para o YouTube",
+          "description": "Montagem de conteúdos longos otimizada para aumentar a retenção através de cortes fluídos, aproximações de câmara e variedade visual.",
+          "features": [
+            "Organização Estruturada por Capítulos de Vídeo",
+            "Ecrãs Finais Personalizados para YouTube",
+            "Normalização e Tratamento de Níveis de Som",
+            "Seleção Cuidada de Grafismos e Imagens de Apoio"
+          ]
+        },
+        {
+          "title": "Vídeos de Apresentação Empresarial",
+          "description": "Vídeos explicativos envolventes que apresentam a organização, a equipa e as soluções a futuros clientes e parceiros.",
+          "features": [
+            "Construção de Guião com Estrutura Narrativa",
+            "Masterização de Voz com Padrão de Estúdio",
+            "Apresentação Visual das Soluções da Empresa",
+            "Destaque aos Fatores de Confiança do Negócio"
+          ]
+        },
+        {
+          "title": "Vídeos Promocionais de Produto",
+          "description": "Demonstrações apelativas de produto que destacam detalhes essenciais, interação com a interface e benefícios para o utilizador.",
+          "features": [
+            "Destaques Visuais Animados sobre Funcionalidades",
+            "Movimentos Suaves de Zoom e Panorâmica",
+            "Sobreposição Gráfica de Capturas de Ecrã",
+            "Banda Sonora com Ritmo Cativante"
+          ]
+        },
+        {
+          "title": "Motion Graphics e Animação de Texto",
+          "description": "Animações 2D sob medida, tipografia dinâmica, logótipos animados e oráculos que tornam ideias complexas simples de entender.",
+          "features": [
+            "Animações Vetoriais 2D Exclusivas",
+            "Títulos com Tipografia Dinâmica",
+            "Infografias e Dados Animados",
+            "Painéis de Transição com Identidade Gráfica"
+          ]
+        },
+        {
+          "title": "Transições e Efeitos Visuais",
+          "description": "Transições modernas e discretas que preservam o ritmo entre cortes de cena com naturalidade e estilo.",
+          "features": [
+            "Transições em Movimento (Whip, Match Cuts, Zooms)",
+            "Efeitos Cinemáticos e Detalhes Visuais Cuidados",
+            "Rampas de Aceleração e Câmara Lenta Estável",
+            "Continuidade Visual em Todo o Alinhamento"
+          ]
+        },
+        {
+          "title": "Correção e Gradação de Cor",
+          "description": "Equilíbrio cromático minucioso, preservação dos tons de pele e aplicação de perfis LUT para um aspeto cinematográfico coeso.",
+          "features": [
+            "Calibração de Cor entre Diferentes Câmaras",
+            "Isolamento e Otimização dos Tons de Pele",
+            "Gradação Cinemática em Perfis Rec.709 e HDR",
+            "Recuperação de Luzes e Zonas de Sombra"
+          ]
+        },
+        {
+          "title": "Melhoria e Sincronização de Áudio",
+          "description": "Tratamento de som de estúdio: redução de ruídos de fundo, compressão, música com licenciamento e efeitos foley imersivos.",
+          "features": [
+            "Atenuação de Ruído Ambiente e Tratamento de Voz",
+            "Nivelamento de Emissão de Acordo com a Norma (-14 LUFS)",
+            "Bandas Sonoras Licenciadas para Utilização Comercial",
+            "Design de Efeitos Sonoros com Impacto"
+          ]
+        }
+      ],
+      "whyHeading": "Por Que Escolher a Legacy IT para Edição de Vídeo?",
+      "whyReasons": [
+        {
+          "number": "01",
+          "title": "Especialistas em Retenção de Audiência",
+          "description": "Montamos os vídeos com base no comportamento do utilizador, usando estímulos visuais e sonoros para evitar saídas precoces."
+        },
+        {
+          "number": "02",
+          "title": "Cor Cinemática e Som de Estúdio",
+          "description": "O áudio é metade do impacto do vídeo. Alinhamos diálogos, efeitos e música com padrões rigorosos de transmissão."
+        },
+        {
+          "number": "03",
+          "title": "Motion Design Personalizado",
+          "description": "Animamos oráculos, grafismos e tipografias sempre fiéis à identidade institucional da sua marca."
+        },
+        {
+          "number": "04",
+          "title": "Pacotes de Exportação Adaptados",
+          "description": "Disponibilizamos formatos 16:9 horizontais para computador/YouTube e exportações verticais em 9:16 para smartphones."
+        }
+      ],
+      "processSteps": [
+        {
+          "number": "01",
+          "name": "Descoberta",
+          "description": "Analisamos o material gravado, alinhamos o propósito da mensagem, definimos a dinâmica e organizamos os ficheiros."
+        },
+        {
+          "number": "02",
+          "name": "Estrutura e Montagem",
+          "description": "Preparamos um primeiro corte do vídeo, organizamos o fio condutor e selecionamos a música adequada."
+        },
+        {
+          "number": "03",
+          "name": "Edição e Finalização",
+          "description": "Afirmamos os cortes, integramos grafismos e legendas, calibramos as cores e masterizamos as faixas de áudio."
+        },
+        {
+          "number": "04",
+          "name": "Revisão e Entrega",
+          "description": "Partilhamos um link interativo para marcação de notas por segundo e exportamos os masters finais com qualidade máxima."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Como posso enviar o material gravado para a vossa equipa?",
+          "answer": "Pode carregar os seus ficheiros de câmara, gravações de ecrã e áudio através do Google Drive, Dropbox, OneDrive ou WeTransfer. Trabalhamos com todos os formatos correntes (MP4, MOV, ProRes, B-RAW, Sony XAVC, etc.)."
+        },
+        {
+          "question": "Fornecem faixas de música licenciadas e efeitos de som?",
+          "answer": "Sim. Incluímos música licenciada para utilização comercial e efeitos sonoros profissionais em cada trabalho, assegurando monetização no YouTube e redes sociais sem disputas de direitos de autor."
+        },
+        {
+          "question": "É possível fornecer versões tanto verticais (Reels) como horizontais (YouTube)?",
+          "answer": "Com certeza. Podemos produzir ficheiros em proporções distintas: 16:9 para o YouTube e websites, 9:16 para Instagram Reels, YouTube Shorts e TikTok, e 1:1 para anúncios no feed."
+        },
+        {
+          "question": "Qual o prazo normal para a entrega de um vídeo editado?",
+          "answer": "Os formatos curtos para redes sociais (Reels e Shorts) são habitualmente entregues em 24 a 48 horas. Vídeos mais extensos ou institucionais levam cerca de 3 a 5 dias úteis para a primeira versão."
+        },
+        {
+          "question": "Como funciona o processo de alterações ou revisões?",
+          "answer": "Disponibilizamos um link interativo onde pode carregar no segundo exato do vídeo para deixar as suas notas. Efetuamos os ajustes prontamente e geramos os ficheiros aprovados."
+        }
+      ],
+      "ctaHeading": "Pronto para Criar Vídeos Que Cativam o Seu Público?",
+      "ctaDescription": "Vamos transformar as suas filmagens e ideias em conteúdos de vídeo apelativos e com resultados comerciais reais."
+    },
+    "digitalMarketing": {
+      "seoTitle": "Marketing Digital e Otimização SEO",
+      "seoDescription": "Ajudamos as empresas a consolidar a sua presença digital, alcançar o público certo e construir relações valiosas através de marketing digital e SEO.",
+      "eyebrow": "MARKETING DE PESQUISA E PERFORMANCE",
+      "headlineStart": "Seja Descoberto. Vá Mais Longe.",
+      "headlineHighlight": "Cresça Mais Depressa.",
+      "description": "Ajudamos as empresas a consolidar a sua presença digital, alcançar o público certo e construir relações valiosas através de marketing digital e SEO.",
+      "highlights": [
+        {
+          "value": "+248%",
+          "label": "Aumento Médio de Tráfego"
+        },
+        {
+          "value": "Pág 1",
+          "label": "Rankings na 1ª Página"
+        },
+        {
+          "value": "4.8x",
+          "label": "ROAS Médio de Anúncios"
+        },
+        {
+          "value": "100%",
+          "label": "Técnicas 100% White-Hat"
+        }
+      ],
+      "overviewHeading": "Marketing de Crescimento Baseado em Dados, Posicionamento e Receita Real.",
+      "overviewParagraphs": [
+        "Ter uma excelente oferta digital de pouco serve se os seus clientes ideais não a conseguirem encontrar. O marketing digital de valor não se foca em impressões vazias; o seu verdadeiro objetivo é atrair potenciais clientes qualificados que procuram exatamente as soluções que a sua empresa disponibiliza.",
+        "Na Legacy IT, estruturamos planos de crescimento coerentes que aliam a otimização orgânica para motores de pesquisa (SEO) à gestão de redes sociais e publicidade digital de desempenho. Estudamos a intenção de pesquisa, resolvemos problemas de indexação técnica, criamos artigos de autoridade e afinamos cada etapa do funil.",
+        "Através de relatórios mensais rigorosos e transparentes, verifica com precisão a evolução das palavras-chave, a origem das visitas e a forma como o investimento se traduz em retorno financeiro palpável."
+      ],
+      "deliverablesHeading": "O Que Oferecemos em Marketing Digital e SEO",
+      "deliverables": [
+        {
+          "title": "Otimização para Motores de Pesquisa (SEO)",
+          "description": "Otimização completa em motores de busca orientada para conquistar posições cimeiras e duradouras no Google em pesquisas de elevado valor.",
+          "features": [
+            "Estudo Aprofundado de Palavras-Chave e Intenção",
+            "Análise de Lacunas Face à Concorrência",
+            "Blindagem Contra Penalizações de Algoritmo",
+            "Monitorização Regular de Posições e Estratégia"
+          ]
+        },
+        {
+          "title": "SEO On-Page",
+          "description": "Otimização cuidada de títulos, meta tags, marcação schema, atributos de imagem e arquitetura de conteúdos para relevância máxima.",
+          "features": [
+            "Títulos e Metadescrições Altamente Relevantes",
+            "Estruturação de Dados com Schema.org",
+            "Planeamento Estratégico de Links Internos",
+            "Auditoria de Densidade e Facilidade de Leitura"
+          ]
+        },
+        {
+          "title": "SEO Técnico",
+          "description": "Intervenções estruturais de base para assegurar que os robôs de pesquisa rastreiam e indexam o seu website sem qualquer entrave.",
+          "features": [
+            "Configuração de Ficheiros Robots.txt e Sitemaps XML",
+            "Arquitetura de Tags Canónicas e Redirecionamentos 301",
+            "Gestão de Crawl Budget e Resolução de Erros 404",
+            "Maximização da Velocidade e Core Web Vitals"
+          ]
+        },
+        {
+          "title": "Gestão de Redes Sociais",
+          "description": "Gestão contínua de presença, programação cuidada de publicações e interação com a comunidade no LinkedIn, Instagram, Facebook e X.",
+          "features": [
+            "Calendários Mensais de Conteúdos Estruturados",
+            "Acompanhamento e Resposta a Comentários e Mensagens",
+            "Seleção Cuidada de Tendências e Hashtags",
+            "Otimização Regular e Auditoria aos Perfis"
+          ]
+        },
+        {
+          "title": "Marketing em Redes Sociais",
+          "description": "Campanhas de anúncios pagos direcionadas por critérios demográficos e profissionais para captação de leads e notoriedade.",
+          "features": [
+            "Campanhas de Anúncios na Meta (Facebook e Instagram)",
+            "Segmentação B2B Direcionada a Decisores no LinkedIn",
+            "Instalação de Pixels de Retargeting Estratégico",
+            "Testes A/B a Imagens e Textos Publicitários"
+          ]
+        },
+        {
+          "title": "Estratégia de Conteúdo",
+          "description": "Produção de conteúdos técnicos e editoriais de referência que consolidam a sua empresa como autoridade indiscutível no seu setor.",
+          "features": [
+            "Artigos de Blogue Pensados para Liderar Pesquisas",
+            "Estudos de Caso e Documentos Técnicos Setoriais",
+            "Sequências Informativas para Newsletters",
+            "Mapeamento de Lacunas de Conteúdo Frente aos Rivais"
+          ]
+        },
+        {
+          "title": "Publicidade Digital e Campanhas PPC",
+          "description": "Anúncios cirúrgicos no Google Search e na Rede de Display para alcançar o cliente no momento exato em que está pronto para comprar.",
+          "features": [
+            "Anúncios na Pesquisa do Google de Elevada Intenção",
+            "Gestão de Palavras-Chave Negativas para Poupança",
+            "Rastreio Detalhado de Conversões e Atribuição",
+            "Otimização Constante de Lances e Retorno (ROAS)"
+          ]
+        },
+        {
+          "title": "Otimização de Visibilidade Web e Local",
+          "description": "Afinações técnicas permanentes e gestão de diretórios regionais para posicionar o seu negócio no topo das pesquisas locais.",
+          "features": [
+            "Otimização do Perfil de Empresa no Google (Google Business)",
+            "Estratégia para o Bloco Local do Google Maps",
+            "Uniformização Rigorosa de Dados de Contacto (NAP)",
+            "Gestão de Avaliações e Citações Locais"
+          ]
+        }
+      ],
+      "whyHeading": "Por Que Escolher a Legacy IT para o Crescimento Digital?",
+      "whyReasons": [
+        {
+          "number": "01",
+          "title": "Receita Real em Vez de Métricas de Vaidade",
+          "description": "O nosso foco está em contactos comerciais, telefonemas, pedidos de proposta e vendas; não em números de visualizações que não pagam contas."
+        },
+        {
+          "number": "02",
+          "title": "Práticas 100% White-Hat e Transparentes",
+          "description": "Seguimos criteriosamente as diretrizes de qualidade do Google, resguardando os seus ativos digitais de quebras algorítmicas imprevistas."
+        },
+        {
+          "number": "03",
+          "title": "Sinergia entre Tecnologia e Criatividade",
+          "description": "Juntamos engenharia de software e especialistas de marketing, corrigindo bloqueios de rastreio enquanto produzimos mensagens que convertem."
+        },
+        {
+          "number": "04",
+          "title": "Relatórios Claros e Acompanhamento",
+          "description": "Acede a painéis com métricas em tempo real e reuniões mensais onde acompanha de forma aberta a evolução das posições e o ROI obtido."
+        }
+      ],
+      "processSteps": [
+        {
+          "number": "01",
+          "name": "Descoberta",
+          "description": "Efetuamos uma auditoria técnica profunda ao website, estudamos a concorrência e encontramos termos de pesquisa de alto valor."
+        },
+        {
+          "number": "02",
+          "name": "Planeamento e Estratégia",
+          "description": "Estruturamos um plano de ação SEO para 6 meses, organizamos a arquitetura de anúncios e preparamos guiões de conteúdo."
+        },
+        {
+          "number": "03",
+          "name": "Execução e Aplicação",
+          "description": "Implementamos melhorias on-page, corrigimos erros no código, publicamos os conteúdos e ativamos as campanhas de anúncios."
+        },
+        {
+          "number": "04",
+          "name": "Avaliação e Relatório",
+          "description": "Avaliamos resultados de conversão, ajustamos lances, seguimos a evolução dos rankings e apresentamos relatórios detalhados."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Quanto tempo demora normalmente até se verem resultados com SEO?",
+          "answer": "O SEO é um investimento cumulativo de crescimento orgânico. Os primeiros sinais de melhoria na indexação e avanço de posições começam a surgir entre os 60 e 90 dias. Aumentos verdadeiramente expressivos em contactos e tráfego qualificado consolidam-se entre os meses 4 e 6."
+        },
+        {
+          "question": "Qual é a diferença entre SEO On-Page e SEO Técnico?",
+          "answer": "O SEO On-Page dedica-se ao conteúdo visível pelo utilizador e motores: palavras-chave, títulos, facilidade de leitura e meta tags. O SEO Técnico aborda a estrutura profunda do servidor: tempos de carregamento, responsividade móvel, segurança SSL, mapas XML e regras de rastreio."
+        },
+        {
+          "question": "Também gerem campanhas pagas além da otimização orgânica por SEO?",
+          "answer": "Sim. A nossa especialidade é o crescimento integrado. Enquanto o SEO constrói valor sustentável e duradouro a custo marginal nulo, os anúncios no Google Search e Meta geram oportunidades de negócio desde o primeiro dia."
+        },
+        {
+          "question": "De que forma medem e apresentam o retorno obtido?",
+          "answer": "Configuramos o Google Analytics 4, a Google Search Console e metas de conversão específicas. Todos os meses recebe relatórios organizados com origens de tráfego, custo de aquisição, posições conquistadas e pedidos gerados."
+        },
+        {
+          "question": "Podem trabalhar em articulação direta com a nossa equipa interna?",
+          "answer": "Com certeza. Podemos atuar como o departamento integral de marketing digital da sua empresa, ou como consultores externos especializados em colaboração estreita com os seus profissionais de vendas."
+        }
+      ],
+      "ctaHeading": "Pronto para Liderar as Pesquisas e Acelerar o Seu Negócio?",
+      "ctaDescription": "Vamos construir uma estratégia comprovada de marketing digital e SEO que coloca a sua marca à frente de clientes decididos a comprar."
+    }
+  },
+  "privacyPolicyPage": {
+    "seoTitle": "Política de Privacidade",
+    "seoDescription": "Saiba como a Legacy IT recolhe, utiliza e protege as informações quando visita o nosso website ou interage com os nossos serviços.",
+    "eyebrow": "INFORMAÇÃO LEGAL",
+    "title": "Política de Privacidade",
+    "intro": "Na Legacy IT respeitamos a sua privacidade e estamos empenhados em proteger os seus dados pessoais. Esta Política de Privacidade explica como recolhemos, utilizamos e salvaguardamos as informações quando visita o nosso website ou interage com os nossos serviços.",
+    "lastUpdated": "Última Atualização: Novembro de 2026",
+    "tocTitle": "Índice de Conteúdos",
+    "tocMobileToggleOpen": "Ver Índice de Conteúdos",
+    "tocMobileToggleClose": "Ocultar Índice de Conteúdos",
+    "sections": [
+      {
+        "id": "information-we-collect",
+        "number": "1",
+        "title": "Informações que Recolhemos",
+        "content": [
+          "Recolhemos informações que os visitantes facultam voluntariamente ao interagir com o nosso website, enviar pedidos de contacto ou comunicar com a nossa equipa.",
+          "Isto inclui informações prestadas através de:",
+          "Os dados pessoais recolhidos podem incluir nomes, endereços de email, números de telefone e detalhes de projetos quando aplicável para compreender e dar resposta ao seu pedido profissional."
+        ],
+        "bulletPoints": [
+          "Formulários de contacto no nosso website",
+          "Comunicações por email",
+          "Pedidos de contacto via WhatsApp",
+          "Consultas sobre projetos e contactos profissionais"
+        ]
+      },
+      {
+        "id": "how-we-use-your-information",
+        "number": "2",
+        "title": "Como Utilizamos as Suas Informações",
+        "content": [
+          "A informação recolhida é utilizada exclusivamente para fins operacionais e comerciais legítimos. Utilizamos as suas informações para:"
+        ],
+        "bulletPoints": [
+          "Dar resposta às suas questões e pedidos de consultoria",
+          "Fornecer os serviços e soluções digitais solicitados",
+          "Comunicar sobre projetos em curso ou futuros",
+          "Melhorar o funcionamento do website e a experiência do utilizador",
+          "Manter uma comunicação comercial clara e profissional"
+        ]
+      },
+      {
+        "id": "information-sharing",
+        "number": "3",
+        "title": "Partilha de Informação",
+        "content": [
+          "As informações pessoais não são vendidas, alugadas ou comercializadas a terceiros.",
+          "Podemos partilhar dados com parceiros de serviços de confiança (tais como fornecedores de alojamento web, plataformas de comunicação ou infraestrutura técnica) apenas na medida necessária para a prestação dos nossos serviços, ou quando legalmente exigido por lei, regulamento ou procedimento judicial aplicável."
+        ]
+      },
+      {
+        "id": "data-security",
+        "number": "4",
+        "title": "Segurança dos Dados",
+        "content": [
+          "Adotamos medidas razoáveis de natureza administrativa, técnica e física concebidas para proteger os seus dados pessoais contra acesso não autorizado, divulgação, alteração ou perda acidental.",
+          "No entanto, importa notar que nenhum método de transmissão pela Internet ou armazenamento eletrónico é totalmente infalível, pelo que não é possível conceder garantias absolutas de segurança."
+        ]
+      },
+      {
+        "id": "cookies-and-website-analytics",
+        "number": "5",
+        "title": "Cookies e Analítica Web",
+        "content": [
+          "O nosso website pode recorrer a cookies essenciais ou a tecnologias comuns de análise de acordo com a configuração real do website para assegurar o funcionamento fundamental do portal, reter preferências (como o idioma) e analisar padrões gerais de tráfego.",
+          "Não utilizamos tecnologias invasivas de rastreio nem cookies de publicidade de terceiros. Os visitantes podem configurar as opções do seu navegador para rejeitar cookies se assim preferirem, embora determinadas funcionalidades do website possam ser limitadas."
+        ]
+      },
+      {
+        "id": "third-party-links",
+        "number": "6",
+        "title": "Ligações a Terceiros",
+        "content": [
+          "O nosso website pode integrar ligações para websites, plataformas ou recursos externos geridos por terceiros (tais como perfis de redes sociais ou links de referência).",
+          "A Legacy IT não se responsabiliza pelas práticas de privacidade, conteúdos ou políticas de websites externos. Recomendamos aos visitantes a consulta das políticas de privacidade de quaisquer websites de terceiros que escolham visitar."
+        ]
+      },
+      {
+        "id": "your-privacy-rights",
+        "number": "7",
+        "title": "Os Seus Direitos de Privacidade",
+        "content": [
+          "Os visitantes têm o direito de solicitar o acesso, retificação ou eliminação dos seus dados pessoais conservados pela Legacy IT.",
+          "Para exercer estes direitos, entre em contacto connosco através dos dados disponibilizados abaixo. Trataremos os pedidos legítimos em conformidade com as leis aplicáveis e exigências contratuais ou estatutárias válidas."
+        ]
+      },
+      {
+        "id": "data-retention",
+        "number": "8",
+        "title": "Retenção de Dados",
+        "content": [
+          "Os dados pessoais são conservados unicamente pelo período estritamente necessário para cumprir as finalidades comerciais, de serviço ou legais para as quais foram recolhidos, ou conforme determinado pelas obrigações regulamentares e legais aplicáveis."
+        ]
+      },
+      {
+        "id": "childrens-privacy",
+        "number": "9",
+        "title": "Privacidade das Crianças",
+        "content": [
+          "O nosso website é direcionado a profissionais e empresas e não foi concebido para o público infantil.",
+          "A Legacy IT não recolhe deliberadamente informações de crianças sem o devido consentimento quando exigido por lei. Caso se verifique a recolha involuntária de dados de menores, adotaremos de imediato as providências adequadas para os eliminar."
+        ]
+      },
+      {
+        "id": "changes-to-this-privacy-policy",
+        "number": "10",
+        "title": "Alterações a Esta Política de Privacidade",
+        "content": [
+          "Esta Política de Privacidade pode ser atualizada periodicamente em virtude de melhorias nos serviços, evolução tecnológica ou alterações legais.",
+          "A versão mais atual desta política estará sempre publicada nesta página, indicando a data de 'Última Atualização' no topo a entrada em vigor das alterações."
+        ]
+      },
+      {
+        "id": "contact-us",
+        "number": "11",
+        "title": "Contacte-nos",
+        "content": [
+          "Se tiver qualquer dúvida ou questão relativa a esta Política de Privacidade ou ao tratamento dos seus dados, entre em contacto connosco:"
+        ],
+        "contactDetails": {
+          "company": "Legacy IT",
+          "email": "legacyit825@gmail.com",
+          "address": "Khumaltar-15, Lalitpur, Kantinagar Tole Marg"
+        }
+      }
+    ]
+  },
+  "termsPage": {
+    "seoTitle": "Termos e Condições",
+    "seoDescription": "Consulte os Termos e Condições que regem a utilização do website da Legacy IT e a contratação de serviços digitais.",
+    "eyebrow": "INFORMAÇÃO LEGAL",
+    "title": "Termos e Condições",
+    "intro": "Bem-vindo à Legacy IT. Ao aceder ou utilizar o nosso website, concorda em cumprir estes Termos e Condições. Leia-os atentamente antes de utilizar o nosso website ou contratar os nossos serviços.",
+    "lastUpdated": "Última Atualização: Novembro de 2026",
+    "tocTitle": "Índice de Conteúdos",
+    "tocMobileToggleOpen": "Ver Índice de Conteúdos",
+    "tocMobileToggleClose": "Ocultar Índice de Conteúdos",
+    "sections": [
+      {
+        "id": "acceptance-of-terms",
+        "number": "1",
+        "title": "Aceitação dos Termos",
+        "content": [
+          "Os visitantes que acedem ou utilizam este website concordam em ficar vinculados a estes Termos e Condições, sujeito à legislação aplicável.",
+          "Se não concordar com qualquer parte destes termos, deve cessar a utilização do website e dos serviços a ele associados."
+        ]
+      },
+      {
+        "id": "about-our-services",
+        "number": "2",
+        "title": "Sobre os Nossos Serviços",
+        "content": [
+          "A Legacy IT é uma empresa de soluções digitais que presta serviços profissionais de tecnologia e criatividade, incluindo:",
+          "Os entregáveis específicos de cada serviço, calendários de execução, preços e requisitos de projeto não são estipulados neste website, sendo acordados individualmente com cada cliente através de propostas ou contratos de projeto dedicados."
+        ],
+        "bulletPoints": [
+          "Design e Desenvolvimento de Websites",
+          "Desenvolvimento de Aplicações Móveis",
+          "Design Gráfico",
+          "Edição de Vídeo",
+          "Marketing Digital e SEO"
+        ]
+      },
+      {
+        "id": "use-of-website",
+        "number": "3",
+        "title": "Utilização do Website",
+        "content": [
+          "Espera-se que os visitantes utilizem o nosso website de forma responsável e exclusivamente para fins legais. Os visitantes não devem:"
+        ],
+        "bulletPoints": [
+          "Utilizar o website para fins ilegais ou em violação dos regulamentos aplicáveis",
+          "Tentar o acesso não autorizado aos nossos sistemas, servidores ou redes",
+          "Interromper, prejudicar ou interferir no funcionamento ou desempenho do website",
+          "Carregar ou distribuir conteúdo malicioso, vírus ou código informático prejudicial",
+          "Fazer uso indevido das informações, imagens ou recursos do website"
+        ]
+      },
+      {
+        "id": "intellectual-property",
+        "number": "4",
+        "title": "Propriedade Intelectual",
+        "content": [
+          "Todo o conteúdo do website, marcas, elementos gráficos, logótipos, textos e restantes materiais originais apresentados neste portal estão protegidos pelas leis de propriedade intelectual e direitos de autor aplicáveis.",
+          "A titularidade e os direitos de utilização respeitantes aos entregáveis específicos desenvolvidos no âmbito de serviços contratados serão determinados no respetivo contrato de projeto celebrado entre a Legacy IT e o cliente."
+        ]
+      },
+      {
+        "id": "project-agreements-and-payments",
+        "number": "5",
+        "title": "Acordos de Projeto e Pagamentos",
+        "content": [
+          "O âmbito de cada projeto, preços, planos de pagamento, prazos, revisões e condições de entrega serão acordados previamente por escrito com cada cliente antes do início dos trabalhos.",
+          "As condições comerciais, marcos de faturação e critérios de aceitação são definidos nas propostas individuais de serviço ou contratos de projeto, e não através dos termos gerais do website."
+        ]
+      },
+      {
+        "id": "client-responsibilities",
+        "number": "6",
+        "title": "Responsabilidades do Cliente",
+        "content": [
+          "Ao contratar os nossos serviços, os clientes são responsáveis por disponibilizar informações precisas do projeto, materiais necessários (como recursos de marca, textos e imagens), bem como validações e pareceres atempados essenciais à conclusão bem-sucedida do projeto."
+        ]
+      },
+      {
+        "id": "third-party-services",
+        "number": "7",
+        "title": "Serviços de Terceiros",
+        "content": [
+          "Determinados projetos ou funcionalidades do website podem envolver ou depender de plataformas de terceiros, fornecedores de alojamento, APIs, ferramentas de software ou outros serviços externos.",
+          "A Legacy IT não é responsável pelo funcionamento autónomo ou pelas políticas desses serviços externos, aplicando-se os respetivos termos e condições de cada fornecedor."
+        ]
+      },
+      {
+        "id": "limitation-of-liability",
+        "number": "8",
+        "title": "Limitação de Responsabilidade",
+        "content": [
+          "A Legacy IT disponibiliza este website 'tal como se encontra' e 'conforme disponível'. Não garantimos a disponibilidade ininterrupta do website, a ausência total de falhas menores ou resultados comerciais específicos resultantes da sua utilização.",
+          "Na extensão máxima permitida pela lei aplicável, a Legacy IT não será responsável por quaisquer danos indiretos, incidentais ou consequenciais decorrentes do seu acesso ou utilização do website."
+        ]
+      },
+      {
+        "id": "website-availability",
+        "number": "9",
+        "title": "Disponibilidade do Website",
+        "content": [
+          "A Legacy IT reserva-se o direito de atualizar, modificar, executar ações de manutenção ou suspender temporariamente o funcionamento do website quando tal se revelar necessário por motivos técnicos, de segurança ou operacionais."
+        ]
+      },
+      {
+        "id": "changes-to-these-terms",
+        "number": "10",
+        "title": "Alterações a Estes Termos",
+        "content": [
+          "Estes Termos e Condições podem ser atualizados periodicamente. A versão atualizada será publicada diretamente nesta página.",
+          "A utilização continuada do website após a publicação de atualizações aplicáveis ficará sujeita aos termos revistos na medida em que a lei o permita."
+        ]
+      },
+      {
+        "id": "governing-law",
+        "number": "11",
+        "title": "Lei Aplicável",
+        "content": [
+          "Estes Termos e Condições regem-se e são interpretados em conformidade com as leis do Nepal, com sujeição à legislação nepalesa aplicável e a quaisquer exigências legais obrigatórias."
+        ]
+      },
+      {
+        "id": "contact-information",
+        "number": "12",
+        "title": "Informações de Contacto",
+        "content": [
+          "Para esclarecimento de dúvidas ou questões relativas a estes Termos e Condições, contacte-nos:"
+        ],
+        "contactDetails": {
+          "company": "Legacy IT",
+          "email": "legacyit825@gmail.com",
+          "address": "Khumaltar-15, Lalitpur, Kantinagar Tole Marg"
+        }
+      }
+    ]
   }
-
-
-
 }

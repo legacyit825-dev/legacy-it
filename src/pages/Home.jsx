@@ -1,57 +1,20 @@
-
-import Header from '../components/Header'
-import Slider from '../components/slider'
-import web from '../assets/web.jpg'
-import software from '../assets/sofware.jpg'
-import graphic from '../assets/graphic.jpg'
-import digital from '../assets/digital.jpg'
-import { useTranslation } from 'react-i18next'
-import Background from '../components/Background'
-import ServiceSection from '../components/ServiceSection'
-import Footer from '../components/Footer'
+import React from "react";
+import Header from "../components/Header";
+import Hero from "../components/Hero";
+import ServiceSection from "../components/ServiceSection";
+import Background from "../components/Background";
+import Footer from "../components/Footer";
 
 const Home = () => {
-  const {t} = useTranslation()
-
   return (
-    < >
-      <Header/>  
-      <Slider/>
-      <ServiceSection
-        title={t("slides.webDevelopment")}
-        content={t("contents.webDevelopment")}
-        image={web}
-      />
-
-      <ServiceSection
-        title={t("slides.graphicDesign")}
-        content={t("contents.graphicDesign")}
-        image={graphic}
-        reverse
-      />
-
-      <ServiceSection
-        title={t("slides.digitalMarketing")}
-        content={t("contents.digitalMarketing")}
-        image={digital}
-      />
-
-      <ServiceSection
-        title={t("slides.softwareDevelopment")}
-        content={t("contents.softwareDevelopment")}
-        image={software}
-        reverse
-      />
-
-      <Background
-      title={t("slides.background")}
-      content={t("contents.background")}
-      />
-
-      <Footer/>
-      
+    <>
+      <Header />
+      <Hero />
+      <ServiceSection />
+      <Background />
+      <Footer />
     </>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
