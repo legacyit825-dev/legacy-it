@@ -133,17 +133,35 @@ const Contact_form = () => {
     setStatus("idle");
     setErrorMessage("");
 
-    const serviceId = "service_k483nh5";
-    const templateId = "template_jy8km0q";
-    const publicKey = "ENkb0BuA3FRhAL9Or";
+    const recipientEmail =
+      import.meta.env.VITE_CONTACT_EMAIL || "legacyit825@gmail.com";
+    const serviceId =
+      import.meta.env.VITE_EMAILJS_SERVICE_ID || "service_k483nh5";
+    const templateId =
+      import.meta.env.VITE_EMAILJS_TEMPLATE_ID || "template_jy8km0q";
+    const publicKey =
+      import.meta.env.VITE_EMAILJS_PUBLIC_KEY || "ENkb0BuA3FRhAL9Or";
 
     const formattedMessage = formData.phone.trim()
       ? `[Subject / Project Type: ${formData.subject}]\n[Phone: ${formData.phone.trim()}]\n\n${formData.message.trim()}`
       : `[Subject / Project Type: ${formData.subject}]\n\n${formData.message.trim()}`;
 
     const templateParams = {
+      // Primary recipient parameters (connects message directly to legacyit825@gmail.com)
+      to_email: recipientEmail,
+      recipient: recipientEmail,
+      to_name: "Legacy IT",
+
+      // Sender and reply-to configuration
+      from_name: formData.name.trim(),
+      from_email: formData.email.trim(),
+      reply_to: formData.email.trim(),
+
+      // Aliases matching any EmailJS template variable names
       name: formData.name.trim(),
       email: formData.email.trim(),
+      user_name: formData.name.trim(),
+      user_email: formData.email.trim(),
       phone: formData.phone.trim() || "Not provided",
       subject: formData.subject,
       message: formattedMessage,
@@ -264,7 +282,7 @@ const Contact_form = () => {
                 formAnim.inView ? "anim-visible" : ""
               }`}
             >
-              <div className="mb-8">
+              <div className="mb-6">
                 <h2 className="text-2xl sm:text-3xl font-bold text-white tracking-tight mb-2.5">
                   {t("contactPage.form.heading", "Tell Us About Your Project.")}
                 </h2>
@@ -274,6 +292,26 @@ const Contact_form = () => {
                     "Share your ideas with us, and our team will get back to you as soon as possible."
                   )}
                 </p>
+              </div>
+
+              {/* Delivery Connection Indicator */}
+              <div className="mb-6 flex flex-wrap items-center justify-between gap-3 p-3 sm:px-4 rounded-xl bg-white/[0.02] border border-white/[0.06] text-xs">
+                <div className="flex items-center gap-2 text-slate-300">
+                  <span className="w-2 h-2 rounded-full bg-emerald-400 shadow-[0_0_8px_#34d399] animate-pulse" />
+                  <span>
+                    {t("contactPage.form.deliveryNotice", "Messages connected to:")}{" "}
+                    <strong className="text-cyan-300 font-mono font-medium">
+                      legacyit825@gmail.com
+                    </strong>
+                  </span>
+                </div>
+                <a
+                  href="mailto:legacyit825@gmail.com"
+                  className="text-slate-400 hover:text-cyan-400 transition-colors inline-flex items-center gap-1.5 font-medium"
+                >
+                  <LuMail className="w-3.5 h-3.5 text-cyan-400" />
+                  <span>Direct Mail</span>
+                </a>
               </div>
 
               {/* Status Notifications */}
@@ -287,7 +325,7 @@ const Contact_form = () => {
                     <p className="text-xs sm:text-sm text-emerald-300/90 mt-1 leading-relaxed">
                       {t(
                         "contactPage.form.successDesc",
-                        "Thank you for reaching out. The Legacy IT team will get back to you as soon as possible."
+                        "Thank you for reaching out. Your message has been routed to legacyit825@gmail.com and our team will respond shortly."
                       )}
                     </p>
                   </div>
@@ -297,17 +335,73 @@ const Contact_form = () => {
               {status === "error" && (
                 <div className="mb-6 rounded-2xl bg-rose-950/40 border border-rose-500/40 p-5 text-rose-300 flex items-start gap-3.5 shadow-[0_0_25px_rgba(244,63,94,0.12)]">
                   <LuCircleAlert className="w-5 h-5 flex-shrink-0 mt-0.5 text-rose-400" />
-                  <div>
+                  <div className="flex-1 min-w-0">
                     <p className="font-semibold text-sm sm:text-base text-white">
-                      {t("contactPage.form.errorTitle", "Message Delivery Failed")}
+                      {errorMessage?.toLowerCase().includes("invalid grant")
+                        ? t(
+                            "contactPage.form.invalidGrantTitle",
+                            "Gmail Reconnection Required in EmailJS"
+                          )
+                        : t("contactPage.form.errorTitle", "Message Delivery Notice")}
                     </p>
-                    <p className="text-xs sm:text-sm text-rose-300/90 mt-1 leading-relaxed">
-                      {errorMessage ||
-                        t(
-                          "contactPage.form.errorDesc",
-                          "Something went wrong while sending your message. Please try again or email us directly at legacyit825@gmail.com."
-                        )}
-                    </p>
+
+                    {errorMessage?.toLowerCase().includes("invalid grant") ? (
+                      <div className="text-xs sm:text-sm text-rose-200/90 mt-1.5 leading-relaxed space-y-2">
+                        <p>
+                          Google revoked or expired the OAuth authorization for your EmailJS Gmail service.
+                        </p>
+                        <div className="p-3 rounded-lg bg-black/40 border border-rose-500/30 text-xs font-mono text-slate-300">
+                          <strong>Fix:</strong> Open{" "}
+                          <a
+                            href="https://dashboard.emailjs.com/admin"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-cyan-400 underline underline-offset-2"
+                          >
+                            dashboard.emailjs.com
+                          </a>{" "}
+                          &rarr; <strong>Email Services</strong> &rarr; Click{" "}
+                          <strong>service_k483nh5</strong> &rarr; Click{" "}
+                          <strong>Reconnect Account</strong> &rarr; Sign in with{" "}
+                          <strong>legacyit825@gmail.com</strong>.
+                        </div>
+                      </div>
+                    ) : (
+                      <p className="text-xs sm:text-sm text-rose-300/90 mt-1 leading-relaxed">
+                        {errorMessage ||
+                          t(
+                            "contactPage.form.errorDesc",
+                            "Something went wrong while sending your message. Please try again or email us directly at legacyit825@gmail.com."
+                          )}
+                      </p>
+                    )}
+
+                    {/* Direct Fallback Buttons */}
+                    <div className="mt-4 flex flex-wrap items-center gap-2.5">
+                      <a
+                        href={`https://mail.google.com/mail/?view=cm&fs=1&to=legacyit825@gmail.com&su=${encodeURIComponent(
+                          `[${formData.subject || "Project Inquiry"}] from ${formData.name || "Client"}`
+                        )}&body=${encodeURIComponent(
+                          `From: ${formData.name}\nEmail: ${formData.email}\nPhone: ${formData.phone || "Not provided"}\nSubject: ${formData.subject}\n\nMessage:\n${formData.message}`
+                        )}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-2 px-3.5 py-2 rounded-xl text-xs font-semibold bg-cyan-400 hover:bg-cyan-300 text-slate-950 transition-all cursor-pointer shadow-md font-sans"
+                      >
+                        <LuMail className="w-3.5 h-3.5" />
+                        <span>Send via Gmail Web &rarr;</span>
+                      </a>
+                      <a
+                        href={`mailto:legacyit825@gmail.com?subject=${encodeURIComponent(
+                          `[${formData.subject || "Project Inquiry"}] from ${formData.name || "Client"}`
+                        )}&body=${encodeURIComponent(
+                          `From: ${formData.name}\nEmail: ${formData.email}\nPhone: ${formData.phone || "Not provided"}\nSubject: ${formData.subject}\n\nMessage:\n${formData.message}`
+                        )}`}
+                        className="inline-flex items-center gap-2 px-3.5 py-2 rounded-xl text-xs font-semibold bg-white/10 hover:bg-white/20 text-white border border-white/15 transition-all cursor-pointer font-sans"
+                      >
+                        <span>Open in Mail App</span>
+                      </a>
+                    </div>
                   </div>
                 </div>
               )}
@@ -646,7 +740,8 @@ const Contact_form = () => {
                   </a>
                 </div>
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d522.4928740420505!2d85.31922862238767!3d27.64477117012532!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2snp!4v1765950577986!5m2!1sen!2snp"
+                  // src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d220.89636766726107!2d85.3195798013037!3d27.644892304185593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb177105e38bb7%3A0x5656c4bbc2f2d498!2s15%20Kantinagar%20Tole%20Marg%2C%20Lalitpur%2C%20Bagmati%20Province%2044700!5e0!3m2!1sen!2snp!4v1794462375333!5m2!1sen!2snp"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d220.89636766726107!2d85.3195798013037!3d27.644892304185593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb177105e38bb7%3A0x5656c4bbc2f2d498!2s15%20Kantinagar%20Tole%20Marg%2C%20Lalitpur%2C%20Bagmati%20Province%2044700!5e0!3m2!1sen!2snp!4v1794462554103!5m2!1sen!2snp"
                   title="Legacy IT Headquarters"
                   className="w-full h-44 sm:h-48 border-0 filter grayscale invert contrast-125 opacity-75 group-hover:opacity-100 group-hover:filter-none transition-all duration-500"
                   loading="lazy"
