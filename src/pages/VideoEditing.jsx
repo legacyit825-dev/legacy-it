@@ -76,7 +76,7 @@ export default function VideoEditing() {
               <LuFilm className="w-3.5 h-3.5" />
               SEQUENCE 01 — 4K UHD (3840x2160)
             </span>
-            <span className="text-emerald-400">00:01:24:18 // 24 FPS</span>
+            <span className="text-emerald-400">Master Sequence // 4K Timeline</span>
           </div>
 
           <div className="h-32 sm:h-36 rounded-lg bg-[#060812] border border-white/[0.06] flex items-center justify-center relative overflow-hidden group">
@@ -91,7 +91,7 @@ export default function VideoEditing() {
                 Turn Ideas Into Videos Worth Watching
               </p>
               <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-cyan-400/20 border border-cyan-400/40 text-cyan-300 text-[10px] font-bold mt-2">
-                <LuPlay className="w-2.5 h-2.5 fill-current" /> 4K ProRes 422 Master
+                <LuPlay className="w-2.5 h-2.5 fill-current" /> 4K ProRes Master
               </span>
             </div>
           </div>
@@ -120,7 +120,7 @@ export default function VideoEditing() {
             <div className="flex items-center gap-2 text-xs">
               <span className="w-8 font-mono text-[10px] text-slate-500">A1</span>
               <div className="flex-1 h-6 rounded bg-emerald-950/40 border border-emerald-500/30 flex items-center px-2 text-[10px] font-mono text-emerald-300">
-                [Studio Voiceover - Denoised & Normalized -14 LUFS]
+                [Studio Voiceover - Denoised & Level Balanced]
               </div>
             </div>
 
@@ -192,16 +192,16 @@ export default function VideoEditing() {
       label: t("serviceDetails.videoEditing.highlights.0.label", "Master Resolution"),
     },
     {
-      value: "3-Sec Hook",
-      label: t("serviceDetails.videoEditing.highlights.1.label", "Retention Engineering"),
+      value: "Engaging",
+      label: t("serviceDetails.videoEditing.highlights.1.label", "Audience Retention"),
     },
     {
-      value: "Rec.709",
-      label: t("serviceDetails.videoEditing.highlights.2.label", "Color Grading"),
+      value: "Color-Grade",
+      label: t("serviceDetails.videoEditing.highlights.2.label", "Visual Tone & LUTs"),
     },
     {
-      value: "24-48h",
-      label: t("serviceDetails.videoEditing.highlights.3.label", "Shorts & Reels Delivery"),
+      value: "Prompt",
+      label: t("serviceDetails.videoEditing.highlights.3.label", "Project Turnaround"),
     },
   ];
 

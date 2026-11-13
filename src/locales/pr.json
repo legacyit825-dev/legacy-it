@@ -545,20 +545,20 @@
       "description": "Criamos websites modernos, responsivos e de alto desempenho que ajudam as empresas a estabelecer a sua presença digital, conectar-se com clientes e crescer online.",
       "highlights": [
         {
-          "value": "<0.8s",
-          "label": "Velocidade Média de Carregamento"
+          "value": "Moderna",
+          "label": "Arquitetura Técnica"
         },
         {
-          "value": "100%",
+          "value": "Adaptável",
           "label": "Layouts Responsivos"
         },
         {
-          "value": "99+",
-          "label": "Pontuações Lighthouse"
+          "value": "SEO-Ready",
+          "label": "Otimização para Motores de Busca"
         },
         {
-          "value": "24/7",
-          "label": "Confiabilidade da Arquitetura"
+          "value": "Segura",
+          "label": "Padrões da Indústria"
         }
       ],
       "overviewHeading": "Websites Criados Para um Impacto Real nos Negócios, Não Apenas Estética.",
@@ -719,20 +719,20 @@
       "description": "Desenvolvemos aplicações móveis modernas que ajudam as empresas a conectar-se com clientes através de experiências digitais intuitivas, confiáveis e envolventes.",
       "highlights": [
         {
-          "value": "iOS + Android",
+          "value": "iOS e Android",
           "label": "Ecossistemas Duplos"
         },
         {
-          "value": "60 FPS",
-          "label": "Fluidez Nativa"
+          "value": "Fluida",
+          "label": "Interações Nativas"
         },
         {
-          "value": "Offline-First",
+          "value": "Offline-Ready",
           "label": "Cache de Dados Local"
         },
         {
-          "value": "100%",
-          "label": "Histórico de Aprovação nas Lojas"
+          "value": "Publicação",
+          "label": "App Store e Google Play"
         }
       ],
       "overviewHeading": "Aplicações Móveis que Mantêm a Sua Marca no Bolso de Cada Cliente.",
@@ -768,7 +768,7 @@
           "description": "Lançamento em iOS e Android em simultâneo a partir de uma base de código unificada com React Native, reduzindo tempo e investimento para metade.",
           "features": [
             "Eficiência com Código-Fonte Partilhado",
-            "Renderização Nativa a 60 FPS Sem Quebras",
+            "Renderização Nativa Fluida Sem Quebras",
             "Lançamento Simultâneo de Novas Funcionalidades",
             "Manutenção e Evolução Simplificadas"
           ]
@@ -809,7 +809,7 @@
         {
           "number": "01",
           "title": "Fluidez e Resposta Instantânea",
-          "description": "Focamo-nos numa experiência sólida a 60 frames por segundo, reação ao toque sem atraso e consumo comedido de memória."
+          "description": "Focamo-nos numa experiência sólida e fluida, reação ao toque sem atraso e consumo comedido de memória."
         },
         {
           "number": "02",
@@ -887,8 +887,8 @@
           "label": "Precisão de Impressão"
         },
         {
-          "value": "100%",
-          "label": "Escalabilidade Vetorial"
+          "value": "Vetorial",
+          "label": "Ficheiros Vetoriais Escaláveis"
         },
         {
           "value": "Total",
@@ -1071,16 +1071,16 @@
           "label": "Resolução Master"
         },
         {
-          "value": "3 Seg",
-          "label": "Engenharia de Retenção"
+          "value": "Envolvente",
+          "label": "Retenção de Audiência"
         },
         {
-          "value": "Rec.709",
-          "label": "Gradação de Cor"
+          "value": "Cor",
+          "label": "Gradação de Cor e LUTs"
         },
         {
-          "value": "24-48h",
-          "label": "Entrega de Reels e Shorts"
+          "value": "Pontual",
+          "label": "Prazo de Entrega Dedicado"
         }
       ],
       "overviewHeading": "Vídeos Projetados para Reter a Atenção e Maximizar o Tempo de Visualização.",
@@ -1261,20 +1261,20 @@
       "description": "Ajudamos as empresas a consolidar a sua presença digital, alcançar o público certo e construir relações valiosas através de marketing digital e SEO.",
       "highlights": [
         {
-          "value": "+248%",
-          "label": "Aumento Médio de Tráfego"
+          "value": "Orgânico",
+          "label": "SEO Sustentável"
         },
         {
-          "value": "Pág 1",
-          "label": "Rankings na 1ª Página"
+          "value": "Segmentado",
+          "label": "Alcance de Audiência"
         },
         {
-          "value": "4.8x",
-          "label": "ROAS Médio de Anúncios"
+          "value": "Foco no ROI",
+          "label": "Estratégia de Campanhas"
         },
         {
-          "value": "100%",
-          "label": "Técnicas 100% White-Hat"
+          "value": "White-Hat",
+          "label": "Boas Práticas Éticas"
         }
       ],
       "overviewHeading": "Marketing de Crescimento Baseado em Dados, Posicionamento e Receita Real.",

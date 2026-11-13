@@ -20,7 +20,7 @@ import {
 
 export default function WebDevelopment() {
   const { t } = useTranslation();
-  const [activeTab, setActiveTab] = useState("preview"); // 'preview' | 'code' | 'lighthouse'
+  const [activeTab, setActiveTab] = useState("preview"); // 'preview' | 'code'
 
   const webVisual = (
     <div className="relative rounded-2xl border border-white/10 bg-[#0c1020]/90 backdrop-blur-xl shadow-[0_20px_50px_rgba(0,0,0,0.6)] overflow-hidden">
@@ -48,16 +48,6 @@ export default function WebDevelopment() {
             Live Preview
           </button>
           <button
-            onClick={() => setActiveTab("lighthouse")}
-            className={`px-2.5 py-1 text-xs rounded font-medium transition-all cursor-pointer ${
-              activeTab === "lighthouse"
-                ? "bg-cyan-500/20 text-cyan-300 border border-cyan-500/30"
-                : "text-slate-400 hover:text-white"
-            }`}
-          >
-            Lighthouse
-          </button>
-          <button
             onClick={() => setActiveTab("code")}
             className={`px-2.5 py-1 text-xs rounded font-medium transition-all cursor-pointer ${
               activeTab === "code"
@@ -83,7 +73,7 @@ export default function WebDevelopment() {
                 </span>
               </div>
               <span className="text-[11px] font-mono text-emerald-400 bg-emerald-950/60 border border-emerald-500/20 px-2 py-0.5 rounded-full">
-                ● 99.98% Uptime
+                ● Production Ready
               </span>
             </div>
 
@@ -97,7 +87,7 @@ export default function WebDevelopment() {
                 Scalable Digital Experiences for Growing Businesses
               </h4>
               <p className="text-xs text-slate-400 mb-4 line-clamp-2">
-                Ultra-fast loading, conversion-optimized interfaces engineered with modern React & Next.js frameworks.
+                Modern, conversion-optimized interfaces engineered with robust React & Next.js frameworks.
               </p>
 
               <div className="flex items-center gap-3">
@@ -105,7 +95,7 @@ export default function WebDevelopment() {
                   Explore Platform
                 </span>
                 <span className="text-xs font-mono text-slate-400">
-                  ⚡ 0.6s FCP Metric
+                  ⚡ Modern Frameworks
                 </span>
               </div>
             </div>
@@ -113,54 +103,18 @@ export default function WebDevelopment() {
             {/* Metric pill bar */}
             <div className="grid grid-cols-3 gap-2.5 pt-1 text-center">
               <div className="p-2 rounded-lg bg-white/[0.02] border border-white/[0.06]">
-                <span className="text-[10px] font-mono text-slate-400 block">FIRST CONTENTFUL</span>
-                <span className="text-xs font-bold text-emerald-400 font-mono">0.6s (Good)</span>
+                <span className="text-[10px] font-mono text-slate-400 block">RESPONSIVE</span>
+                <span className="text-xs font-bold text-emerald-400 font-mono">Mobile-First</span>
               </div>
               <div className="p-2 rounded-lg bg-white/[0.02] border border-white/[0.06]">
-                <span className="text-[10px] font-mono text-slate-400 block">SEO VISIBILITY</span>
-                <span className="text-xs font-bold text-cyan-400 font-mono">100/100</span>
+                <span className="text-[10px] font-mono text-slate-400 block">SEO READY</span>
+                <span className="text-xs font-bold text-cyan-400 font-mono">Structured Data</span>
               </div>
               <div className="p-2 rounded-lg bg-white/[0.02] border border-white/[0.06]">
                 <span className="text-[10px] font-mono text-slate-400 block">SECURITY</span>
-                <span className="text-xs font-bold text-sky-400 font-mono">SSL A+ Grade</span>
+                <span className="text-xs font-bold text-sky-400 font-mono">SSL & Best Practices</span>
               </div>
             </div>
-          </div>
-        )}
-
-        {activeTab === "lighthouse" && (
-          <div className="space-y-4 py-2">
-            <div className="flex items-center justify-between pb-2 border-b border-white/[0.06]">
-              <span className="text-xs font-mono text-slate-400 uppercase tracking-wider">
-                Google Lighthouse Performance Audit
-              </span>
-              <span className="text-xs font-mono text-emerald-400">PASSED ALL CORE VITALS</span>
-            </div>
-
-            <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 py-3">
-              {[
-                { name: "Performance", score: 99, color: "text-emerald-400" },
-                { name: "Accessibility", score: 100, color: "text-emerald-400" },
-                { name: "Best Practices", score: 100, color: "text-emerald-400" },
-                { name: "SEO Audit", score: 100, color: "text-emerald-400" },
-              ].map((metric, idx) => (
-                <div
-                  key={idx}
-                  className="flex flex-col items-center p-3 rounded-xl bg-white/[0.03] border border-white/[0.08]"
-                >
-                  <div className="w-14 h-14 rounded-full border-4 border-emerald-500/80 flex items-center justify-center font-bold text-lg text-white mb-2 shadow-[0_0_15px_rgba(16,185,129,0.2)]">
-                    {metric.score}
-                  </div>
-                  <span className="text-xs font-medium text-slate-300 text-center">
-                    {metric.name}
-                  </span>
-                </div>
-              ))}
-            </div>
-
-            <p className="text-xs text-slate-400 text-center">
-              Clean semantic markup and modern asset compression ensure top search engine indexing.
-            </p>
           </div>
         )}
 
@@ -181,8 +135,8 @@ export default function WebDevelopment() {
             </p>
             <p className="pl-8 text-cyan-300">
               &lt;<span className="text-emerald-400">WebEngine</span>{" "}
-              <span className="text-sky-300">speed</span>="sub-second"{" "}
-              <span className="text-sky-300">security</span>="A+" /&gt;
+              <span className="text-sky-300">mode</span>="production"{" "}
+              <span className="text-sky-300">security</span>="standard" /&gt;
             </p>
             <p className="pl-4">);</p>
             <p>&#125;</p>
@@ -194,20 +148,20 @@ export default function WebDevelopment() {
 
   const heroHighlights = [
     {
-      value: "<0.8s",
-      label: t("serviceDetails.webDevelopment.highlights.0.label", "Average Load Speed"),
+      value: "Modern",
+      label: t("serviceDetails.webDevelopment.highlights.0.label", "Tech Architecture"),
     },
     {
-      value: "100%",
+      value: "Adaptive",
       label: t("serviceDetails.webDevelopment.highlights.1.label", "Responsive Layouts"),
     },
     {
-      value: "99+",
-      label: t("serviceDetails.webDevelopment.highlights.2.label", "Lighthouse Scores"),
+      value: "SEO-Ready",
+      label: t("serviceDetails.webDevelopment.highlights.2.label", "Search Optimization"),
     },
     {
-      value: "24/7",
-      label: t("serviceDetails.webDevelopment.highlights.3.label", "Architecture Reliability"),
+      value: "Secure",
+      label: t("serviceDetails.webDevelopment.highlights.3.label", "Industry Standards"),
     },
   ];
 
@@ -426,11 +380,11 @@ export default function WebDevelopment() {
       icon: LuZap,
       title: t(
         "serviceDetails.webDevelopment.whyReasons.0.title",
-        "Speed & Performance Obsessed"
+        "Performance & Optimization Focus"
       ),
       description: t(
         "serviceDetails.webDevelopment.whyReasons.0.description",
-        "We build lightweight websites that load in under a second, directly improving conversion rates and search rankings."
+        "We build lightweight, well-structured websites optimized for smooth loading, strong user experience, and search engine readiness."
       ),
     },
     {
@@ -442,7 +396,7 @@ export default function WebDevelopment() {
       ),
       description: t(
         "serviceDetails.webDevelopment.whyReasons.1.description",
-        "Over 65% of web traffic originates on mobile devices. We design and test on real phones before touching desktop screens."
+        "With the majority of web traffic originating on mobile devices, we design and test carefully across all screen sizes."
       ),
     },
     {
@@ -528,7 +482,7 @@ export default function WebDevelopment() {
       ),
       answer: t(
         "serviceDetails.webDevelopment.faqs.1.answer",
-        "Yes, 100%. Every website we build is fully responsive across all screen dimensions and includes semantic SEO foundations, meta tags, OpenGraph previews, XML sitemaps, and Core Web Vitals optimization."
+        "Yes, absolutely. Every website we build is fully responsive across all screen dimensions and includes semantic SEO foundations, meta tags, OpenGraph previews, XML sitemaps, and Core Web Vitals optimization."
       ),
     },
     {
@@ -548,7 +502,7 @@ export default function WebDevelopment() {
       ),
       answer: t(
         "serviceDetails.webDevelopment.faqs.3.answer",
-        "We prioritize modern, robust stacks including React, Next.js, Node.js, Tailwind CSS, and scalable cloud hosting platforms like Vercel and AWS, ensuring maximum security, blistering speed, and effortless scaling."
+        "We prioritize modern, robust stacks including React, Next.js, Node.js, Tailwind CSS, and scalable cloud hosting platforms like Vercel and AWS, ensuring high security, reliable performance, and effortless scaling."
       ),
     },
     {
@@ -558,7 +512,7 @@ export default function WebDevelopment() {
       ),
       answer: t(
         "serviceDetails.webDevelopment.faqs.4.answer",
-        "Yes. We offer flexible ongoing maintenance plans covering continuous security updates, cloud backups, speed audits, uptime monitoring, and priority technical assistance."
+        "Yes. We offer flexible ongoing maintenance plans covering continuous security updates, cloud backups, performance audits, uptime monitoring, and priority technical assistance."
       ),
     },
   ];

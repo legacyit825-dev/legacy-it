@@ -125,7 +125,7 @@ export default function ServiceDetailLayout({
   const processAnim = useScrollAnimation(0.08);
   const faqAnim = useScrollAnimation(0.08);
   const ctaAnim = useScrollAnimation(0.1);
-
+  
   return (
     <div className="w-full bg-[#070913] text-white min-h-screen overflow-hidden">
       <Header />

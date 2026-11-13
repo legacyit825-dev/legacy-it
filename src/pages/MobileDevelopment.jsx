@@ -102,19 +102,19 @@ export default function MobileDevelopment() {
                   </div>
                 </div>
 
-                {/* Quick Action Tiles */}
+                {/* Status Indicator Tiles */}
                 <div className="grid grid-cols-2 gap-2 text-xs">
                   <div className="p-3 rounded-xl bg-white/[0.03] border border-white/[0.06] flex flex-col justify-between h-20">
                     <span className="text-[10px] text-slate-400 uppercase font-mono">
-                      Orders Today
+                      Cloud Sync
                     </span>
-                    <span className="text-lg font-bold text-white">128</span>
+                    <span className="text-sm font-bold text-white">Active</span>
                   </div>
                   <div className="p-3 rounded-xl bg-white/[0.03] border border-white/[0.06] flex flex-col justify-between h-20">
                     <span className="text-[10px] text-slate-400 uppercase font-mono">
-                      Active Users
+                      Network Mode
                     </span>
-                    <span className="text-lg font-bold text-cyan-400">2,410</span>
+                    <span className="text-sm font-bold text-cyan-400">Offline & Online</span>
                   </div>
                 </div>
 
@@ -142,7 +142,7 @@ export default function MobileDevelopment() {
                   </div>
                   <div className="p-3 rounded-xl bg-white/[0.03] border border-white/[0.06] flex items-center justify-between text-xs">
                     <span className="text-slate-300">Camera / QR Scanner</span>
-                    <span className="text-emerald-400 font-mono font-bold">60 FPS</span>
+                    <span className="text-emerald-400 font-mono font-bold">READY</span>
                   </div>
                   <div className="p-3 rounded-xl bg-white/[0.03] border border-white/[0.06] flex items-center justify-between text-xs">
                     <span className="text-slate-300">Haptic Feedback</span>
@@ -152,7 +152,7 @@ export default function MobileDevelopment() {
 
                 <div className="p-2.5 rounded-lg bg-cyan-950/30 border border-cyan-500/20 text-center">
                   <span className="text-xs font-bold text-cyan-300">
-                    100% Native API Interfacing
+                    Native API Interfacing
                   </span>
                 </div>
               </>
@@ -178,20 +178,20 @@ export default function MobileDevelopment() {
 
   const heroHighlights = [
     {
-      value: "iOS + Android",
+      value: "iOS & Android",
       label: t("serviceDetails.mobileDevelopment.highlights.0.label", "Dual Ecosystems"),
     },
     {
-      value: "60 FPS",
-      label: t("serviceDetails.mobileDevelopment.highlights.1.label", "Native Smoothness"),
+      value: "Fluid",
+      label: t("serviceDetails.mobileDevelopment.highlights.1.label", "Native Interactions"),
     },
     {
-      value: "Offline-First",
+      value: "Offline-Ready",
       label: t("serviceDetails.mobileDevelopment.highlights.2.label", "Local Data Caching"),
     },
     {
-      value: "100%",
-      label: t("serviceDetails.mobileDevelopment.highlights.3.label", "Store Approval Track"),
+      value: "Store-Ready",
+      label: t("serviceDetails.mobileDevelopment.highlights.3.label", "App Store & Play Store"),
     },
   ];
 
@@ -286,7 +286,7 @@ export default function MobileDevelopment() {
         ),
         t(
           "serviceDetails.mobileDevelopment.deliverables.2.features.1",
-          "Native 60 FPS UI Rendering"
+          "Fluid Native UI Rendering"
         ),
         t(
           "serviceDetails.mobileDevelopment.deliverables.2.features.2",
@@ -397,7 +397,7 @@ export default function MobileDevelopment() {
       ),
       description: t(
         "serviceDetails.mobileDevelopment.whyReasons.0.description",
-        "We prioritize buttery-smooth 60 frames-per-second navigation, instant touch response, and lightweight memory consumption."
+        "We prioritize smooth navigation, responsive touch interactions, and optimized memory consumption."
       ),
     },
     {

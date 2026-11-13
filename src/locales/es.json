@@ -547,20 +547,20 @@
       "description": "Creamos sitios web modernos, adaptables y de alto rendimiento que ayudan a las empresas a consolidar su presencia digital, conectar con sus clientes y crecer en línea.",
       "highlights": [
         {
-          "value": "<0.8s",
-          "label": "Velocidad de Carga Media"
+          "value": "Moderna",
+          "label": "Arquitectura Técnica"
         },
         {
-          "value": "100%",
-          "label": "Diseños Adaptables"
+          "value": "Adaptable",
+          "label": "Diseños Responsivos"
         },
         {
-          "value": "99+",
-          "label": "Puntuaciones Lighthouse"
+          "value": "SEO-Ready",
+          "label": "Optimización Web"
         },
         {
-          "value": "24/7",
-          "label": "Fiabilidad de Arquitectura"
+          "value": "Segura",
+          "label": "Estándares del Sector"
         }
       ],
       "overviewHeading": "Sitios Web Creados Para un Impacto Comercial Real, No Solo Estética.",
@@ -721,20 +721,20 @@
       "description": "Desarrollamos aplicaciones móviles modernas que ayudan a las empresas a conectar con sus clientes mediante experiencias digitales intuitivas, fiables y atractivas.",
       "highlights": [
         {
-          "value": "iOS + Android",
+          "value": "iOS y Android",
           "label": "Ecosistemas Duales"
         },
         {
-          "value": "60 FPS",
-          "label": "Fluidez Nativa"
+          "value": "Fluida",
+          "label": "Interacciones Nativas"
         },
         {
-          "value": "Offline-First",
+          "value": "Offline-Ready",
           "label": "Caché de Datos Local"
         },
         {
-          "value": "100%",
-          "label": "Tasa de Aprobación en Tiendas"
+          "value": "Publicación",
+          "label": "App Store y Play Store"
         }
       ],
       "overviewHeading": "Aplicaciones Móviles que Mantienen su Marca en el Bolsillo de Cada Cliente.",
@@ -770,7 +770,7 @@
           "description": "Lanzamiento simultáneo en iOS y Android a partir de un código base unificado con React Native, reduciendo costes y tiempos de desarrollo a la mitad.",
           "features": [
             "Máxima Eficiencia con Base de Código Compartida",
-            "Renderizado Nativo a 60 FPS",
+            "Renderizado Nativo Fluido",
             "Lanzamiento de Funcionalidades al Mismo Tiempo",
             "Mantenimiento Técnico Simplificado"
           ]
@@ -811,7 +811,7 @@
         {
           "number": "01",
           "title": "Fluidez y Respuesta Inmediata",
-          "description": "Priorizamos una navegación constante a 60 fotogramas por segundo, respuesta táctil instantánea y consumo reducido de memoria."
+          "description": "Priorizamos una navegación fluida, respuesta táctil instantánea y consumo reducido de memoria."
         },
         {
           "number": "02",
@@ -889,8 +889,8 @@
           "label": "Precisión de Impresión"
         },
         {
-          "value": "100%",
-          "label": "Escalabilidad Vectorial"
+          "value": "Vector",
+          "label": "Recursos Vectoriales"
         },
         {
           "value": "Total",
@@ -1073,16 +1073,16 @@
           "label": "Resolución Máster"
         },
         {
-          "value": "3 Seg",
-          "label": "Gancho de Retención"
+          "value": "Atractivo",
+          "label": "Retención de Audiencia"
         },
         {
-          "value": "Rec.709",
-          "label": "Etalonaje y Color"
+          "value": "Color",
+          "label": "Etalonaje y LUTs"
         },
         {
-          "value": "24-48h",
-          "label": "Entrega de Reels y Shorts"
+          "value": "Ágil",
+          "label": "Entrega Puntual"
         }
       ],
       "overviewHeading": "Vídeos Diseñados para Detener el Desplazamiento y Maximizar el Tiempo de Visualización.",
@@ -1263,20 +1263,20 @@
       "description": "Ayudamos a las empresas a fortalecer su presencia en línea, llegar a la audiencia idónea y construir relaciones valiosas mediante marketing digital y SEO.",
       "highlights": [
         {
-          "value": "+248%",
-          "label": "Aumento Medio de Tráfico"
+          "value": "Orgánico",
+          "label": "SEO Sostenible"
         },
         {
-          "value": "Pág 1",
-          "label": "Posiciones en Primera Página"
+          "value": "Segmentado",
+          "label": "Alcance de Audiencia"
         },
         {
-          "value": "4.8x",
-          "label": "ROAS Medio Publicitario"
+          "value": "Orientado a ROI",
+          "label": "Estrategia Publicitaria"
         },
         {
-          "value": "100%",
-          "label": "Técnicas White-Hat Éticas"
+          "value": "White-Hat",
+          "label": "Buenas Prácticas Éticas"
         }
       ],
       "overviewHeading": "Márketing de Crecimiento Basado en Datos, Posicionamiento e Ingresos Reales.",

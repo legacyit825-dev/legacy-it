@@ -69,41 +69,41 @@ export default function DigitalMarketing() {
 
       {/* Main Interactive Metric Board */}
       <div className="space-y-4 min-h-[340px] flex flex-col justify-center">
-        {/* KPI Scorecards */}
+        {/* KPI Strategic Overview */}
         <div className="grid grid-cols-3 gap-3">
           <div className="p-3.5 rounded-xl bg-white/[0.03] border border-white/[0.06]">
             <span className="text-[10px] font-mono text-slate-400 uppercase block">
-              Organic Sessions
+              Organic Discovery
             </span>
-            <span className="text-lg sm:text-xl font-black text-white mt-0.5 block">
-              48,290
+            <span className="text-sm sm:text-base font-bold text-white mt-1 block">
+              SEO Foundations
             </span>
-            <span className="text-[10px] font-bold text-emerald-400 flex items-center gap-0.5 mt-1">
-              ↑ +248.6% YoY
-            </span>
-          </div>
-
-          <div className="p-3.5 rounded-xl bg-white/[0.03] border border-white/[0.06]">
-            <span className="text-[10px] font-mono text-slate-400 uppercase block">
-              Avg. Conversion
-            </span>
-            <span className="text-lg sm:text-xl font-black text-white mt-0.5 block">
-              4.62%
-            </span>
-            <span className="text-[10px] font-bold text-cyan-400 flex items-center gap-0.5 mt-1">
-              ↑ High Intent
+            <span className="text-[10px] font-medium text-emerald-400 flex items-center gap-0.5 mt-1">
+              Structured Optimization
             </span>
           </div>
 
           <div className="p-3.5 rounded-xl bg-white/[0.03] border border-white/[0.06]">
             <span className="text-[10px] font-mono text-slate-400 uppercase block">
-              Top 3 Rankings
+              Conversion Intent
             </span>
-            <span className="text-lg sm:text-xl font-black text-white mt-0.5 block">
-              142 Keywords
+            <span className="text-sm sm:text-base font-bold text-white mt-1 block">
+              Qualified Traffic
             </span>
-            <span className="text-[10px] font-bold text-purple-400 flex items-center gap-0.5 mt-1">
-              ↑ Page 1 Dominance
+            <span className="text-[10px] font-medium text-cyan-400 flex items-center gap-0.5 mt-1">
+              Targeted Funnel
+            </span>
+          </div>
+
+          <div className="p-3.5 rounded-xl bg-white/[0.03] border border-white/[0.06]">
+            <span className="text-[10px] font-mono text-slate-400 uppercase block">
+              Market Presence
+            </span>
+            <span className="text-sm sm:text-base font-bold text-white mt-1 block">
+              Audience Reach
+            </span>
+            <span className="text-[10px] font-medium text-purple-400 flex items-center gap-0.5 mt-1">
+              Multi-Channel Visibility
             </span>
           </div>
         </div>
@@ -111,29 +111,29 @@ export default function DigitalMarketing() {
         {activeMetric === "traffic" && (
           <div className="p-4 rounded-xl bg-gradient-to-br from-[#10152c] to-[#070a16] border border-white/10 space-y-3">
             <div className="flex justify-between items-center text-xs">
-              <span className="font-bold text-white">Monthly Organic Traffic Growth Curve</span>
-              <span className="text-emerald-400 font-mono text-[11px]">+3,400 Visits/Mo</span>
+              <span className="font-bold text-white">Organic Traffic Growth Framework</span>
+              <span className="text-emerald-400 font-mono text-[11px]">Compounding Strategy</span>
             </div>
 
-            {/* Stylized Simulated Chart Bars */}
+            {/* Stylized Strategic Milestone Bars */}
             <div className="h-28 flex items-end gap-2 pt-4 px-2">
               <div className="flex-1 bg-slate-800/80 rounded-t h-[25%]" />
-              <div className="flex-1 bg-slate-800/80 rounded-t h-[32%]" />
-              <div className="flex-1 bg-slate-700/80 rounded-t h-[40%]" />
-              <div className="flex-1 bg-cyan-950/80 border-t border-cyan-500/50 rounded-t h-[52%]" />
-              <div className="flex-1 bg-cyan-900/80 border-t border-cyan-400/60 rounded-t h-[68%]" />
-              <div className="flex-1 bg-cyan-800/80 border-t border-cyan-300/80 rounded-t h-[82%]" />
+              <div className="flex-1 bg-slate-800/80 rounded-t h-[35%]" />
+              <div className="flex-1 bg-slate-700/80 rounded-t h-[48%]" />
+              <div className="flex-1 bg-cyan-950/80 border-t border-cyan-500/50 rounded-t h-[60%]" />
+              <div className="flex-1 bg-cyan-900/80 border-t border-cyan-400/60 rounded-t h-[72%]" />
+              <div className="flex-1 bg-cyan-800/80 border-t border-cyan-300/80 rounded-t h-[86%]" />
               <div className="flex-1 bg-gradient-to-t from-cyan-600 to-sky-400 rounded-t h-[100%] shadow-[0_0_15px_rgba(34,211,238,0.4)]" />
             </div>
 
             <div className="flex justify-between text-[10px] font-mono text-slate-400 pt-1 border-t border-white/[0.06]">
-              <span>MONTH 1</span>
-              <span>MONTH 2</span>
-              <span>MONTH 3</span>
-              <span>MONTH 4</span>
-              <span>MONTH 5</span>
-              <span>MONTH 6</span>
-              <span className="text-cyan-300 font-bold">CURRENT</span>
+              <span>AUDIT</span>
+              <span>ON-PAGE</span>
+              <span>TECHNICAL</span>
+              <span>CONTENT</span>
+              <span>EXPANSION</span>
+              <span>OPTIMIZED</span>
+              <span className="text-cyan-300 font-bold">SCALE</span>
             </div>
           </div>
         )}
@@ -142,30 +142,30 @@ export default function DigitalMarketing() {
           <div className="p-4 rounded-xl bg-[#060812] border border-white/[0.08] space-y-2.5 text-xs">
             <div className="flex justify-between text-[11px] font-mono text-slate-400 pb-1 border-b border-white/[0.06]">
               <span>TARGET SEARCH QUERY</span>
-              <span>GOOGLE RANK</span>
+              <span>OPTIMIZATION STATUS</span>
             </div>
             <div className="flex justify-between items-center py-1">
               <span className="text-white font-medium">Enterprise Technology Solutions</span>
               <span className="px-2 py-0.5 rounded bg-emerald-950/60 border border-emerald-500/30 text-emerald-300 font-mono text-[10px] font-bold">
-                #1 Position
+                Fully Optimized
               </span>
             </div>
             <div className="flex justify-between items-center py-1">
               <span className="text-white font-medium">Bespoke Software Development Agency</span>
               <span className="px-2 py-0.5 rounded bg-emerald-950/60 border border-emerald-500/30 text-emerald-300 font-mono text-[10px] font-bold">
-                #1 Position
+                Target Keyword Mapped
               </span>
             </div>
             <div className="flex justify-between items-center py-1">
               <span className="text-white font-medium">Modern Responsive Web Architecture</span>
               <span className="px-2 py-0.5 rounded bg-cyan-950/60 border border-cyan-500/30 text-cyan-300 font-mono text-[10px] font-bold">
-                #2 Position
+                Structured Meta & Content
               </span>
             </div>
             <div className="flex justify-between items-center py-1">
               <span className="text-white font-medium">High Conversion Landing Page Design</span>
               <span className="px-2 py-0.5 rounded bg-cyan-950/60 border border-cyan-500/30 text-cyan-300 font-mono text-[10px] font-bold">
-                #3 Position
+                Technical Audit Passed
               </span>
             </div>
           </div>
@@ -174,21 +174,21 @@ export default function DigitalMarketing() {
         {activeMetric === "ads" && (
           <div className="p-4 rounded-xl bg-[#060812] border border-white/[0.08] space-y-3">
             <div className="flex justify-between items-center text-xs">
-              <span className="text-white font-bold">Paid Advertising Performance</span>
-              <span className="text-cyan-400 font-mono text-[11px]">4.82x ROAS</span>
+              <span className="text-white font-bold">Paid Advertising Strategy</span>
+              <span className="text-cyan-400 font-mono text-[11px]">Audience-Aligned</span>
             </div>
             <div className="grid grid-cols-2 gap-2.5 text-xs">
               <div className="p-3 rounded-lg bg-white/[0.03] border border-white/[0.06]">
-                <span className="text-[10px] text-slate-400 block">Cost Per Acquisition</span>
-                <span className="text-emerald-300 font-bold text-sm block mt-0.5">-38.4% Cheaper</span>
+                <span className="text-[10px] text-slate-400 block">Audience Segmentation</span>
+                <span className="text-emerald-300 font-bold text-sm block mt-0.5">Intent-Driven Demographics</span>
               </div>
               <div className="p-3 rounded-lg bg-white/[0.03] border border-white/[0.06]">
-                <span className="text-[10px] text-slate-400 block">Ad Click-Through Rate</span>
-                <span className="text-cyan-300 font-bold text-sm block mt-0.5">5.2% (Top 1%)</span>
+                <span className="text-[10px] text-slate-400 block">Creative Testing</span>
+                <span className="text-cyan-300 font-bold text-sm block mt-0.5">Multi-Variant Copy</span>
               </div>
             </div>
             <p className="text-[11px] text-center text-slate-400">
-              Targeted Google Search & Meta ad campaigns with continuous A/B copy and creative testing.
+              Targeted Google Search & Meta ad campaigns with structured budget pacing and audience alignment.
             </p>
           </div>
         )}
@@ -198,20 +198,20 @@ export default function DigitalMarketing() {
 
   const heroHighlights = [
     {
-      value: "+248%",
-      label: t("serviceDetails.digitalMarketing.highlights.0.label", "Average Traffic Lift"),
+      value: "Organic",
+      label: t("serviceDetails.digitalMarketing.highlights.0.label", "Sustainable SEO"),
     },
     {
-      value: "Page 1",
-      label: t("serviceDetails.digitalMarketing.highlights.1.label", "Target SEO Rankings"),
+      value: "Targeted",
+      label: t("serviceDetails.digitalMarketing.highlights.1.label", "Audience Reach"),
     },
     {
-      value: "4.8x",
-      label: t("serviceDetails.digitalMarketing.highlights.2.label", "Average Ad ROAS"),
+      value: "ROI-Focused",
+      label: t("serviceDetails.digitalMarketing.highlights.2.label", "Campaign Strategy"),
     },
     {
-      value: "100%",
-      label: t("serviceDetails.digitalMarketing.highlights.3.label", "White-Hat Techniques"),
+      value: "White-Hat",
+      label: t("serviceDetails.digitalMarketing.highlights.3.label", "Ethical Best Practices"),
     },
   ];
 

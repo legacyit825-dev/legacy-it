@@ -165,7 +165,7 @@ export default function GraphicDesigning() {
 
             <div className="flex items-center justify-between text-xs text-slate-400 pt-1">
               <span>Optimized for Meta & LinkedIn Ad Standards</span>
-              <span className="text-emerald-400 font-medium">98.4% Ad Recall Rate</span>
+              <span className="text-emerald-400 font-medium">High Engagement Formats</span>
             </div>
           </div>
         )}
@@ -208,8 +208,8 @@ export default function GraphicDesigning() {
       label: t("serviceDetails.graphicDesigning.highlights.0.label", "Print Precision"),
     },
     {
-      value: "100%",
-      label: t("serviceDetails.graphicDesigning.highlights.1.label", "Vector Scalability"),
+      value: "Vector",
+      label: t("serviceDetails.graphicDesigning.highlights.1.label", "Scalable Vector Assets"),
     },
     {
       value: "Full Rights",
@@ -586,7 +586,7 @@ export default function GraphicDesigning() {
       ),
       answer: t(
         "serviceDetails.graphicDesigning.faqs.2.answer",
-        "Yes, 100%. Upon project completion and final handover, all commercial rights, intellectual property, and copyright transfer entirely to your business."
+        "Yes, absolutely. Upon project completion and final handover, all commercial rights, intellectual property, and copyright transfer entirely to your business."
       ),
     },
     {

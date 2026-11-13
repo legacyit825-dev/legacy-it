@@ -547,20 +547,20 @@
       "description": "We create modern, responsive, and high-performing websites that help businesses establish their digital presence, connect with customers, and grow online.",
       "highlights": [
         {
-          "value": "<0.8s",
-          "label": "Average Load Speed"
+          "value": "Modern",
+          "label": "Tech Architecture"
         },
         {
-          "value": "100%",
+          "value": "Adaptive",
           "label": "Responsive Layouts"
         },
         {
-          "value": "99+",
-          "label": "Lighthouse Scores"
+          "value": "SEO-Ready",
+          "label": "Search Optimization"
         },
         {
-          "value": "24/7",
-          "label": "Architecture Reliability"
+          "value": "Secure",
+          "label": "Industry Standards"
         }
       ],
       "overviewHeading": "Websites Built for Real Business Impact, Not Just Aesthetics.",
@@ -646,13 +646,13 @@
       "whyReasons": [
         {
           "number": "01",
-          "title": "Speed & Performance Obsessed",
-          "description": "We build lightweight websites that load in under a second, directly improving conversion rates and search rankings."
+          "title": "Performance & Optimization Focus",
+          "description": "We build lightweight, well-structured websites optimized for smooth loading, strong user experience, and search engine readiness."
         },
         {
           "number": "02",
           "title": "Mobile-First Usability",
-          "description": "Over 65% of web traffic originates on mobile devices. We design and test on real phones before touching desktop screens."
+          "description": "With the majority of web traffic originating on mobile devices, we design and test carefully across all screen sizes."
         },
         {
           "number": "03",
@@ -694,7 +694,7 @@
         },
         {
           "question": "Will my website be mobile-friendly and optimized for Google?",
-          "answer": "Yes, 100%. Every website we build is fully responsive across all screen dimensions and includes semantic SEO foundations, meta tags, OpenGraph previews, XML sitemaps, and Core Web Vitals optimization."
+          "answer": "Yes, absolutely. Every website we build is fully responsive across all screen dimensions and includes semantic SEO foundations, meta tags, OpenGraph previews, XML sitemaps, and Core Web Vitals optimization."
         },
         {
           "question": "Can I update text and images myself after launch?",
@@ -702,11 +702,11 @@
         },
         {
           "question": "What technologies and frameworks do you use?",
-          "answer": "We prioritize modern, robust stacks including React, Next.js, Node.js, Tailwind CSS, and scalable cloud hosting platforms like Vercel and AWS, ensuring maximum security, blistering speed, and effortless scaling."
+          "answer": "We prioritize modern, robust stacks including React, Next.js, Node.js, Tailwind CSS, and scalable cloud hosting platforms like Vercel and AWS, ensuring maximum security, reliable performance, and effortless scaling."
         },
         {
           "question": "Do you offer post-launch maintenance and support?",
-          "answer": "Yes. We offer flexible ongoing maintenance plans covering continuous security updates, cloud backups, speed audits, uptime monitoring, and priority technical assistance."
+          "answer": "Yes. We offer flexible ongoing maintenance plans covering continuous security updates, cloud backups, performance audits, uptime monitoring, and priority technical assistance."
         }
       ],
       "ctaHeading": "Ready to Build a Website That Moves Your Business Forward?",
@@ -721,20 +721,20 @@
       "description": "We develop modern mobile applications that help businesses connect with customers through intuitive, reliable, and engaging digital experiences.",
       "highlights": [
         {
-          "value": "iOS + Android",
+          "value": "iOS & Android",
           "label": "Dual Ecosystems"
         },
         {
-          "value": "60 FPS",
-          "label": "Native Smoothness"
+          "value": "Fluid",
+          "label": "Native Interactions"
         },
         {
-          "value": "Offline-First",
+          "value": "Offline-Ready",
           "label": "Local Data Caching"
         },
         {
-          "value": "100%",
-          "label": "Store Approval Track"
+          "value": "Store-Ready",
+          "label": "App Store & Play Store"
         }
       ],
       "overviewHeading": "Mobile Apps That Keep Your Brand in Every Customer's Pocket.",
@@ -770,7 +770,7 @@
           "description": "Launch on both iOS and Android simultaneously from a single, unified codebase using React Native, cutting development time and costs in half.",
           "features": [
             "Shared Codebase Efficiency",
-            "Native 60 FPS UI Rendering",
+            "Fluid Native UI Rendering",
             "Simultaneous Feature Releases",
             "Simplified Ongoing Maintenance"
           ]
@@ -811,7 +811,7 @@
         {
           "number": "01",
           "title": "Fluidity & Responsiveness",
-          "description": "We prioritize buttery-smooth 60 frames-per-second navigation, instant touch response, and lightweight memory consumption."
+          "description": "We prioritize smooth navigation, responsive touch interactions, and optimized memory consumption."
         },
         {
           "number": "02",
@@ -889,8 +889,8 @@
           "label": "Print Precision"
         },
         {
-          "value": "100%",
-          "label": "Vector Scalability"
+          "value": "Vector",
+          "label": "Scalable Vector Assets"
         },
         {
           "value": "Full Rights",
@@ -1046,7 +1046,7 @@
         },
         {
           "question": "Will I own the full intellectual property rights?",
-          "answer": "Yes, 100%. Upon project completion and final handover, all commercial rights, intellectual property, and copyright transfer entirely to your business."
+          "answer": "Yes, absolutely. Upon project completion and final handover, all commercial rights, intellectual property, and copyright transfer entirely to your business."
         },
         {
           "question": "Can you design for both print and digital mediums?",
@@ -1073,16 +1073,16 @@
           "label": "Master Resolution"
         },
         {
-          "value": "3-Sec Hook",
-          "label": "Retention Engineering"
+          "value": "Engaging",
+          "label": "Audience Retention"
         },
         {
-          "value": "Rec.709",
-          "label": "Color Grading"
+          "value": "Color-Grade",
+          "label": "Visual Tone & LUTs"
         },
         {
-          "value": "24-48h",
-          "label": "Shorts & Reels Delivery"
+          "value": "Prompt",
+          "label": "Project Turnaround"
         }
       ],
       "overviewHeading": "Videos Engineered to Stop the Scroll and Maximize Watch Time.",
@@ -1263,20 +1263,20 @@
       "description": "We help businesses strengthen their online presence, reach the right audience, and build meaningful connections through digital marketing and search engine optimization.",
       "highlights": [
         {
-          "value": "+248%",
-          "label": "Average Traffic Lift"
+          "value": "Organic",
+          "label": "Sustainable SEO"
         },
         {
-          "value": "Page 1",
-          "label": "Target SEO Rankings"
+          "value": "Targeted",
+          "label": "Audience Reach"
         },
         {
-          "value": "4.8x",
-          "label": "Average Ad ROAS"
+          "value": "ROI-Focused",
+          "label": "Campaign Strategy"
         },
         {
-          "value": "100%",
-          "label": "White-Hat Techniques"
+          "value": "White-Hat",
+          "label": "Ethical Best Practices"
         }
       ],
       "overviewHeading": "Growth Marketing Grounded in Data, Rankings, and Real Revenue.",
