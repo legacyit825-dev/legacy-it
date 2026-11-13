@@ -273,7 +273,15 @@
       "p1": "At Legacy IT, we believe every business deserves the opportunity to thrive in the digital world.",
       "p2": "We bring together modern technology, thoughtful design, and practical digital solutions to help businesses build their online presence, improve operations, and connect with their audiences.",
       "p3": "Our focus is simple: understand your needs, create meaningful solutions, and help you move forward with confidence.",
-      "cta": "Explore Our Services"
+      "cta": "Explore Our Services",
+      "clipBadge": "26s Company Reel Attached"
+    },
+    "video": {
+      "tabVideo": "Company Video",
+      "tabPhoto": "Team Photo",
+      "unmutePrompt": "Sound Off",
+      "soundOn": "Sound On",
+      "clipQuality": "1080p Ultra HD • Translated"
     },
     "missionVision": {
       "missionLabel": "OUR MISSION",

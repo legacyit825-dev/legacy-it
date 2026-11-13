@@ -11,6 +11,7 @@ import {
   LuArrowRight,
 } from "react-icons/lu";
 import teamImg from "../assets/about1.jpg";
+import CompanyVideo from "./CompanyVideo";
 import useScrollAnimation from "../hooks/useScrollAnimation";
 
 const values = [
@@ -203,35 +204,20 @@ export default function AboutContent() {
                 </p>
               </div>
 
-              <Link
-                to="/services"
-                className="group inline-flex items-center gap-2.5 px-6 py-3.5 rounded-xl text-sm font-semibold text-white bg-white/[0.04] hover:bg-white/[0.08] border border-white/10 hover:border-cyan-500/40 backdrop-blur-md transition-all duration-300 hover:scale-[1.02] active:scale-[0.98] cursor-pointer"
-              >
-                <span>{t("aboutPage.whoWeAre.cta", "Explore Our Services")}</span>
-                <LuArrowRight className="w-4 h-4 text-cyan-400 transition-transform duration-300 group-hover:translate-x-1" />
-              </Link>
+              <div className="flex flex-wrap items-center gap-4">
+                <Link
+                  to="/services"
+                  className="group inline-flex items-center gap-2.5 px-6 py-3.5 rounded-xl text-sm font-semibold text-white bg-white/[0.04] hover:bg-white/[0.08] border border-white/10 hover:border-cyan-500/40 backdrop-blur-md transition-all duration-300 hover:scale-[1.02] active:scale-[0.98] cursor-pointer"
+                >
+                  <span>{t("aboutPage.whoWeAre.cta", "Explore Our Services")}</span>
+                  <LuArrowRight className="w-4 h-4 text-cyan-400 transition-transform duration-300 group-hover:translate-x-1" />
+                </Link>
+              </div>
             </div>
 
-            {/* RIGHT SIDE: High-Quality Technology Team Image */}
-            <div className="lg:col-span-6 relative">
-              <div className="relative rounded-2xl overflow-hidden border border-white/10 p-2 bg-[#0c1020]/60 shadow-[0_12px_40px_rgba(0,0,0,0.6)] group">
-                {/* Subtle top-right ambient glow */}
-                <div className="absolute -top-20 -right-20 w-44 h-44 rounded-full bg-cyan-500/15 group-hover:bg-cyan-500/25 blur-3xl transition-all duration-500 pointer-events-none" />
-
-                <img
-                  src={teamImg}
-                  alt="Legacy IT Team"
-                  className="w-full h-[360px] sm:h-[420px] md:h-[460px] object-cover rounded-xl transition-transform duration-700 ease-out group-hover:scale-[1.02]"
-                />
-
-                {/* Minimalist Floating Corner Tag */}
-                <div className="absolute bottom-5 left-5 z-20 flex items-center gap-2.5 px-3.5 py-1.5 rounded-lg border border-cyan-500/25 bg-[#0a0f1d]/85 backdrop-blur-md shadow-lg">
-                  <span className="w-1.5 h-1.5 rounded-full bg-cyan-400 shadow-[0_0_6px_#22d3ee] animate-pulse" />
-                  <span className="text-[10px] sm:text-[11px] font-mono tracking-wider text-slate-200 uppercase">
-                    ENGINEERING &amp; DIGITAL EXPERIENCES
-                  </span>
-                </div>
-              </div>
+            {/* RIGHT SIDE: Interactive Video Showcase Player */}
+            <div className="lg:col-span-6 relative flex justify-center lg:justify-end w-full">
+              <CompanyVideo />
             </div>
           </div>
         </div>

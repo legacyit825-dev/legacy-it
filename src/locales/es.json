@@ -273,7 +273,15 @@
       "p1": "En Legacy IT, creemos que cada empresa merece la oportunidad de prosperar en el mundo digital.",
       "p2": "Unimos tecnología moderna, diseño reflexivo y soluciones digitales prácticas para ayudar a las empresas a construir su presencia en línea, optimizar operaciones y conectar con sus audiencias.",
       "p3": "Nuestro enfoque es simple: entender tus necesidades, crear soluciones significativas y ayudarte a avanzar con confianza.",
-      "cta": "Explorar Nuestros Servicios"
+      "cta": "Explorar Nuestros Servicios",
+      "clipBadge": "Clip de la Empresa (26s)"
+    },
+    "video": {
+      "tabVideo": "Video Institucional",
+      "tabPhoto": "Foto del Equipo",
+      "unmutePrompt": "Sin Sonido",
+      "soundOn": "Sonido Activado",
+      "clipQuality": "1080p Ultra HD • Traducido"
     },
     "missionVision": {
       "missionLabel": "NUESTRA MISIÓN",
