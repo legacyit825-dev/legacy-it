@@ -4,8 +4,6 @@ import {
   LuVolumeX,
   LuPlay,
   LuPause,
-  LuMaximize,
-  LuMinimize,
 } from "react-icons/lu";
 import companyClip from "../assets/new translation.mp4";
 
@@ -16,7 +14,6 @@ const CompanyVideo = () => {
   const [isPlaying, setIsPlaying] = useState(true);
   const [isMuted, setIsMuted] = useState(true);
   const [progress, setProgress] = useState(0);
-  const [isFullscreen, setIsFullscreen] = useState(false);
   const [isHovered, setIsHovered] = useState(false);
   const hideControlsTimerRef = useRef(null);
 
@@ -84,23 +81,27 @@ const CompanyVideo = () => {
     return () => observer.disconnect();
   }, [attemptPlay]);
 
-  // Fullscreen change listener
+  // Explicitly prevent opening in big screen (fullscreen / PiP) on all devices including iOS
   useEffect(() => {
-    const handleFullscreenChange = () => {
-      const isFull = !!(
-        document.fullscreenElement ||
-        document.webkitFullscreenElement ||
-        document.mozFullScreenElement ||
-        document.msFullscreenElement
-      );
-      setIsFullscreen(isFull);
+    const video = videoRef.current;
+    if (!video) return;
+
+    const blockNativeFullscreen = (e) => {
+      e.preventDefault();
+      if (typeof video.webkitExitFullscreen === "function") {
+        video.webkitExitFullscreen();
+      }
+      if (typeof document.exitFullscreen === "function" && document.fullscreenElement) {
+        document.exitFullscreen().catch(() => {});
+      }
     };
 
-    document.addEventListener("fullscreenchange", handleFullscreenChange);
-    document.addEventListener("webkitfullscreenchange", handleFullscreenChange);
+    video.addEventListener("webkitbeginfullscreen", blockNativeFullscreen);
+    video.addEventListener("webkitenterfullscreen", blockNativeFullscreen);
+
     return () => {
-      document.removeEventListener("fullscreenchange", handleFullscreenChange);
-      document.removeEventListener("webkitfullscreenchange", handleFullscreenChange);
+      video.removeEventListener("webkitbeginfullscreen", blockNativeFullscreen);
+      video.removeEventListener("webkitenterfullscreen", blockNativeFullscreen);
     };
   }, []);
 
@@ -141,31 +142,6 @@ const CompanyVideo = () => {
     }
   };
 
-  // Toggle Fullscreen
-  const toggleFullscreen = (e) => {
-    if (e) e.stopPropagation();
-    const container = containerRef.current;
-    if (!container) return;
-
-    if (!isFullscreen) {
-      if (container.requestFullscreen) {
-        container.requestFullscreen();
-      } else if (container.webkitRequestFullscreen) {
-        container.webkitRequestFullscreen();
-      } else if (container.msRequestFullscreen) {
-        container.msRequestFullscreen();
-      }
-    } else {
-      if (document.exitFullscreen) {
-        document.exitFullscreen();
-      } else if (document.webkitExitFullscreen) {
-        document.webkitExitFullscreen();
-      } else if (document.msExitFullscreen) {
-        document.msExitFullscreen();
-      }
-    }
-  };
-
   // Scrub bar interaction
   const handleScrub = (e) => {
     e.stopPropagation();
@@ -198,28 +174,41 @@ const CompanyVideo = () => {
       {/* Dynamic ambient backlight */}
       <div className="absolute -inset-2 bg-gradient-to-tr from-cyan-500/25 via-blue-600/20 to-teal-400/25 rounded-[2rem] blur-2xl opacity-70 group-hover:opacity-100 transition-opacity duration-700 -z-10" />
 
-      {/* Main Video Card Container */}
+      {/* Main Video Card Container (Fixed proportions, never opens in big screen) */}
       <div
         ref={containerRef}
         onMouseMove={handleMouseMove}
         onMouseLeave={handleMouseLeave}
         onClick={togglePlay}
+        onDoubleClick={(e) => {
+          e.preventDefault();
+          e.stopPropagation();
+        }}
         className="relative w-full aspect-[9/16] rounded-2xl sm:rounded-3xl overflow-hidden bg-slate-950 border border-cyan-500/25 hover:border-cyan-400/50 shadow-[0_20px_50px_rgba(0,0,0,0.7)] transition-all duration-500 cursor-pointer select-none"
       >
-        {/* Core Video Element */}
+        {/* Core Video Element - Strictly inline, no fullscreen, no picture-in-picture */}
         <video
           ref={videoRef}
           src={companyClip}
           autoPlay
           muted
           playsInline
+          webkit-playsinline="true"
+          disablePictureInPicture
+          disableRemotePlayback
+          controls={false}
+          controlsList="nofullscreen nodownload noremoteplayback noplaybackrate"
           loop
           preload="auto"
           onTimeUpdate={handleTimeUpdate}
           onCanPlay={attemptPlay}
           onPlay={() => setIsPlaying(true)}
           onPause={() => setIsPlaying(false)}
-          className="w-full h-full object-cover block"
+          onDoubleClick={(e) => {
+            e.preventDefault();
+            e.stopPropagation();
+          }}
+          className="w-full h-full object-cover block pointer-events-none sm:pointer-events-auto"
         />
 
         {/* Floating Sound Toggle Button (Icon only - Top Right) */}
@@ -253,7 +242,7 @@ const CompanyVideo = () => {
           </div>
         )}
 
-        {/* Bottom Sleek Floating Controls Bar (Icon only - No text) */}
+        {/* Bottom Sleek Floating Controls Bar (Icon only - No text, No fullscreen toggle) */}
         <div
           onClick={(e) => e.stopPropagation()}
           className={`absolute bottom-0 inset-x-0 z-20 p-3 sm:p-4 bg-gradient-to-t from-black/85 via-black/40 to-transparent transition-opacity duration-300 ${
@@ -271,46 +260,31 @@ const CompanyVideo = () => {
             />
           </div>
 
-          {/* Action Icons: Play/Pause, Mute/Unmute, Fullscreen */}
-          <div className="flex items-center justify-between">
-            <div className="flex items-center gap-2">
-              <button
-                type="button"
-                onClick={togglePlay}
-                aria-label={isPlaying ? "Pause video" : "Play video"}
-                className="w-8 h-8 rounded-lg bg-white/10 hover:bg-white/20 backdrop-blur-md flex items-center justify-center text-white transition-all hover:scale-105 active:scale-95"
-              >
-                {isPlaying ? (
-                  <LuPause className="w-4 h-4" />
-                ) : (
-                  <LuPlay className="w-4 h-4 ml-0.5" />
-                )}
-              </button>
-
-              <button
-                type="button"
-                onClick={toggleMute}
-                aria-label={isMuted ? "Unmute audio" : "Mute audio"}
-                className="w-8 h-8 rounded-lg bg-white/10 hover:bg-white/20 backdrop-blur-md flex items-center justify-center text-white transition-all hover:scale-105 active:scale-95"
-              >
-                {isMuted ? (
-                  <LuVolumeX className="w-4 h-4" />
-                ) : (
-                  <LuVolume2 className="w-4 h-4 text-cyan-400" />
-                )}
-              </button>
-            </div>
+          {/* Action Icons: Play/Pause, Mute/Unmute (No Big Screen / Fullscreen Button) */}
+          <div className="flex items-center justify-start gap-2">
+            <button
+              type="button"
+              onClick={togglePlay}
+              aria-label={isPlaying ? "Pause video" : "Play video"}
+              className="w-8 h-8 rounded-lg bg-white/10 hover:bg-white/20 backdrop-blur-md flex items-center justify-center text-white transition-all hover:scale-105 active:scale-95"
+            >
+              {isPlaying ? (
+                <LuPause className="w-4 h-4" />
+              ) : (
+                <LuPlay className="w-4 h-4 ml-0.5" />
+              )}
+            </button>
 
             <button
               type="button"
-              onClick={toggleFullscreen}
-              aria-label={isFullscreen ? "Exit fullscreen" : "Enter fullscreen"}
+              onClick={toggleMute}
+              aria-label={isMuted ? "Unmute audio" : "Mute audio"}
               className="w-8 h-8 rounded-lg bg-white/10 hover:bg-white/20 backdrop-blur-md flex items-center justify-center text-white transition-all hover:scale-105 active:scale-95"
             >
-              {isFullscreen ? (
-                <LuMinimize className="w-4 h-4" />
+              {isMuted ? (
+                <LuVolumeX className="w-4 h-4" />
               ) : (
-                <LuMaximize className="w-4 h-4" />
+                <LuVolume2 className="w-4 h-4 text-cyan-400" />
               )}
             </button>
           </div>
@@ -321,4 +295,3 @@ const CompanyVideo = () => {
 };
 
 export default CompanyVideo;
-

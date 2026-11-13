@@ -193,7 +193,7 @@ export default function LegalTerms() {
                         →
                       </span>
                     </button>
-                  ))}
+                  ))} 
                 </div>
               </div>
             </div>
