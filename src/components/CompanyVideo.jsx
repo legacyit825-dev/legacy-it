@@ -1,13 +1,16 @@
 import React, { useRef, useState, useEffect, useCallback } from "react";
+import { useTranslation } from "react-i18next";
 import {
   LuVolume2,
   LuVolumeX,
   LuPlay,
   LuPause,
 } from "react-icons/lu";
-import companyClip from "../assets/new translation.mp4";
+import englishClip from "../assets/english translation.mp4";
+import translatedClip from "../assets/new translation.mp4";
 
 const CompanyVideo = () => {
+  const { i18n } = useTranslation();
   const videoRef = useRef(null);
   const containerRef = useRef(null);
 
@@ -17,7 +20,17 @@ const CompanyVideo = () => {
   const [isHovered, setIsHovered] = useState(false);
   const hideControlsTimerRef = useRef(null);
 
-  // Auto-play the video reliably on mount, tab refocus, and when scrolled into view
+  // Active language detection:
+  // English -> english translation.mp4
+  // Spanish ('es') or Portuguese ('pr', 'pt') -> new translation.mp4
+  const currentLang = (i18n.language || "en").toLowerCase();
+  const isTranslated =
+    currentLang.startsWith("es") ||
+    currentLang.startsWith("pr") ||
+    currentLang.startsWith("pt");
+  const activeVideoSrc = isTranslated ? translatedClip : englishClip;
+
+  // Auto-play the video reliably on mount, tab refocus, language switch, and when scrolled into view
   const attemptPlay = useCallback(() => {
     const video = videoRef.current;
     if (!video) return;
@@ -41,6 +54,19 @@ const CompanyVideo = () => {
         });
     }
   }, [isMuted]);
+
+  // Handle language switch: preserve playback position and seamlessly continue playing
+  useEffect(() => {
+    const video = videoRef.current;
+    if (!video) return;
+
+    const currentTime = video.currentTime;
+    video.load();
+    if (currentTime && !isNaN(currentTime)) {
+      video.currentTime = currentTime;
+    }
+    attemptPlay();
+  }, [activeVideoSrc, attemptPlay]);
 
   // Handle Mount & Visibility changes
   useEffect(() => {
@@ -186,10 +212,10 @@ const CompanyVideo = () => {
         }}
         className="relative w-full aspect-[9/16] rounded-2xl sm:rounded-3xl overflow-hidden bg-slate-950 border border-cyan-500/25 hover:border-cyan-400/50 shadow-[0_20px_50px_rgba(0,0,0,0.7)] transition-all duration-500 cursor-pointer select-none"
       >
-        {/* Core Video Element - Strictly inline, no fullscreen, no picture-in-picture */}
+        {/* Core Video Element - Strictly inline, no fullscreen, no picture-in-picture, dynamic i18n source */}
         <video
           ref={videoRef}
-          src={companyClip}
+          src={activeVideoSrc}
           autoPlay
           muted
           playsInline
@@ -260,7 +286,7 @@ const CompanyVideo = () => {
             />
           </div>
 
-          {/* Action Icons: Play/Pause, Mute/Unmute (No Big Screen / Fullscreen Button) */}
+          {/* Action Icons: Play/Pause, Mute/Unmute */}
           <div className="flex items-center justify-start gap-2">
             <button
               type="button"
