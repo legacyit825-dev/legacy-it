@@ -7,7 +7,8 @@ import {
   LuPause,
 } from "react-icons/lu";
 import englishClip from "../assets/english translation.mp4";
-import translatedClip from "../assets/new translation.mp4";
+import spanishClip from "../assets/new translation.mp4";
+import portugueseClip from "../assets/Portugese translation.mp4";
 
 const CompanyVideo = () => {
   const { i18n } = useTranslation();
@@ -21,14 +22,16 @@ const CompanyVideo = () => {
   const hideControlsTimerRef = useRef(null);
 
   // Active language detection:
-  // English -> english translation.mp4
-  // Spanish ('es') or Portuguese ('pr', 'pt') -> new translation.mp4
+  // Portuguese ('pr', 'pt') -> Portugese translation.mp4
+  // Spanish ('es')          -> new translation.mp4
+  // English ('en') / default -> english translation.mp4
   const currentLang = (i18n.language || "en").toLowerCase();
-  const isTranslated =
-    currentLang.startsWith("es") ||
-    currentLang.startsWith("pr") ||
-    currentLang.startsWith("pt");
-  const activeVideoSrc = isTranslated ? translatedClip : englishClip;
+  let activeVideoSrc = englishClip;
+  if (currentLang.startsWith("pr") || currentLang.startsWith("pt")) {
+    activeVideoSrc = portugueseClip;
+  } else if (currentLang.startsWith("es")) {
+    activeVideoSrc = spanishClip;
+  }
 
   // Auto-play the video reliably on mount, tab refocus, language switch, and when scrolled into view
   const attemptPlay = useCallback(() => {
