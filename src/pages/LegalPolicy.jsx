@@ -272,7 +272,9 @@ export default function LegalPolicy() {
                             Email
                           </span>
                           <a
-                            href={`mailto:${section.contactDetails.email}`}
+                            href={`https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(section.contactDetails.email)}`}
+                            target="_blank"
+                            rel="noopener noreferrer"
                             className="text-cyan-400 hover:text-cyan-300 underline underline-offset-4 font-semibold transition-colors"
                           >
                             {section.contactDetails.email}

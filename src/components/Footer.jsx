@@ -165,9 +165,11 @@ export default function Footer() {
               {t("footer.contactTitle", "GET IN TOUCH")}
             </h4>
             <div className="space-y-4">
-              {/* Email */}
+              {/* Email (Directly opens Gmail compose with legacyit825@gmail.com) */}
               <a
-                href="mailto:legacyit825@gmail.com"
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=legacyit825@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="flex items-start gap-3 group text-sm text-slate-400 hover:text-white transition-colors"
               >
                 <div className="w-8 h-8 rounded-lg bg-white/[0.04] border border-white/10 group-hover:border-cyan-400/30 group-hover:bg-cyan-950/30 text-cyan-400 flex items-center justify-center shrink-0 transition-colors mt-0.5">

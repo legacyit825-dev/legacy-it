@@ -306,7 +306,9 @@ const Contact_form = () => {
                   </span>
                 </div>
                 <a
-                  href="mailto:legacyit825@gmail.com"
+                  href="https://mail.google.com/mail/?view=cm&fs=1&to=legacyit825@gmail.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-slate-400 hover:text-cyan-400 transition-colors inline-flex items-center gap-1.5 font-medium"
                 >
                   <LuMail className="w-3.5 h-3.5 text-cyan-400" />
@@ -677,9 +679,11 @@ const Contact_form = () => {
                   </div>
                 </a>
 
-                {/* 2. EMAIL */}
+                {/* 2. EMAIL (Directly opens Gmail compose with legacyit825@gmail.com) */}
                 <a
-                  href="mailto:legacyit825@gmail.com"
+                  href="https://mail.google.com/mail/?view=cm&fs=1&to=legacyit825@gmail.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="group flex items-start gap-4 p-5 rounded-2xl border border-white/[0.08] bg-[#0c1020]/70 hover:bg-[#0f152a]/95 hover:border-cyan-500/40 backdrop-blur-md transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_10px_30px_rgba(6,182,212,0.12)] cursor-pointer"
                 >
                   <div className="w-12 h-12 rounded-xl flex items-center justify-center bg-cyan-500/10 border border-cyan-500/20 text-cyan-400 group-hover:bg-cyan-500/20 group-hover:scale-105 transition-all duration-300 flex-shrink-0">
