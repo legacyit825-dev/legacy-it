@@ -84,22 +84,11 @@ export default function Hero() {
           ========================================================================= */}
       <div className="relative z-10 max-w-7xl w-full mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
 
-        {/* LEFT COLUMN: Headline, Eyebrow, Supporting text, CTAs, Trust indicators */}
+        {/* LEFT COLUMN: Headline, Supporting text, CTAs */}
         <div
           className={`lg:col-span-7 flex flex-col items-start text-left transition-all duration-1000 ease-out ${isLoaded ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"
             }`}
         >
-          {/* Eyebrow badge */}
-          <div className="inline-flex items-center gap-2.5 px-3.5 py-1.5 rounded-full border border-cyan-500/25 bg-cyan-950/30 backdrop-blur-md mb-6 shadow-[0_0_20px_rgba(6,182,212,0.12)] hover:border-cyan-400/40 transition-colors duration-300">
-            <span className="relative flex h-2 w-2">
-              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-cyan-400 opacity-75" />
-              <span className="relative inline-flex rounded-full h-2 w-2 bg-cyan-400 shadow-[0_0_8px_#22d3ee]" />
-            </span>
-            <span className="text-[11px] sm:text-xs font-semibold tracking-[0.2em] text-cyan-300 uppercase">
-              {t("hero.eyebrow", "BUILDING YOUR DIGITAL FUTURE")}
-            </span>
-          </div>
-
           {/* Main Headline */}
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-[4.25rem] xl:text-[4.85rem] font-extrabold tracking-[-0.035em] leading-[1.07] mb-6">
             <span className="block bg-gradient-to-b from-white via-slate-100 to-slate-300/80 bg-clip-text text-transparent">
@@ -142,34 +131,6 @@ export default function Hero() {
               <HiSparkles className="w-4 h-4 text-cyan-400 group-hover:rotate-12 transition-transform duration-300" />
             </Link>
           </div>
-
-          {/* Minimalist Trust & Capabilities Strip
-          <div className="pt-7 border-t border-white/[0.08] grid grid-cols-3 gap-4 sm:gap-8 w-full max-w-lg">
-            <div>
-              <div className="text-xl sm:text-2xl font-bold text-white tracking-tight">
-                100%
-              </div>
-              <div className="text-xs text-slate-400 font-medium mt-1">
-                {t("hero.badge1", "Bespoke Architecture")}
-              </div>
-            </div>
-            <div>
-              <div className="text-xl sm:text-2xl font-bold text-white tracking-tight">
-                Enterprise
-              </div>
-              <div className="text-xs text-slate-400 font-medium mt-1">
-                {t("hero.badge2", "Scalable Solutions")}
-              </div>
-            </div>
-            <div>
-              <div className="text-xl sm:text-2xl font-bold text-white tracking-tight">
-                Full-Cycle
-              </div>
-              <div className="text-xs text-slate-400 font-medium mt-1">
-                {t("hero.badge3", "Digital Growth")}
-              </div>
-            </div>
-          </div> */}
         </div>
 
         {/* RIGHT COLUMN: Abstract 3D Digital Visual representing connectivity & growth */}
@@ -185,23 +146,6 @@ export default function Hero() {
           >
             {/* Ambient Radial Halo behind the 3D geometry */}
             <div className="absolute inset-8 rounded-full bg-gradient-to-tr from-cyan-500/20 via-sky-400/10 to-violet-600/20 blur-3xl animate-pulse-soft pointer-events-none" />
-
-            {/* Floating Telemetry Glass Chip 1 (Top Right) */}
-            <div className="absolute top-4 right-2 sm:right-6 z-20 flex items-center gap-2.5 px-3.5 py-1.5 rounded-lg border border-cyan-500/25 bg-[#0a0f1d]/80 backdrop-blur-md shadow-[0_8px_30px_rgba(0,0,0,0.6)] animate-float-slow">
-              <span className="w-1.5 h-1.5 rounded-full bg-cyan-400 shadow-[0_0_6px_#22d3ee] animate-pulse" />
-              <span className="text-[10px] sm:text-[11px] font-mono tracking-wider text-slate-200 uppercase">
-
-                {t("hero.scalable","Scalable Solutions")}
-              </span>
-            </div>
-
-            {/* Floating Telemetry Glass Chip 2 (Bottom Left) */}
-            <div className="absolute bottom-6 left-2 sm:left-4 z-20 flex items-center gap-2.5 px-3.5 py-1.5 rounded-lg border border-violet-500/25 bg-[#0a0f1d]/80 backdrop-blur-md shadow-[0_8px_30px_rgba(0,0,0,0.6)] animate-float-reverse">
-              <span className="w-1.5 h-1.5 rounded-full bg-violet-400 shadow-[0_0_6px_#c084fc] animate-pulse" />
-              <span className="text-[10px] sm:text-[11px] font-mono tracking-wider text-slate-200 uppercase">
-                {t("hero.building","Building Your Future")}
-              </span>
-            </div>
 
             {/* Central Precision SVG Visual: 3D Isometric Core + Connectivity Arcs */}
             <svg

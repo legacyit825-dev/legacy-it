@@ -6,7 +6,6 @@
     "contact": "Contact"
   },
   "hero": {
-    "eyebrow": "BUILDING YOUR DIGITAL FUTURE",
     "headline1": "Your Chance to Exist",
     "headline2": "in the Digital World.",
     "support": "We turn ideas into digital experiences. From stunning websites to powerful software solutions, we help businesses build their presence, grow their reach, and thrive in the digital era.",
@@ -15,8 +14,7 @@
     "badge1": "Bespoke Architecture",
     "badge2": "Scalable Solutions",
     "badge3": "Digital Growth",
-    "scalable": "Scalable Solutions",
-    "building": "Building Your Future"
+    "scalable": "Scalable Solutions"
   },
   "slides": {
     "webDevelopment": "Web Development",
@@ -26,15 +24,14 @@
   },
   "contents": {
     "webDevelopment": "Improve your online presence thanks to our most creative web design team in addition to creating attractive websites, we focus on improving the user experience on them. We will make your brand stand out from the competition and thus be more competitive. Boost your business with a website that reflects your brand and attracts your audience. Discover the difference of lead generation-based web design. Turn visitors into customers! Contact us for a free consultation.",
-    "graphicDesign": "Enhance your brand identity with the support of our creative graphic design team. Beyond visually appealing designs, we focus on clear communication and strong brand consistency. From logos and marketing materials to social media graphics and promotional assets, we craft designs that capture attention and leave a lasting impression. Stand out in a crowded market with visuals that truly represent your brand. Strengthen your message, connect with your audience, and elevate your business through impactful graphic design. Contact us today for a free consultation.",
-    "digitalMarketing": "Grow your business and reach the right audience with our results-driven digital marketing strategies. We go beyond visibility by focusing on meaningful engagement, brand awareness, and measurable growth. From social media marketing and search engine optimization to paid advertising and content creation, we help your brand connect with customers at every stage of their journey. Increase traffic, generate quality leads, and turn prospects into loyal customers with digital marketing solutions tailored to your goals. Contact us today for a free consultation."
+    "graphicDesign": "Enhance your brand identity with the support of our creative graphic design team. Beyond visually appealing designs, we focus on clear communication and strong brand consistency. From logos and marketing materials to social media graphics and promotional assets, we craft designs that capture attention and leave a lasting impression. Stand out in a crowded market with visuals that truly represent your brand. Strengthen your message, connect with your audience, and strengthen your business through impactful graphic design. Contact us today for a free consultation.",
+    "digitalMarketing": "Grow your business and reach the right audience with our results-driven digital marketing strategies. We go beyond visibility by focusing on meaningful engagement, brand awareness, and measurable growth. From social media marketing and search engine optimization to paid advertising and content creation, we help your brand connect with customers at every stage of their journey. Increase traffic, generate quality leads, and turn prospects into loyal customers with digital marketing solutions aligned with your business goals. Contact us today for a free consultation."
   },
   "footer": {
     "companyTitle": "COMPANY",
     "servicesTitle": "OUR SERVICES",
     "contactTitle": "GET IN TOUCH",
     "brandDescription": "We build digital experiences and innovative technology solutions that help businesses grow, connect, and succeed in the digital world.",
-    "tagline": "Building Your Digital Future.",
     "companyLinks": {
       "home": "Home",
       "about": "About Us",
@@ -84,8 +81,8 @@
     "ourmission": "Our Mission",
     "who": "Legacy IT is a forward-thinking digital solutions company committed to helping businesses grow through innovative technology, creative design, and strategic digital marketing. We partner with brands of all sizes to build meaningful digital experiences that drive real results.",
     "what": "At Legacy IT, we specialize in web development, graphic design, and digital marketing—delivering solutions that are not only visually appealing but also performance-driven. Our websites are designed to enhance user experience and convert visitors into customers. Our design work strengthens brand identity, while our marketing strategies focus on engagement, visibility, and measurable growth.",
-    "our": "We believe that great digital solutions start with understanding our clients. Every project begins with research, collaboration, and clear communication. By combining creativity with technical expertise and data-driven strategies, we create scalable solutions tailored to each client’s unique goals.",
-    "mission": "Our mission is to empower businesses by delivering reliable, innovative, and scalable digital solutions that help brands stand out in competitive markets and build lasting connections with their audiences.",
+    "our": "We believe that great digital solutions start with understanding our clients. Every project begins with research, collaboration, and clear communication. By combining creativity with technical expertise and data-driven strategies, we create scalable solutions built for each client’s specific goals.",
+    "mission": "Our mission is to deliver reliable, functional, and scalable digital solutions that help brands stand out in competitive markets and build lasting connections with their audiences.",
     "vision": "To become a trusted global technology partner known for creativity, quality, and measurable impact."
   },
   "service": {
@@ -96,7 +93,7 @@
     "digitalMarketing": "Digital Marketing",
     "softwareDevelopment": "Software Development",
     "webDesc": "We design and develop responsive websites that combine clean design with powerful functionality, helping businesses grow and connect with their audience online.",
-    "graphicDesc": "Our graphic design services transform ideas into engaging visuals that strengthen brand identity and leave a lasting impression.",
+    "graphicDesc": "Our graphic design services convert concepts into engaging visuals that strengthen brand identity and leave a lasting impression.",
     "digitalDesc": "Our digital marketing services help brands reach the right audience, build strong online presence, and achieve sustainable business growth.",
     "softwareDesc": "Our software development services help businesses build reliable, scalable applications that improve efficiency, enhance user experience, and support long-term growth.",
     "button": "know more"
@@ -114,9 +111,9 @@
   "web": {
     "title": "Web Development Services",
     "we": "What We Offer",
-    "desc": " We build fast, secure, and scalable websites and web applications tailored to your business goals. Our solutions are designed to deliver high performance, robust security, and seamless user experiences across all devices. By using modern technologies and best development practices, we ensure your digital platform can grow with your business, handle increasing traffic, and adapt to future requirements while remaining reliable and easy to maintain.",
+    "desc": "We build fast, secure, and scalable websites and web applications designed for your business goals. Our solutions deliver high performance, robust security, and dependable user experiences across all devices. By using modern technologies and best development practices, we ensure your digital platform can grow with your business, handle increasing traffic, and adapt to evolving requirements while remaining reliable and easy to maintain.",
     "title1": "Custom Website Development",
-    "desc1": "Tailor-made websites built to match your brand identity and business requirements.",
+    "desc1": "Custom websites built to match your brand identity and business requirements.",
     "title2": "Web Application Development",
     "desc2": "Powerful web apps with secure authentication, APIs, and real-time features.",
     "title3": "E-Commerce Solutions",
@@ -147,9 +144,9 @@
   "software": {
     "title": "Software Development Services",
     "we": "What We Offer",
-    "desc": "We develop reliable, scalable, and secure software solutions tailored to your business processes and operational needs. Our software development services focus on performance, flexibility, and long-term maintainability, enabling businesses to automate workflows, improve efficiency, and adapt quickly to changing requirements.",
+    "desc": "We develop reliable, scalable, and secure software solutions configured for your business processes and operational needs. Our software development services focus on performance, flexibility, and long-term maintainability, enabling businesses to automate workflows, improve efficiency, and adapt quickly to changing requirements.",
     "title1": "Custom Software Development",
-    "desc1": "Tailored software solutions designed to meet specific business challenges and goals.",
+    "desc1": "Custom software solutions designed to meet specific business challenges and goals.",
     "title2": "Enterprise Solutions",
     "desc2": "Robust systems that support large-scale operations, integrations, and data management.",
     "title3": "Maintenance & Support",
@@ -192,7 +189,7 @@
       },
       "graphic-designing": {
         "title": "Graphic Designing",
-        "description": "We transform ideas into compelling visual designs that communicate your brand identity, capture attention, and leave a lasting impression.",
+        "description": "We turn ideas into compelling visual designs that communicate your brand identity, capture attention, and leave a lasting impression.",
         "offerings": [
           "Logo Design",
           "Brand Identity Design",
@@ -241,13 +238,9 @@
     "description": "We believe technology should do more than solve problems. It should create opportunities, simplify operations, and help businesses grow in an increasingly digital world.",
     "cta": "Let's Work Together",
     "reasons": {
-      "tailored-solutions": {
-        "title": "Tailored Solutions",
-        "description": "We understand that every business is different. We build digital solutions that match your specific goals and requirements."
-      },
       "modern-technology": {
         "title": "Modern Technology",
-        "description": "We use modern technologies and development practices to create reliable, scalable, and future-ready solutions."
+        "description": "We use modern technologies and development practices to create reliable, scalable, and durable solutions."
       },
       "user-centered-approach": {
         "title": "User-Centered Approach",
@@ -256,6 +249,10 @@
       "long-term-partnership": {
         "title": "Long-Term Partnership",
         "description": "Our relationship doesn't end at delivery. We believe in continuous improvement, technical support, and long-term collaboration."
+      },
+      "customized-solutions": {
+        "title": "Customized Solutions",
+        "description": "We understand that every business is different. We build digital solutions that match your specific goals and requirements."
       }
     }
   },
@@ -286,7 +283,7 @@
     "missionVision": {
       "missionLabel": "OUR MISSION",
       "missionTitle": "Mission",
-      "missionText": "To empower businesses through innovative digital solutions, thoughtful design, and reliable technology that creates real value.",
+      "missionText": "To build dependable websites, applications, and visual media that help companies conduct business online.",
       "visionLabel": "OUR VISION",
       "visionTitle": "Vision",
       "visionText": "To become a trusted digital technology partner, helping businesses embrace innovation and build a stronger presence in an evolving digital world."
@@ -325,7 +322,7 @@
       "eyebrow": "WHAT WE DO",
       "titleStart": "Digital Solutions",
       "titleHighlight": "Built Around Your Vision.",
-      "description": "From creative design to powerful software solutions, we help businesses establish their digital presence, streamline operations, and unlock new opportunities through technology.",
+      "description": "From creative design to software engineering, we help businesses establish their digital presence, streamline operations, and reach new clients through technology.",
       "primaryCta": "Discuss Your Project",
       "secondaryCta": "Explore Our Services"
     },
@@ -363,7 +360,7 @@
         },
         "graphic-designing": {
           "title": "Graphic Designing",
-          "description": "We transform ideas into compelling visual designs that communicate your brand identity, capture attention, and leave a lasting impression.",
+          "description": "We create clear visual designs that communicate your brand identity, capture attention, and leave a lasting impression.",
           "offerings": [
             "Logo Design",
             "Brand Identity Design",
@@ -568,7 +565,7 @@
       "overviewHeading": "Websites Built for Real Business Impact, Not Just Aesthetics.",
       "overviewParagraphs": [
         "Your website is the digital storefront, primary marketing engine, and central credibility benchmark of your brand. In today's competitive landscape, visitors form an impression within milliseconds. A slow, outdated, or confusing website directly leaks leads, customers, and revenue.",
-        "At Legacy IT, we engineer web solutions that combine cutting-edge technology with intuitive human-centric design. From lightning-fast corporate websites to complex e-commerce hubs, we build clean, maintainable, and scalable platforms that drive conversions.",
+        "At Legacy IT, we engineer web solutions that combine modern web frameworks with clean, responsive design. From corporate websites to e-commerce platforms, we build clean, maintainable, and scalable systems that support business operations.",
         "Every line of code is optimized for Core Web Vitals, organic search discoverability, and frictionless mobile usability across every device and browser."
       ],
       "deliverablesHeading": "What We Offer in Website Design & Development",
@@ -595,7 +592,7 @@
         },
         {
           "title": "Custom Website Development",
-          "description": "Tailored web applications built from scratch to meet unique business workflows, interactive calculators, or client portal needs.",
+          "description": "Custom web applications built from scratch to meet unique business workflows, interactive calculators, or client portal needs.",
           "features": [
             "React / Next.js Custom Frameworks",
             "RESTful API & Webhook Integrations",
@@ -625,7 +622,7 @@
         },
         {
           "title": "Website Redesign",
-          "description": "Transform your slow, outdated web presence into a sleek, modern, high-performing asset without losing existing SEO rankings.",
+          "description": "Upgrade your website to a faster, modern architecture while maintaining established search rankings and URLs.",
           "features": [
             "Complete Visual Modernization",
             "SEO Migration & 301 Redirect Mapping",
@@ -789,7 +786,7 @@
         },
         {
           "title": "API Integration",
-          "description": "Seamless connection to your existing backend servers, third-party payment gateways, authentication providers, and CRM databases.",
+          "description": "Direct connection to your existing backend servers, third-party payment gateways, authentication providers, and CRM databases.",
           "features": [
             "REST & GraphQL Endpoint Integration",
             "Real-time WebSockets & Push Messaging",
@@ -880,11 +877,11 @@
     },
     "graphicDesigning": {
       "seoTitle": "Graphic Designing",
-      "seoDescription": "We transform ideas into compelling visual designs that communicate your brand identity, capture attention, and leave a lasting impression.",
+      "seoDescription": "We craft clear, professional visual designs that communicate your brand identity, capture attention, and build trust.",
       "eyebrow": "BRAND IDENTITY & VISUAL DESIGN",
       "headlineStart": "Creative Designs That Make",
       "headlineHighlight": "Your Brand Stand Out.",
-      "description": "We transform ideas into compelling visual designs that communicate your brand identity, capture attention, and leave a lasting impression.",
+      "description": "We craft clear, professional visual designs that communicate your brand identity, capture attention, and build trust.",
       "highlights": [
         {
           "value": "300 DPI",
@@ -906,7 +903,7 @@
       "overviewHeading": "Visual Design That Builds Unforgettable Brand Authority.",
       "overviewParagraphs": [
         "Visual design is the immediate emotional bridge between your company and your prospective clients. Before someone reads a single line of your sales copy, your logo, typography, color harmony, and visual collateral have already signaled whether you are trustworthy, innovative, and premium.",
-        "At Legacy IT, we craft cohesive visual design systems that cut through market noise. We don't just produce isolated graphics; we build comprehensive visual identities that seamlessly translate from business cards and stationery to high-impact digital advertisements and social campaigns.",
+        "At Legacy IT, we craft cohesive visual design systems. We don't just produce isolated graphics; we build comprehensive visual identities that translate consistently from print collateral to digital advertisements and social campaigns.",
         "Every asset is delivered in full vector resolution with organized source files, exact color values, and complete commercial usage rights."
       ],
       "deliverablesHeading": "What We Offer in Graphic Designing",
@@ -933,7 +930,7 @@
         },
         {
           "title": "Social Media Graphics",
-          "description": "High-engagement templates and graphics tailored for Instagram, LinkedIn, Facebook, and X to maintain consistent branding across feeds.",
+          "description": "High-engagement templates and graphics formatted for Instagram, LinkedIn, Facebook, and X to maintain consistent branding across feeds.",
           "features": [
             "Carousel Post Templates",
             "Story & Reel Cover Graphics",
@@ -973,7 +970,7 @@
         },
         {
           "title": "Marketing & Promotional Materials",
-          "description": "Eye-catching promotional flyers, stickers, merchandise graphics, and event collateral that elevate brand awareness.",
+          "description": "Promotional flyers, banners, merchandise graphics, and event collateral that build brand awareness and client engagement.",
           "features": [
             "Event & Conference Handouts",
             "Product Fact Sheets & One-Pagers",
@@ -983,7 +980,7 @@
         },
         {
           "title": "Digital Advertising Creatives",
-          "description": "Click-optimized banner ads, display ads, and promotional creatives tailored for Google Display Network and Meta advertising.",
+          "description": "Click-optimized banner ads, display ads, and promotional creatives formatted for Google Display Network and Meta advertising.",
           "features": [
             "Standard IAB Display Ad Sizes",
             "High-Contrast Value Projections",
@@ -997,7 +994,7 @@
         {
           "number": "01",
           "title": "Strategic Brand Distinction",
-          "description": "We don't do generic clip art. Every design is custom tailored to position your business as a leader in your sector."
+          "description": "We avoid generic templates. Every design is created from scratch to clearly communicate your business identity."
         },
         {
           "number": "02",
@@ -1059,8 +1056,8 @@
           "answer": "Initial logo concepts are typically presented within 3-5 business days. A full brand identity system including guidelines, collateral, and social kits generally takes 1-2 weeks."
         }
       ],
-      "ctaHeading": "Ready to Elevate Your Brand With Standout Design?",
-      "ctaDescription": "Let's transform your vision into unforgettable visual experiences that inspire confidence and win customers."
+      "ctaHeading": "Ready for Professional Design That Clearly Represents Your Business?",
+      "ctaDescription": "Contact our design team to create cohesive brand assets, marketing materials, and digital graphics."
     },
     "videoEditing": {
       "seoTitle": "Video Editing",
@@ -1090,7 +1087,7 @@
       "overviewHeading": "Videos Engineered to Stop the Scroll and Maximize Watch Time.",
       "overviewParagraphs": [
         "Video is undisputed as the highest-converting medium across digital marketing. However, with attention spans measured in seconds, unedited or sluggish footage loses viewers almost instantly. To win, your videos must hook audiences immediately, maintain crisp rhythmic pacing, and deliver a crystal-clear message.",
-        "At Legacy IT, we transform raw camera footage, screen captures, and creative ideas into polished, cinematic video assets. Whether you need viral vertical Reels and TikToks, detailed YouTube deep-dives, or high-caliber corporate presentations, we handle all facets of post-production.",
+        "At Legacy IT, we edit raw camera footage, screen captures, and creative assets into polished video deliverables. Whether you need short-form vertical Reels and TikToks, detailed YouTube videos, or corporate presentations, we handle all facets of post-production.",
         "From professional color grading and custom kinetic typography to multi-track sound design and multi-platform aspect ratio exports, we ensure your videos command attention across every screen."
       ],
       "deliverablesHeading": "What We Offer in Video Editing",
@@ -1119,7 +1116,7 @@
           "title": "YouTube Video Editing",
           "description": "Long-form content editing engineered to maximize Average Percentage Viewed (APV) through rhythm cuts, zooms, sound cues, and visual variety.",
           "features": [
-            "Seamless Chapter Sequencing",
+            "Structured Chapter Sequencing",
             "Custom YouTube End Screens",
             "Audio Normalization & Compression",
             "Visual Asset B-Roll Curation"
@@ -1157,17 +1154,17 @@
         },
         {
           "title": "Video Transitions & Effects",
-          "description": "Modern, seamless visual transitions—from seamless whip pans to subtle digital zooms—that maintain momentum between cuts.",
+          "description": "Clean visual transitions—including whip pans, match cuts, and digital zooms—that maintain pacing between scenes.",
           "features": [
             "Whip, Zoom & Match Cuts",
             "Subtle Cinematic Glitches",
             "Speed Ramping & Slow-Motion",
-            "Seamless Scene Continuity"
+            "Consistent Scene Continuity"
           ]
         },
         {
           "title": "Color Correction & Color Grading",
-          "description": "Professional tone balancing, skin tone preservation, and cinematic LUT application that elevates raw footage into a cohesive visual look.",
+          "description": "Professional color correction, skin tone balancing, and look development that produces a clean, cohesive visual palette.",
           "features": [
             "Multi-Camera Color Matching",
             "Skin-Tone Isolation & Correction",
@@ -1283,7 +1280,7 @@
       ],
       "overviewHeading": "Growth Marketing Grounded in Data, Rankings, and Real Revenue.",
       "overviewParagraphs": [
-        "Having a world-class digital product means very little if your target customers cannot find you. Effective digital marketing is not about collecting meaningless vanity impressions; it is about attracting qualified, high-intent prospective clients who are actively seeking what you offer.",
+        "Building a digital product or service means very little if your target customers cannot find you. Effective digital marketing is not about collecting meaningless vanity impressions; it is about attracting qualified, high-intent prospective clients who are actively seeking what you offer.",
         "At Legacy IT, we craft cohesive growth systems combining Organic Search Engine Optimization (SEO) with data-driven social media and paid advertising strategies. We analyze search intent, resolve technical crawling hurdles, write search-dominant content, and optimize every funnel stage.",
         "With completely transparent monthly reporting, you see precisely how rankings improve, where traffic originates, and how marketing spend translates into measurable revenue."
       ],
@@ -1311,7 +1308,7 @@
         },
         {
           "title": "Technical SEO",
-          "description": "Deep architectural fixes ensuring search spiders can seamlessly crawl, index, and render your website with zero roadblocks.",
+          "description": "Architectural fixes ensuring search spiders accurately crawl, index, and render your website without indexation errors.",
           "features": [
             "Robots.txt & XML Sitemap Configuration",
             "Canonical Tag & 301 Redirect Architecture",

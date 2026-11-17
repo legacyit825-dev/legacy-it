@@ -28,7 +28,7 @@ export default function MobileDevelopment() {
       {/* Top Controller */}
       <div className="flex items-center justify-between pb-4 border-b border-white/[0.08] mb-6">
         <div className="flex items-center gap-2">
-          <span className="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-pulse" />
+          <span className="w-2.5 h-2.5 rounded-full bg-emerald-400" />
           <span className="text-xs font-mono text-slate-300">
             iOS & Android Mobile Simulator
           </span>
@@ -335,7 +335,7 @@ export default function MobileDevelopment() {
       ),
       description: t(
         "serviceDetails.mobileDevelopment.deliverables.4.description",
-        "Seamless connection to your existing backend servers, third-party payment gateways, authentication providers, and CRM databases."
+        "Direct connection to your existing backend servers, third-party payment gateways, authentication providers, and CRM databases."
       ),
       features: [
         t(

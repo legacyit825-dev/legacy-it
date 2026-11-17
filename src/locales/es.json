@@ -21,7 +21,6 @@
     "servicesTitle": "NUESTROS SERVICIOS",
     "contactTitle": "CONTÁCTANOS",
     "brandDescription": "Creamos experiencias digitales y soluciones tecnológicas innovadoras que ayudan a las empresas a crecer, conectar y triunfar en el mundo digital.",
-    "tagline": "Construyendo tu futuro digital.",
     "companyLinks": {
       "home": "Inicio",
       "about": "Nosotros",
@@ -143,7 +142,6 @@
     "desc3": "Soporte continuo, actualizaciones y optimización para garantizar la confiabilidad del software a largo plazo."
   },
   "hero": {
-    "eyebrow": "CONSTRUYENDO TU FUTURO DIGITAL",
     "headline1": "Tu oportunidad de existir",
     "headline2": "en el mundo digital.",
     "support": "Convertimos ideas en experiencias digitales. Desde sitios web impactantes hasta soluciones de software potentes, ayudamos a las empresas a construir su presencia, expandir su alcance y prosperar en la era digital.",
@@ -152,8 +150,7 @@
     "badge1": "Arquitectura a medida",
     "badge2": "Soluciones escalables",
     "badge3": "Crecimiento digital",
-    "scalable": "Soluciones escalables",
-    "building": "Construyendo tu futuro"
+    "scalable": "Soluciones escalables"
   },
   "whatWeDo": {
     "eyebrow": "NUESTRA EXPERIENCIA",
@@ -241,10 +238,6 @@
     "description": "Creemos que la tecnología debe hacer más que resolver problemas. Debe crear oportunidades, simplificar operaciones y ayudar a las empresas a crecer en un mundo cada vez más digital.",
     "cta": "Trabajemos juntos",
     "reasons": {
-      "tailored-solutions": {
-        "title": "Soluciones a Medida",
-        "description": "Entendemos que cada negocio es diferente. Desarrollamos soluciones digitales que se adaptan a tus metas y necesidades específicas."
-      },
       "modern-technology": {
         "title": "Tecnología Moderna",
         "description": "Utilizamos tecnologías y prácticas de desarrollo modernas para crear soluciones confiables, escalables y preparadas para el futuro."
@@ -256,6 +249,10 @@
       "long-term-partnership": {
         "title": "Alianza a Largo Plazo",
         "description": "Nuestra relación no termina con la entrega. Apostamos por la mejora continua, el soporte técnico y la colaboración a largo plazo."
+      },
+      "customized-solutions": {
+        "title": "Soluciones a Medida",
+        "description": "Entendemos que cada negocio es diferente. Desarrollamos soluciones digitales que se adaptan a tus metas y necesidades específicas."
       }
     }
   },

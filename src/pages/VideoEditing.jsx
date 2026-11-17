@@ -27,7 +27,7 @@ export default function VideoEditing() {
       {/* Top Header & Track Selector */}
       <div className="flex items-center justify-between pb-4 border-b border-white/[0.08] mb-5">
         <div className="flex items-center gap-2">
-          <span className="w-2.5 h-2.5 rounded-full bg-cyan-400 animate-pulse" />
+          <span className="w-2.5 h-2.5 rounded-full bg-cyan-400" />
           <span className="text-xs font-mono text-slate-300">
             Professional NLE Timeline & 4K Monitor
           </span>
@@ -258,7 +258,7 @@ export default function VideoEditing() {
       ),
       description: t(
         "serviceDetails.videoEditing.deliverables.1.description",
-        "Fast-paced vertical videos (9:16) optimized for Instagram Reels, YouTube Shorts, and TikTok with punchy captions and dynamic hooks."
+        "Short-form vertical video (9:16) formatted for Instagram Reels, YouTube Shorts, and TikTok with stylized captions and keyframe pacing."
       ),
       features: [
         t(
@@ -292,7 +292,7 @@ export default function VideoEditing() {
       features: [
         t(
           "serviceDetails.videoEditing.deliverables.2.features.0",
-          "Seamless Chapter Sequencing"
+          "Structured Chapter Sequencing"
         ),
         t(
           "serviceDetails.videoEditing.deliverables.2.features.1",
@@ -403,7 +403,7 @@ export default function VideoEditing() {
       ),
       description: t(
         "serviceDetails.videoEditing.deliverables.6.description",
-        "Modern, seamless visual transitions—from seamless whip pans to subtle digital zooms—that maintain momentum between cuts."
+        "Clean visual transitions—including whip pans, match cuts, and digital zooms—that maintain pacing between scenes."
       ),
       features: [
         t(
@@ -420,7 +420,7 @@ export default function VideoEditing() {
         ),
         t(
           "serviceDetails.videoEditing.deliverables.6.features.3",
-          "Seamless Scene Continuity"
+          "Consistent Scene Continuity"
         ),
       ],
     },
@@ -432,7 +432,7 @@ export default function VideoEditing() {
       ),
       description: t(
         "serviceDetails.videoEditing.deliverables.7.description",
-        "Professional tone balancing, skin tone preservation, and cinematic LUT application that elevates raw footage into a cohesive visual look."
+        "Professional tone balancing, skin tone preservation, and color grading that produces a clean, cohesive visual palette."
       ),
       features: [
         t(

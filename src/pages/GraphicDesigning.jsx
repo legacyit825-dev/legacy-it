@@ -149,16 +149,16 @@ export default function GraphicDesigning() {
               </div>
               <div className="p-6 rounded-xl bg-gradient-to-r from-cyan-950/50 via-slate-900/60 to-blue-950/40 border border-white/10 text-center my-2">
                 <span className="text-[10px] font-mono text-cyan-400 tracking-widest uppercase block mb-1">
-                  LIMITED DIGITAL EXPANSION
+                  DESIGN ASSETS
                 </span>
                 <h5 className="text-lg font-black text-white leading-tight mb-2">
-                  Elevate Your Brand's Visual Presence
+                  Professional Brand & Marketing Graphics
                 </h5>
                 <p className="text-xs text-slate-300 max-w-sm mx-auto mb-4">
-                  Stand out in crowded feeds with custom graphics engineered for maximum CTR.
+                  High-resolution vector assets formatted for print, digital campaigns, and social media.
                 </p>
                 <span className="inline-block px-4 py-1.5 rounded-full bg-cyan-400 text-slate-950 text-xs font-bold shadow-[0_0_15px_rgba(34,211,238,0.4)]">
-                  Claim Free Consultation
+                  Vector Ready
                 </span>
               </div>
             </div>
@@ -228,7 +228,7 @@ export default function GraphicDesigning() {
     ),
     t(
       "serviceDetails.graphicDesigning.overviewParagraphs.1",
-      "At Legacy IT, we craft cohesive visual design systems that cut through market noise. We don't just produce isolated graphics; we build comprehensive visual identities that seamlessly translate from business cards and stationery to high-impact digital advertisements and social campaigns."
+      "At Legacy IT, we craft cohesive visual design systems that communicate value clearly. We don't just produce isolated graphics; we build comprehensive visual identities that translate consistently from business cards and stationery to digital advertisements and social campaigns."
     ),
     t(
       "serviceDetails.graphicDesigning.overviewParagraphs.2",
@@ -416,7 +416,7 @@ export default function GraphicDesigning() {
       ),
       description: t(
         "serviceDetails.graphicDesigning.deliverables.6.description",
-        "Eye-catching promotional flyers, stickers, merchandise graphics, and event collateral that elevate brand awareness."
+        "Custom promotional flyers, stickers, merchandise graphics, and event collateral that build brand awareness and client engagement."
       ),
       features: [
         t(
@@ -655,11 +655,11 @@ export default function GraphicDesigning() {
       faqs={faqs}
       ctaHeading={t(
         "serviceDetails.graphicDesigning.ctaHeading",
-        "Ready to Elevate Your Brand With Standout Design?"
+        "Ready for Professional Design That Clearly Represents Your Business?"
       )}
       ctaDescription={t(
         "serviceDetails.graphicDesigning.ctaDescription",
-        "Let's transform your vision into unforgettable visual experiences that inspire confidence and win customers."
+        "Contact our design team to create cohesive brand assets, marketing materials, and digital graphics."
       )}
     />
   );

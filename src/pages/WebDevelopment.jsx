@@ -172,7 +172,7 @@ export default function WebDevelopment() {
     ),
     t(
       "serviceDetails.webDevelopment.overviewParagraphs.1",
-      "At Legacy IT, we engineer web solutions that combine cutting-edge technology with intuitive human-centric design. From lightning-fast corporate websites to complex e-commerce hubs, we build clean, maintainable, and scalable platforms that drive conversions."
+      "At Legacy IT, we engineer web solutions that combine modern web frameworks with clean, responsive design. From corporate websites to e-commerce stores, we build maintainable, fast-loading platforms that serve your business goals."
     ),
     t(
       "serviceDetails.webDevelopment.overviewParagraphs.2",
@@ -325,7 +325,7 @@ export default function WebDevelopment() {
       title: t("serviceDetails.webDevelopment.deliverables.5.title", "Website Redesign"),
       description: t(
         "serviceDetails.webDevelopment.deliverables.5.description",
-        "Transform your slow, outdated web presence into a sleek, modern, high-performing asset without losing existing SEO rankings."
+        "Upgrade your website to a faster, modern architecture while maintaining established search rankings and URLs."
       ),
       features: [
         t(

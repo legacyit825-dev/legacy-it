@@ -93,14 +93,6 @@ export default function LegalPolicy() {
               heroAnim.inView ? "anim-visible" : ""
             }`}
           >
-            {/* Small eyebrow label */}
-            <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full border border-cyan-500/25 bg-cyan-950/30 backdrop-blur-md mb-6 shadow-[0_0_20px_rgba(6,182,212,0.12)]">
-              <span className="w-1.5 h-1.5 rounded-full bg-cyan-400 shadow-[0_0_6px_#22d3ee] animate-pulse" />
-              <span className="text-[11px] sm:text-xs font-semibold tracking-[0.2em] text-cyan-300 uppercase">
-                {t("privacyPolicyPage.eyebrow", "LEGAL INFORMATION")}
-              </span>
-            </div>
-
             {/* Large page title */}
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-[-0.035em] text-white leading-tight mb-5">
               {t("privacyPolicyPage.title", "Privacy Policy")}

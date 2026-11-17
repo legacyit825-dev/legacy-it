@@ -42,7 +42,7 @@ export default function ServiceDetailLayout({
     deliverablesHeading ||
     t(
       "serviceDetails.common.deliverablesHeading",
-      "Comprehensive Capabilities Tailored to Your Needs"
+      "Key Deliverables & Specifications"
     );
   const effectiveWhyHeading =
     whyHeading ||
@@ -174,14 +174,6 @@ export default function ServiceDetailLayout({
             heroAnim.inView ? "anim-visible" : ""
           }`}
         >
-          {/* Eyebrow Badge */}
-          <div className="inline-flex items-center gap-2.5 px-3.5 py-1.5 rounded-full border border-cyan-500/25 bg-cyan-950/30 backdrop-blur-md mb-6 shadow-[0_0_20px_rgba(6,182,212,0.12)]">
-            <span className="w-1.5 h-1.5 rounded-full bg-cyan-400 shadow-[0_0_6px_#22d3ee] animate-pulse" />
-            <span className="text-[11px] sm:text-xs font-semibold tracking-[0.2em] text-cyan-300 uppercase">
-              {eyebrow}
-            </span>
-          </div>
-
           {/* Main Headline */}
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-[-0.035em] leading-[1.1] mb-6">
             <span className="bg-gradient-to-b from-white via-slate-100 to-slate-300/90 bg-clip-text text-transparent">
@@ -255,11 +247,6 @@ export default function ServiceDetailLayout({
           >
             {/* Left Narrative Column */}
             <div className="lg:col-span-6 flex flex-col space-y-6">
-              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-cyan-500/25 bg-cyan-950/30 text-[10px] sm:text-[11px] font-mono tracking-widest text-cyan-300 uppercase w-fit">
-                <LuSparkles className="w-3.5 h-3.5 text-cyan-400" />
-                <span>{t("serviceDetails.common.serviceOverview", "SERVICE OVERVIEW")}</span>
-              </div>
-
               <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight text-white leading-tight">
                 {overviewHeading}
               </h2>
@@ -296,9 +283,6 @@ export default function ServiceDetailLayout({
       >
         <div className="max-w-7xl mx-auto">
           <div className="text-center max-w-3xl mx-auto mb-16">
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-cyan-500/25 bg-cyan-950/30 text-[10px] sm:text-[11px] font-mono tracking-widest text-cyan-300 uppercase mb-4">
-              <span>{t("serviceDetails.common.whatWeOffer", "WHAT WE OFFER")}</span>
-            </div>
             <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight text-white mb-4">
               {effectiveDeliverablesHeading}
             </h2>
@@ -425,9 +409,6 @@ export default function ServiceDetailLayout({
       >
         <div className="max-w-7xl mx-auto">
           <div className="text-center max-w-2xl mx-auto mb-16 sm:mb-20">
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-cyan-500/25 bg-cyan-950/30 text-[10px] sm:text-[11px] font-mono tracking-widest text-cyan-300 uppercase mb-4">
-              <span>{t("serviceDetails.common.ourWorkingProcess", "OUR WORKING PROCESS")}</span>
-            </div>
             <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight text-white mb-3">
               {t("serviceDetails.common.processHeading", "From Concept to Successful Execution.")}
             </h2>
@@ -489,9 +470,6 @@ export default function ServiceDetailLayout({
         >
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-14">
-              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-cyan-500/25 bg-cyan-950/30 text-[10px] sm:text-[11px] font-mono tracking-widest text-cyan-300 uppercase mb-3.5">
-                <span>{t("serviceDetails.common.faqsBadge", "FREQUENTLY ASKED QUESTIONS")}</span>
-              </div>
               <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight text-white mb-3">
                 {t("serviceDetails.common.faqsHeading", "Everything You Need to Know.")}
               </h2>

@@ -159,14 +159,6 @@ export default function ServiceSection() {
             headerAnim.inView ? "anim-visible" : ""
           }`}
         >
-          {/* Eyebrow Badge */}
-          <div className="inline-flex items-center gap-2.5 px-3.5 py-1.5 rounded-full border border-cyan-500/25 bg-cyan-950/30 backdrop-blur-md mb-5 shadow-[0_0_20px_rgba(6,182,212,0.12)]">
-            <span className="w-1.5 h-1.5 rounded-full bg-cyan-400 shadow-[0_0_6px_#22d3ee] animate-pulse" />
-            <span className="text-[11px] sm:text-xs font-semibold tracking-[0.2em] text-cyan-300 uppercase">
-              {t("whatWeDo.eyebrow", "OUR EXPERTISE")}
-            </span>
-          </div>
-
           {/* Main Heading */}
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-[-0.03em] leading-[1.14] mb-5">
             <span className="bg-gradient-to-b from-white via-slate-100 to-slate-300/90 bg-clip-text text-transparent">

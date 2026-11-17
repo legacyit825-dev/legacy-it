@@ -1,6 +1,11 @@
 @import "tailwindcss";
 @layer utilities {
-  .perspective-1000 {
+  :root {
+  font-family: "Inter", "DM Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  color-scheme: dark;
+}
+
+.perspective-1000 {
     perspective: 1000px;
   }
 
@@ -69,24 +74,6 @@
 /* =============================================
    HERO KEYFRAME ANIMATIONS & UTILITIES
    ============================================= */
-@keyframes float-slow {
-  0%, 100% {
-    transform: translateY(0px) rotate(0deg);
-  }
-  50% {
-    transform: translateY(-10px) rotate(0.6deg);
-  }
-}
-
-@keyframes float-reverse {
-  0%, 100% {
-    transform: translateY(0px) rotate(0deg);
-  }
-  50% {
-    transform: translateY(10px) rotate(-0.6deg);
-  }
-}
-
 @keyframes pulse-soft {
   0%, 100% {
     opacity: 0.35;
@@ -96,14 +83,6 @@
     opacity: 0.7;
     transform: scale(1.04);
   }
-}
-
-.animate-float-slow {
-  animation: float-slow 7s ease-in-out infinite;
-}
-
-.animate-float-reverse {
-  animation: float-reverse 9s ease-in-out infinite;
 }
 
 .animate-pulse-soft {

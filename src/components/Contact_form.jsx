@@ -7,14 +7,11 @@ import useScrollAnimation from "../hooks/useScrollAnimation";
 import { useContactGate } from "../context/ContactSecurityContext";
 import {
   LuMail,
-  LuPhoneCall,
   LuMapPin,
   LuArrowRight,
   LuCircleCheck,
   LuCircleAlert,
   LuLoader,
-  LuSend,
-  LuSparkles,
 } from "react-icons/lu";
 import {
   FaFacebookF,
@@ -268,14 +265,6 @@ const Contact_form = () => {
             heroAnim.inView ? "anim-visible" : ""
           }`}
         >
-          {/* Eyebrow Badge */}
-          <div className="inline-flex items-center gap-2.5 px-3.5 py-1.5 rounded-full border border-cyan-500/25 bg-cyan-950/30 backdrop-blur-md mb-6 shadow-[0_0_20px_rgba(6,182,212,0.12)]">
-            <span className="w-1.5 h-1.5 rounded-full bg-cyan-400 shadow-[0_0_6px_#22d3ee] animate-pulse" />
-            <span className="text-[11px] sm:text-xs font-semibold tracking-[0.2em] text-cyan-300 uppercase">
-              {t("contactPage.hero.eyebrow", "GET IN TOUCH")}
-            </span>
-          </div>
-
           {/* Main Heading */}
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-[-0.03em] leading-[1.12] mb-5">
             <span className="text-white">
@@ -329,7 +318,7 @@ const Contact_form = () => {
               {/* Delivery Connection Indicator */}
               <div className="mb-6 flex flex-wrap items-center justify-between gap-3 p-3 sm:px-4 rounded-xl bg-white/[0.02] border border-white/[0.06] text-xs">
                 <div className="flex items-center gap-2 text-slate-300">
-                  <span className="w-2 h-2 rounded-full bg-emerald-400 shadow-[0_0_8px_#34d399] animate-pulse" />
+                  <span className="w-1.5 h-1.5 rounded-full bg-emerald-400" />
                   <span>
                     {t("contactPage.form.deliveryNotice", "Messages connected to:")}{" "}
                     <strong className="text-cyan-300 font-mono font-medium">
@@ -381,44 +370,21 @@ const Contact_form = () => {
                   <LuCircleAlert className="w-5 h-5 flex-shrink-0 mt-0.5 text-rose-400" />
                   <div className="flex-1 min-w-0">
                     <p className="font-semibold text-sm sm:text-base text-white">
-                      {errorMessage?.toLowerCase().includes("invalid grant")
-                        ? t(
-                            "contactPage.form.invalidGrantTitle",
-                            "Gmail Reconnection Required in EmailJS"
-                          )
-                        : t("contactPage.form.errorTitle", "Message Delivery Notice")}
+                      {t("contactPage.form.errorTitle", "Message Delivery Notice")}
                     </p>
 
-                    {errorMessage?.toLowerCase().includes("invalid grant") ? (
-                      <div className="text-xs sm:text-sm text-rose-200/90 mt-1.5 leading-relaxed space-y-2">
-                        <p>
-                          Google revoked or expired the OAuth authorization for your EmailJS Gmail service.
-                        </p>
-                        <div className="p-3 rounded-lg bg-black/40 border border-rose-500/30 text-xs font-mono text-slate-300">
-                          <strong>Fix:</strong> Open{" "}
-                          <a
-                            href="https://dashboard.emailjs.com/admin"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="text-cyan-400 underline underline-offset-2"
-                          >
-                            dashboard.emailjs.com
-                          </a>{" "}
-                          &rarr; <strong>Email Services</strong> &rarr; Click{" "}
-                          <strong>service_k483nh5</strong> &rarr; Click{" "}
-                          <strong>Reconnect Account</strong> &rarr; Sign in with{" "}
-                          <strong>legacyit825@gmail.com</strong>.
-                        </div>
-                      </div>
-                    ) : (
-                      <p className="text-xs sm:text-sm text-rose-300/90 mt-1 leading-relaxed">
-                        {errorMessage ||
+                    <p className="text-xs sm:text-sm text-rose-200/90 mt-1.5 leading-relaxed">
+                      {errorMessage?.toLowerCase().includes("invalid grant")
+                        ? t(
+                            "contactPage.form.serviceNoticeDesc",
+                            "Our direct form dispatch is undergoing a brief sync. You can reach us instantly using the options below or via WhatsApp."
+                          )
+                        : (errorMessage ||
                           t(
                             "contactPage.form.errorDesc",
                             "Something went wrong while sending your message. Please try again or email us directly at legacyit825@gmail.com."
-                          )}
-                      </p>
-                    )}
+                          ))}
+                    </p>
 
                     {/* Direct Fallback Buttons */}
                     <div className="mt-4 flex flex-wrap items-center gap-2.5">
@@ -721,10 +687,6 @@ const Contact_form = () => {
             >
               {/* Header Box */}
               <div>
-                <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-cyan-500/25 bg-cyan-950/30 text-[10px] sm:text-[11px] font-mono tracking-widest text-cyan-300 uppercase mb-3.5">
-                  <span className="w-1.5 h-1.5 rounded-full bg-cyan-400 shadow-[0_0_6px_#22d3ee] animate-pulse" />
-                  <span>{t("contactPage.info.eyebrow", "CONTACT DETAILS")}</span>
-                </div>
                 <h2 className="text-2xl sm:text-3xl font-bold text-white tracking-tight mb-2.5">
                   {t("contactPage.info.heading", "We're Here to Help.")}
                 </h2>

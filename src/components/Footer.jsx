@@ -89,14 +89,6 @@ export default function Footer() {
               )}
             </p>
 
-            {/* Subtle Tagline */}
-            <div className="mt-4 sm:mt-5 inline-flex items-center gap-2 text-xs font-semibold tracking-wider text-cyan-400 uppercase">
-              <span className="w-1.5 h-1.5 rounded-full bg-cyan-400 shadow-[0_0_6px_#22d3ee] animate-pulse" />
-              <span>
-                {t("footer.tagline", "Building Your Digital Future.")}
-              </span>
-            </div>
-
             {/* Social Media Icons */}
             <div className="flex items-center gap-2.5 mt-6">
               {socialLinks.map((social) => {

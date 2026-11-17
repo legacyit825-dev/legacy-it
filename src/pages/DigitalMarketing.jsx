@@ -27,7 +27,7 @@ export default function DigitalMarketing() {
       {/* Top Header & Switcher */}
       <div className="flex items-center justify-between pb-4 border-b border-white/[0.08] mb-5">
         <div className="flex items-center gap-2">
-          <span className="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-pulse" />
+          <span className="w-2.5 h-2.5 rounded-full bg-emerald-400" />
           <span className="text-xs font-mono text-slate-300">
             SEO & Growth Marketing Analytics
           </span>
@@ -218,7 +218,7 @@ export default function DigitalMarketing() {
   const overviewParagraphs = [
     t(
       "serviceDetails.digitalMarketing.overviewParagraphs.0",
-      "Having a world-class digital product means very little if your target customers cannot find you. Effective digital marketing is not about collecting meaningless vanity impressions; it is about attracting qualified, high-intent prospective clients who are actively seeking what you offer."
+      "Building a digital product or service means very little if your target customers cannot find you. Effective digital marketing is not about collecting meaningless vanity impressions; it is about attracting qualified, high-intent prospective clients who are actively seeking what you offer."
     ),
     t(
       "serviceDetails.digitalMarketing.overviewParagraphs.1",
@@ -291,7 +291,7 @@ export default function DigitalMarketing() {
       title: t("serviceDetails.digitalMarketing.deliverables.2.title", "Technical SEO"),
       description: t(
         "serviceDetails.digitalMarketing.deliverables.2.description",
-        "Deep architectural fixes ensuring search spiders can seamlessly crawl, index, and render your website with zero roadblocks."
+        "Deep architectural fixes ensuring search spiders accurately crawl, index, and render your website without indexation errors."
       ),
       features: [
         t(

@@ -6,7 +6,6 @@ import {
   LuX,
   LuMail,
   LuCircleCheck,
-  LuExternalLink,
   LuLock,
   LuLoader,
 } from "react-icons/lu";

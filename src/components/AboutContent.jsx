@@ -10,7 +10,6 @@ import {
   LuTrendingUp,
   LuArrowRight,
 } from "react-icons/lu";
-import teamImg from "../assets/about1.jpg";
 import CompanyVideo from "./CompanyVideo";
 import useScrollAnimation from "../hooks/useScrollAnimation";
 
@@ -107,14 +106,6 @@ export default function AboutContent() {
             heroAnim.inView ? "anim-visible" : ""
           }`}
         >
-          {/* Eyebrow Badge */}
-          <div className="inline-flex items-center gap-2.5 px-3.5 py-1.5 rounded-full border border-cyan-500/25 bg-cyan-950/30 backdrop-blur-md mb-6 shadow-[0_0_20px_rgba(6,182,212,0.12)]">
-            <span className="w-1.5 h-1.5 rounded-full bg-cyan-400 shadow-[0_0_6px_#22d3ee] animate-pulse" />
-            <span className="text-[11px] sm:text-xs font-semibold tracking-[0.2em] text-cyan-300 uppercase">
-              {t("aboutPage.hero.label", "GET TO KNOW US")}
-            </span>
-          </div>
-
           {/* Main Heading with Subtle Cyan Highlight */}
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-[4.25rem] font-extrabold tracking-[-0.035em] leading-[1.08] mb-6">
             <span className="block bg-gradient-to-b from-white via-slate-100 to-slate-300/90 bg-clip-text text-transparent">
@@ -167,13 +158,6 @@ export default function AboutContent() {
           >
             {/* LEFT SIDE: Text Content */}
             <div className="lg:col-span-6 flex flex-col items-start text-left">
-              <div className="inline-flex items-center gap-2.5 px-3.5 py-1.5 rounded-full border border-cyan-500/25 bg-cyan-950/30 backdrop-blur-md mb-5 shadow-[0_0_20px_rgba(6,182,212,0.12)]">
-                <span className="w-1.5 h-1.5 rounded-full bg-cyan-400 shadow-[0_0_6px_#22d3ee] animate-pulse" />
-                <span className="text-[11px] sm:text-xs font-semibold tracking-[0.2em] text-cyan-300 uppercase">
-                  {t("aboutPage.whoWeAre.label", "WHO WE ARE")}
-                </span>
-              </div>
-
               <h2 className="text-3xl sm:text-4xl lg:text-[2.65rem] font-extrabold tracking-[-0.03em] leading-[1.15] mb-6">
                 <span className="bg-gradient-to-b from-white via-slate-100 to-slate-300/90 bg-clip-text text-transparent">
                   {t(
@@ -257,16 +241,9 @@ export default function AboutContent() {
                 <p className="text-base sm:text-lg text-slate-300/85 font-normal leading-relaxed">
                   {t(
                     "aboutPage.missionVision.missionText",
-                    "To empower businesses through innovative digital solutions, thoughtful design, and reliable technology that creates real value."
+                    "To build dependable websites, applications, and visual media that help companies conduct business online."
                   )}
                 </p>
-              </div>
-
-              <div className="mt-8 pt-4 border-t border-white/[0.05] flex items-center justify-between">
-                <span className="text-[11px] font-mono tracking-wider text-slate-500 uppercase">
-                  LEGACY_IT // MISSION
-                </span>
-                <span className="w-1.5 h-1.5 rounded-full bg-cyan-500/40 group-hover:bg-cyan-400 transition-colors" />
               </div>
             </div>
 
@@ -290,16 +267,9 @@ export default function AboutContent() {
                 <p className="text-base sm:text-lg text-slate-300/85 font-normal leading-relaxed">
                   {t(
                     "aboutPage.missionVision.visionText",
-                    "To become a trusted digital technology partner, helping businesses embrace innovation and build a stronger presence in an evolving digital world."
+                    "To become a trusted digital technology partner, helping businesses build a stronger presence in an evolving digital world."
                   )}
                 </p>
-              </div>
-
-              <div className="mt-8 pt-4 border-t border-white/[0.05] flex items-center justify-between">
-                <span className="text-[11px] font-mono tracking-wider text-slate-500 uppercase">
-                  LEGACY_IT // VISION
-                </span>
-                <span className="w-1.5 h-1.5 rounded-full bg-cyan-500/40 group-hover:bg-cyan-400 transition-colors" />
               </div>
             </div>
           </div>
@@ -365,13 +335,6 @@ export default function AboutContent() {
                         val.description
                       )}
                     </p>
-                  </div>
-
-                  <div className="mt-6 pt-4 border-t border-white/[0.05] flex items-center justify-between">
-                    <span className="text-[11px] font-mono tracking-wider text-slate-500 uppercase">
-                      VALUE // {val.number}
-                    </span>
-                    <span className="w-1.5 h-1.5 rounded-full bg-cyan-500/30 group-hover:bg-cyan-400 transition-colors" />
                   </div>
                 </div>
               );
