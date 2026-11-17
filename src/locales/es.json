@@ -492,7 +492,9 @@
       "errorTitle": "Error al Enviar el Mensaje",
       "errorDesc": "Hubo un problema al enviar su mensaje. Por favor intente nuevamente o escríbanos a legacyit825@gmail.com.",
       "validationRequired": "Este campo es requerido",
-      "validationEmail": "Por favor ingrese un correo válido"
+      "validationEmail": "Por favor ingrese un correo válido",
+      "captchaLabel": "Verificación de Seguridad",
+      "captchaRequired": "Por favor, complete la verificación para confirmar que no es un robot."
     },
     "info": {
       "eyebrow": "DATOS DE CONTACTO",
@@ -1701,5 +1703,15 @@
         }
       }
     ]
+  },
+  "securityModal": {
+    "title": "Verificación de Seguridad",
+    "subtitle": "Para prevenir spam automatizado, complete la verificación de seguridad a continuación para conectarse con Legacy IT.",
+    "verifiedTitle": "¡Verificado! Redirigiendo...",
+    "verifiedDesc": "Verificación superada. Ahora está siendo redirigido de manera segura.",
+    "channelWhatsApp": "Canal de WhatsApp",
+    "channelEmail": "Correo Oficial",
+    "connecting": "Conectando con el destinatario...",
+    "cancel": "Cancelar"
   }
 }

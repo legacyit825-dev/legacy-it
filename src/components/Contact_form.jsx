@@ -1,8 +1,10 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import emailjs from "@emailjs/browser";
+import ReCAPTCHA from "react-google-recaptcha";
 import useScrollAnimation from "../hooks/useScrollAnimation";
+import { useContactGate } from "../context/ContactSecurityContext";
 import {
   LuMail,
   LuPhoneCall,
@@ -77,6 +79,7 @@ const socialAccounts = [
 
 const Contact_form = () => {
   const { t } = useTranslation();
+  const { openContactGate } = useContactGate();
 
   const [formData, setFormData] = useState({
     name: "",
@@ -91,11 +94,29 @@ const Contact_form = () => {
   const [status, setStatus] = useState("idle"); // "idle" | "success" | "error"
   const [errorMessage, setErrorMessage] = useState("");
 
+  // reCAPTCHA state & configuration
+  const recaptchaRef = useRef(null);
+  const [captchaToken, setCaptchaToken] = useState(null);
+  const recaptchaSiteKey =
+    import.meta.env.VITE_RECAPTCHA_SITE_KEY ||
+    "6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI";
+
   const heroAnim = useScrollAnimation(0.1);
   const formAnim = useScrollAnimation(0.08);
   const infoAnim = useScrollAnimation(0.08);
   const socialAnim = useScrollAnimation(0.08);
   const ctaAnim = useScrollAnimation(0.1);
+
+  const handleCaptchaChange = (token) => {
+    setCaptchaToken(token);
+    if (errors.captcha) {
+      setErrors((prev) => ({ ...prev, captcha: "" }));
+    }
+  };
+
+  const handleCaptchaExpired = () => {
+    setCaptchaToken(null);
+  };
 
   const validate = () => {
     const errs = {};
@@ -109,6 +130,12 @@ const Contact_form = () => {
     }
     if (!formData.message.trim()) {
       errs.message = t("contactPage.form.validationRequired", "Please provide a message.");
+    }
+    if (!captchaToken) {
+      errs.captcha = t(
+        "contactPage.form.captchaRequired",
+        "Please complete the security check to confirm you are not a robot."
+      );
     }
     setErrors(errs);
     return Object.keys(errs).length === 0;
@@ -165,6 +192,7 @@ const Contact_form = () => {
       phone: formData.phone.trim() || "Not provided",
       subject: formData.subject,
       message: formattedMessage,
+      "g-recaptcha-response": captchaToken,
     };
 
     emailjs
@@ -178,11 +206,15 @@ const Contact_form = () => {
           subject: "Website Design & Development",
           message: "",
         });
+        recaptchaRef.current?.reset();
+        setCaptchaToken(null);
         setStatus("success");
         setLoading(false);
       })
       .catch((err) => {
         console.error("EmailJS Error:", err);
+        recaptchaRef.current?.reset();
+        setCaptchaToken(null);
         setStatus("error");
         setErrorMessage(
           err?.text ||
@@ -307,9 +339,19 @@ const Contact_form = () => {
                 </div>
                 <a
                   href="https://mail.google.com/mail/?view=cm&fs=1&to=legacyit825@gmail.com"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    openContactGate(
+                      "https://mail.google.com/mail/?view=cm&fs=1&to=legacyit825@gmail.com",
+                      {
+                        channel: "email",
+                        title: "Direct Mail (legacyit825@gmail.com)",
+                      }
+                    );
+                  }}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-slate-400 hover:text-cyan-400 transition-colors inline-flex items-center gap-1.5 font-medium"
+                  className="text-slate-400 hover:text-cyan-400 transition-colors inline-flex items-center gap-1.5 font-medium cursor-pointer"
                 >
                   <LuMail className="w-3.5 h-3.5 text-cyan-400" />
                   <span>Direct Mail</span>
@@ -386,6 +428,17 @@ const Contact_form = () => {
                         )}&body=${encodeURIComponent(
                           `From: ${formData.name}\nEmail: ${formData.email}\nPhone: ${formData.phone || "Not provided"}\nSubject: ${formData.subject}\n\nMessage:\n${formData.message}`
                         )}`}
+                        onClick={(e) => {
+                          e.preventDefault();
+                          openContactGate(
+                            `https://mail.google.com/mail/?view=cm&fs=1&to=legacyit825@gmail.com&su=${encodeURIComponent(
+                              `[${formData.subject || "Project Inquiry"}] from ${formData.name || "Client"}`
+                            )}&body=${encodeURIComponent(
+                              `From: ${formData.name}\nEmail: ${formData.email}\nPhone: ${formData.phone || "Not provided"}\nSubject: ${formData.subject}\n\nMessage:\n${formData.message}`
+                            )}`,
+                            { channel: "email", title: "Gmail Web Compose" }
+                          );
+                        }}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-flex items-center gap-2 px-3.5 py-2 rounded-xl text-xs font-semibold bg-cyan-400 hover:bg-cyan-300 text-slate-950 transition-all cursor-pointer shadow-md font-sans"
@@ -399,6 +452,17 @@ const Contact_form = () => {
                         )}&body=${encodeURIComponent(
                           `From: ${formData.name}\nEmail: ${formData.email}\nPhone: ${formData.phone || "Not provided"}\nSubject: ${formData.subject}\n\nMessage:\n${formData.message}`
                         )}`}
+                        onClick={(e) => {
+                          e.preventDefault();
+                          openContactGate(
+                            `mailto:legacyit825@gmail.com?subject=${encodeURIComponent(
+                              `[${formData.subject || "Project Inquiry"}] from ${formData.name || "Client"}`
+                            )}&body=${encodeURIComponent(
+                              `From: ${formData.name}\nEmail: ${formData.email}\nPhone: ${formData.phone || "Not provided"}\nSubject: ${formData.subject}\n\nMessage:\n${formData.message}`
+                            )}`,
+                            { channel: "email", title: "Mail App" }
+                          );
+                        }}
                         className="inline-flex items-center gap-2 px-3.5 py-2 rounded-xl text-xs font-semibold bg-white/10 hover:bg-white/20 text-white border border-white/15 transition-all cursor-pointer font-sans"
                       >
                         <span>Open in Mail App</span>
@@ -577,6 +641,29 @@ const Contact_form = () => {
                   )}
                 </div>
 
+                {/* Google reCAPTCHA Verification */}
+                <div className="pt-1">
+                  <label className="block text-xs font-semibold tracking-wider uppercase text-slate-300 mb-2.5">
+                    {t("contactPage.form.captchaLabel", "Security Verification")}{" "}
+                    <span className="text-cyan-400">*</span>
+                  </label>
+                  <div className="overflow-x-auto py-1">
+                    <ReCAPTCHA
+                      ref={recaptchaRef}
+                      sitekey={recaptchaSiteKey}
+                      onChange={handleCaptchaChange}
+                      onExpired={handleCaptchaExpired}
+                      theme="dark"
+                    />
+                  </div>
+                  {errors.captcha && (
+                    <p className="mt-1.5 text-xs text-rose-400 flex items-center gap-1">
+                      <LuCircleAlert className="w-3.5 h-3.5" />
+                      <span>{errors.captcha}</span>
+                    </p>
+                  )}
+                </div>
+
                 {/* Submit Button */}
                 <div className="pt-2">
                   <button
@@ -654,6 +741,13 @@ const Contact_form = () => {
                 {/* 1. WHATSAPP / CALL */}
                 <a
                   href="https://wa.me/9779702016450"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    openContactGate("https://wa.me/9779702016450", {
+                      channel: "whatsapp",
+                      title: "WhatsApp & Phone (+977 9702016450)",
+                    });
+                  }}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group flex items-start gap-4 p-5 rounded-2xl border border-white/[0.08] bg-[#0c1020]/70 hover:bg-[#0f152a]/95 hover:border-emerald-500/40 backdrop-blur-md transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_10px_30px_rgba(16,185,129,0.12)] cursor-pointer"
@@ -682,6 +776,16 @@ const Contact_form = () => {
                 {/* 2. EMAIL (Directly opens Gmail compose with legacyit825@gmail.com) */}
                 <a
                   href="https://mail.google.com/mail/?view=cm&fs=1&to=legacyit825@gmail.com"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    openContactGate(
+                      "https://mail.google.com/mail/?view=cm&fs=1&to=legacyit825@gmail.com",
+                      {
+                        channel: "email",
+                        title: "Official Email (legacyit825@gmail.com)",
+                      }
+                    );
+                  }}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group flex items-start gap-4 p-5 rounded-2xl border border-white/[0.08] bg-[#0c1020]/70 hover:bg-[#0f152a]/95 hover:border-cyan-500/40 backdrop-blur-md transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_10px_30px_rgba(6,182,212,0.12)] cursor-pointer"

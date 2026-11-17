@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
+import { useContactGate } from "../context/ContactSecurityContext";
 import {
   FaFacebookF,
   FaInstagram,
@@ -58,6 +59,7 @@ const socialLinks = [
 
 export default function Footer() {
   const { t } = useTranslation();
+  const { openContactGate } = useContactGate();
 
   return (
     <footer className="w-full bg-[#070913] text-slate-400 border-t border-white/[0.08] relative overflow-hidden">
@@ -168,9 +170,19 @@ export default function Footer() {
               {/* Email (Directly opens Gmail compose with legacyit825@gmail.com) */}
               <a
                 href="https://mail.google.com/mail/?view=cm&fs=1&to=legacyit825@gmail.com"
+                onClick={(e) => {
+                  e.preventDefault();
+                  openContactGate(
+                    "https://mail.google.com/mail/?view=cm&fs=1&to=legacyit825@gmail.com",
+                    {
+                      channel: "email",
+                      title: "Email (legacyit825@gmail.com)",
+                    }
+                  );
+                }}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-start gap-3 group text-sm text-slate-400 hover:text-white transition-colors"
+                className="flex items-start gap-3 group text-sm text-slate-400 hover:text-white transition-colors cursor-pointer"
               >
                 <div className="w-8 h-8 rounded-lg bg-white/[0.04] border border-white/10 group-hover:border-cyan-400/30 group-hover:bg-cyan-950/30 text-cyan-400 flex items-center justify-center shrink-0 transition-colors mt-0.5">
                   <LuMail className="w-4 h-4" />
@@ -188,9 +200,16 @@ export default function Footer() {
               {/* Phone / WhatsApp */}
               <a
                 href="https://wa.me/9779702016450"
+                onClick={(e) => {
+                  e.preventDefault();
+                  openContactGate("https://wa.me/9779702016450", {
+                    channel: "whatsapp",
+                    title: "Phone / WhatsApp (+977 9702016450)",
+                  });
+                }}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-start gap-3 group text-sm text-slate-400 hover:text-white transition-colors"
+                className="flex items-start gap-3 group text-sm text-slate-400 hover:text-white transition-colors cursor-pointer"
               >
                 <div className="w-8 h-8 rounded-lg bg-white/[0.04] border border-white/10 group-hover:border-cyan-400/30 group-hover:bg-cyan-950/30 text-cyan-400 flex items-center justify-center shrink-0 transition-colors mt-0.5">
                   <LuPhone className="w-4 h-4" />

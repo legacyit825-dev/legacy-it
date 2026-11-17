@@ -3,6 +3,7 @@ import { useTranslation } from "react-i18next";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import useScrollAnimation from "../hooks/useScrollAnimation";
+import { useContactGate } from "../context/ContactSecurityContext";
 import {
   LuChevronDown,
   LuMail,
@@ -14,6 +15,7 @@ import {
 
 export default function LegalPolicy() {
   const { t, i18n } = useTranslation();
+  const { openContactGate } = useContactGate();
   const [isTocOpen, setIsTocOpen] = useState(false);
 
   const heroAnim = useScrollAnimation(0.08);
@@ -273,9 +275,19 @@ export default function LegalPolicy() {
                           </span>
                           <a
                             href={`https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(section.contactDetails.email)}`}
+                            onClick={(e) => {
+                              e.preventDefault();
+                              openContactGate(
+                                `https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(section.contactDetails.email)}`,
+                                {
+                                  channel: "email",
+                                  title: `Email (${section.contactDetails.email})`,
+                                }
+                              );
+                            }}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="text-cyan-400 hover:text-cyan-300 underline underline-offset-4 font-semibold transition-colors"
+                            className="text-cyan-400 hover:text-cyan-300 underline underline-offset-4 font-semibold transition-colors cursor-pointer"
                           >
                             {section.contactDetails.email}
                           </a>

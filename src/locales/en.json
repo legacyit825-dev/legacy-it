@@ -492,7 +492,9 @@
       "errorTitle": "Message Delivery Failed",
       "errorDesc": "Something went wrong while sending your message. Please try again or email us directly at legacyit825@gmail.com.",
       "validationRequired": "This field is required",
-      "validationEmail": "Please enter a valid email address"
+      "validationEmail": "Please enter a valid email address",
+      "captchaLabel": "Security Verification",
+      "captchaRequired": "Please complete the security check to confirm you are not a robot."
     },
     "info": {
       "eyebrow": "CONTACT DETAILS",
@@ -1701,5 +1703,15 @@
         }
       }
     ]
+  },
+  "securityModal": {
+    "title": "Security Verification",
+    "subtitle": "To prevent automated spam, please solve the security check below to connect with Legacy IT.",
+    "verifiedTitle": "Verified! Redirecting...",
+    "verifiedDesc": "Security check passed. You are now being securely redirected.",
+    "channelWhatsApp": "WhatsApp Channel",
+    "channelEmail": "Official Mail",
+    "connecting": "Connecting to recipient...",
+    "cancel": "Cancel"
   }
 }
